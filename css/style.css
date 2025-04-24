@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    background-color: var(--branco_fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    color: var(--textos_rodape_bordas);
+    overflow-x: hidden; /* Evita a barra de rolagem lateral */
+}
+
+header {
+    background-color: var(--azul_cabecalho);
+    position:fixed;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+#select_efetivo {
+    padding: 20px;
+    border-radius: 10px;
+}
+.resultadosEfetivos{
+    width: 99%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.efetivo {
+    background-color: black;
+    width: 30%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.ineficaz {
+    background-color: white;
+    width: 30%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.afeta {
+    background-color: var(--amarelo_destaques);
+    width: 30%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+
+
+.experimente {
+    margin-top: -14px;
+    height: 1000px;
+    color: var(--branco_fundo);
+    background-color: var(--vermelho_pokebola);
+    width: 100vw;  /* Alterado para viewport width */
+    max-width: 100vw; /* Garante que não ultrapasse a largura da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.pokeball {
+    width: 70px;
+    height: 70px;
+    background-image: url(../assets/pokearena.png);
+    background-size: cover;
+}
+
+#pokebatalha {
+    margin-top: 50px;
+    background: linear-gradient(var(--branco_fundo), var(--vermelho_pokebola));
+    height: 600px;
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 110px;
+    align-items: center;
+}
+
+.umpoucosobre .ataque {
+    background-color: var(--vermelho_pokebola);
+    color: white;
+    padding: 1px;
+}
+
+.umpoucosobre .bag {
+    background-color: var(--amarelo_destaques);
+    color: black;
+    padding: 1px;
+}
+
+.umpoucosobre .trocar {
+    background-color:darkgreen;
+    color: white;
+    padding: 1px;
+}
+
+.umpoucosobre .fugir {
+    background-color: var(--azul_cabecalho);
+    color: white;
+    padding: 1px;
+}
+
+.alinhador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.imagem {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+#pokebatalha img {
+    width: 250px;
+    height: 150px;
+}
+
+#poketipos {
+    margin-top: 0px;
+    background-color: var(--vermelho_pokebola);
+    height: 700px;
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#poketipos img {
+    width: 100%;
+    height: 100%;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+nav a.active {
+    text-decoration: underline;
+    color: var(--amarelo_destaques);
+}
+
+.botoes_login {
+    display: flex;
+    gap: 10px;
+}
+
+.botoes_login button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    padding: 5px 10px;
+    background-color: var(--amarelo_destaques);
+    color: var(--textos_rodape_bordas);
+    border: 2px solid var(--vermelho_pokebola);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.main {
+    margin-top: 7.5%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: space-around;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+h1 {
+    margin-top: 10;
+    font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+    max-width: 500px;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    color: var(--branco_fundo);
+    margin-top: auto;
+    background-color: var(--textos_rodape_bordas);
+    padding: 10px;
+    font-size: 10px;
+    width: 100%;
+    margin-left: 20px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .container {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centraliza o conteúdo */
+    width: 100%;
+    gap: 20px; /* Espaço entre os itens */
+}
+
+.main .container div {
+    width: 45%; /* Ajusta o tamanho dos itens para evitar sobrecarga */
+}
+
+div img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.selecionarTipo {
+    overflow: hidden;
+} 
+
+.selecionarTipo option{
+    padding: 3px 30px 3px 30px;
+}
+
+.umpoucosobre {
+    padding: 3% 0px 3% 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: var(--fundo-cards);
+}
+.umpoucosobre p {
+    font-size: 13px;
+
+}
+
+.container img {
+    height: 500px;
+}
+.normal {
+    background-color:var(--normal);
+    color: white; 
+    padding: 3px;
+}
+
+.lutador {
+    background-color:var(--lutador);
+    color: white;
+    padding: 3px;
+}
+.voador {
+    background-color:var(--voador);
+    color: white; 
+    padding: 3px;
+}
+.venenoso {
+    background-color:var(--venenoso);
+    color: white; 
+    padding: 3px;
+}
+.terrestre {
+    background-color:var(--terrestre);
+    color: white; 
+    padding: 3px;
+}
+.pedra {
+    background-color:var(--pedra);
+    color: white;
+    padding: 3px;
+}
+.inseto {
+    background-color:var(--inseto);
+    color: white;
+    padding: 3px;
+}
+
+.fantasma {
+    background-color:var(--fantasma);
+    color: white;
+    padding: 3px;
+}
+
+.aco {
+    background-color:var(--aco);
+    color: white;
+    padding: 3px;
+}
+
+.fogo {
+    background-color:var(--fogo);
+    color: white;
+    padding: 3px;
+}
+
+.agua {
+    background-color:var(--agua);
+    color: white;
+    padding: 3px;
+}
+
+.planta {
+    background-color:var(--planta);
+    color: white;
+    padding: 3px;
+}
+
+.eletrico {
+    background-color:var(--eletrico);
+    color: white;
+    padding: 3px;
+}
+
+.psiquico {
+    background-color:var(--psiquico);
+    color: white;
+    padding: 3px;
+}
+
+.gelo {
+    background-color:var(--gelo);
+    color: white;
+    padding: 3px;
+}
+
+.dragao {
+    background-color:var(--dragao);
+    color: white;
+    padding: 3px;
+}
+
+.sombrio {
+    background-color:var(--sombrio);
+    color: white;
+    padding: 3px;
+}
+.fada {
+    background-color:var(--fada);
+    color: white;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+:root{
+    --normal:                #97a0a7;
+    --lutador:               #ce416b;
+    --voador:                #8cace4;
+    --venenoso:              #b568ce;
+    --terrestre:             #d97845;
+    --pedra:                 #c5b78c;
+    --inseto:                #91c12f;
+    --fantasma:              #5269ad;
+    --aco:                   #5a8ea2;
+    --fogo:                  #ff9d55;
+    --agua:                  #5090d6;
+    --planta:                #63bc5a;
+    --eletrico:              #f4d23c;
+    --psiquico:              #fa7179;
+    --gelo:                  #73cec0;
+    --dragao:                #0b6dc3;
+    --sombrio:               #595364;
+    --fada:                  #ec8fe6;
+    --amarelo_destaques:     #FFCB05;
+    --azul_cabecalho:        #3d7dca;
+    --vermelho_pokebola:     #D62828;
+    --branco_fundo:          #F8F9FA;
+    --fundo-cards:           #F3F3F3;
+    --textos_rodape_bordas:  #2D2D2D;
+}
+
+/* Amarelo Pikachu	#FFCB05	Destaques, botões principais
+Azul Pokémon	#3D7DCA	Cabeçalhos, barras de navegação
+Vermelho Pokébola	#D62828	Botões secundários, alertas
+Branco Neve	#FFFFFF	Fundo principal, textos escuros
+Cinza Claro	#F3F3F3	Fundo de cards, áreas de apoio
+Preto Suave	#2D2D2D	Textos, rodapé, bordas */
