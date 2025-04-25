@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PokeArena Will</title>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -21,9 +22,10 @@
       <button>Cadastro</button>
     </div>
   </header>
-  <div class="main">
-    <p>Bem-vindo à arena de batalhas Pokémon mais eletrizante da internet! Aqui você enfrentará desafios, escolherá seus Pokémon favoritos e mostrará quem é o verdadeiro mestre Pokémon.</p>
-
+  <div class="main" id="main">
+    <div class="bemvindoss">
+    <a class="bemvindo textoPixel">Bem-vindo à arena de batalhas <span class="pikachuDestaque">Pokémon</span> mais eletrizante da internet! Aqui você enfrentará desafios, escolherá seus Pokémon favoritos e mostrará quem é o <span class="mestrePokemon">verdadeiro mestre Pokémon.</span></a>
+  </div>
     <div class="container">
       <div class="umpoucosobre">
         <p>Antes de tudo, vamos entender um pouco mais sobre os nossos famosos monstros de bolso. Conhecidos como Pokémon, essas criaturas únicas possuem habilidades especiais e podem evoluir para formas mais poderosas. Cada Pokémon pertence a um ou mais tipos, como fogo, água, planta, elétrico e muitos outros, o que influencia diretamente em suas forças e fraquezas nas batalhas.
@@ -83,23 +85,23 @@
       </div>
       <div class="umpoucosobre">
         <p>Também dentro dos jogos cada pokémon e ataque tem a sua tipagem, que podem ser<br> <br>
-          <span class="normal">Normal</span>    <br><br>
-          <span class="lutador">Lutador</span>  <br><br>
-          <span class="voador">Voador</span>   <br><br>
-          <span class="venenoso">Venenoso</span> <br><br>
-          <span class="terrestre">Terrestre</span><br><br>
-          <span class="pedra">Pedra</span>    <br><br>
-          <span class="inseto">Inseto</span>   <br><br>
-          <span class="fantasma">Fantasma</span> <br><br>
-          <span class="aco">Aço</span>      <br><br>
-          <span class="fogo">Fogo</span>     <br><br>
-          <span class="agua">Água</span>     <br><br>
-          <span class="planta">Planta</span>   <br><br>
-          <span class="eletrico">Elétrico</span> <br><br>
-          <span class="psiquico">Psíquico</span> <br><br>
-          <span class="gelo">Gelo</span>     <br><br>
-          <span class="dragao">Dragão</span>   <br><br>
-          <span class="sombrio">Sombrio</span>    <br><br>
+          <span class="normal">Normal</span>    <br>
+          <span class="lutador">Lutador</span>  <br>
+          <span class="voador">Voador</span>   <br>
+          <span class="venenoso">Venenoso</span> <br>
+          <span class="terrestre">Terrestre</span><br>
+          <span class="pedra">Pedra</span>    <br>
+          <span class="inseto">Inseto</span>   <br>
+          <span class="fantasma">Fantasma</span> <br>
+          <span class="aco">Aço</span>      <br>
+          <span class="fogo">Fogo</span>     <br>
+          <span class="agua">Água</span>     <br>
+          <span class="planta">Planta</span>   <br>
+          <span class="eletrico">Elétrico</span> <br>
+          <span class="psiquico">Psíquico</span> <br>
+          <span class="gelo">Gelo</span>     <br>
+          <span class="dragao">Dragão</span>   <br>
+          <span class="sombrio">Sombrio</span>    <br>
           <span class="fada">Fada</span> <br><br>
         </p>
         <p>Cada pokémon podendo conter no máximo dois tipos diferentes e o ataque determina pelo tipo do pokémon inimigo se o dano será efetivo ou não como demonstrado na imagem ao lado.</p>
@@ -107,12 +109,13 @@
     </div>
 
 
-    <div class="experimente">
+    <div class="experimente" id="experimente">
 
-      <h1> Descubra um pouco mais sobre os tipos! </h1>
-      <h3>  Experimente </h3>
+      <h1 class="textoPixel"> Descubra um pouco mais sobre os tipos! </h1>
+      <h3 class="textoPixel">  Experimente </h3>
+      <h4 class="textoPixel"> (Super Efetivo, Resistente a, Não afeta)</h2>
 
-      <select name="efetivel" id="select_efetivo" onchange="mostrar()">
+      <select name="efetivel" id="select_efetivo" onchange="mostrar(); tipagem();">
         <option id="valorBaseSelect" value="#" disabled selected >Selecione o tipo desejado.</option>
         <option class="normal" value="normal">Normal</option>
         <option class="lutador" value="lutador">Lutador</option>
@@ -133,23 +136,8 @@
         <option class="sombrio" value="sombrio">Sombrio</option>
         <option class="fada" value="fada">Fada</option>
       </select>
-      <div class="resultadosEfetivos">
-        <div class="efetivo">Esse tipo é eficaz contra os tipos: <br>
-        <p id="eficaz">
+      <div class="resultadosEfetivos" id="resultadosEfetivos">
 
-        </p>
-       </div>
-        <div class="ineficaz">Esse tipo é ineficaz contra os tipos: <br>
-        <p id="ineficaz">
-
-        </p>
-       </div>
-        <div class="afeta">Esse tipo não afeta os tipos:  
-          <br>
-          <p id="afetaTipo">
-
-          </p>
-        </div>
       </div>
     </div>
   </div>
@@ -195,5 +183,5 @@
       select.style.fontFamily = '"Press Start 2P"'
   }
 }
-
 </script>
+<script src="./scripts/scriptTipo.js"> </script>

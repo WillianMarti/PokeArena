@@ -32,39 +32,95 @@ header {
 }
 .resultadosEfetivos{
     width: 99%;
-    height: 700px;
+    height: 100%;
     display: flex;
     flex-direction: row;
+    color: var(--textos_rodape_bordas);
     justify-content: space-around;
     align-items: center;
 }
 
-.efetivo {
-    background-color: black;
-    width: 30%;
-    height: 70%;
-    border-radius: 20px;
+.resultadosEfetivos p {
+    margin-top: 10px;
 }
 
-.ineficaz {
-    background-color: white;
-    width: 30%;
-    height: 70%;
+.supereficaz {
+    background-color: var(--fundo-cards);
+    padding: 10px 0px 0px 0px;
+    margin-top: 10px;
+    width: 20%;
+    color: var(--textos_rodape_bordas);    
+    height: 500px;
     border-radius: 20px;
+    font-family: 'Press Start 2P';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.afeta {
-    background-color: var(--amarelo_destaques);
-    width: 30%;
-    height: 70%;
+.fraquezas {
+    background-color: var(--fundo-cards);
+    padding: 10px 0px 0px 0px;
+    width: 20%;
+    color: var(--textos_rodape_bordas);
+    height: 500px;
     border-radius: 20px;
+    font-family: 'Press Start 2P';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
+.resistente {
+    background-color: var(--fundo-cards);
+    padding: 10px 0px 0px 0px;
+    width: 20%;
+    color: var(--textos_rodape_bordas);
+    height: 500px;
+    border-radius: 20px;
+    font-family: 'Press Start 2P';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
+.imune {
+    background-color: var(--fundo-cards);
+    padding: 20px 0px 0px 0px;
+    margin-top: 0px;
+    width: 20%;
+    color: var(--textos_rodape_bordas);
+    height: 500px;
+    border-radius:20px;
+    font-family: 'Press Start 2P';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.textoPixel {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.bemvindo {
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.bemvindoss {
+    width: 1000px;
+    height: 100%;
+    text-align: center;
+}
 
 .experimente {
-    margin-top: -14px;
-    height: 1000px;
+    margin-top: 0px;
+    height: 120%;
     color: var(--branco_fundo);
     background-color: var(--vermelho_pokebola);
     width: 100vw;  /* Alterado para viewport width */
@@ -99,13 +155,15 @@ header {
 
 .umpoucosobre .ataque {
     background-color: var(--vermelho_pokebola);
+    font-family: 'Press Start 2P';
     color: white;
     padding: 1px;
 }
 
 .umpoucosobre .bag {
     background-color: var(--amarelo_destaques);
-    color: black;
+    color: white;
+    font-family: 'Press Start 2P';
     padding: 1px;
 }
 
@@ -113,12 +171,14 @@ header {
     background-color:darkgreen;
     color: white;
     padding: 1px;
+    font-family: 'Press Start 2P';
 }
 
 .umpoucosobre .fugir {
     background-color: var(--azul_cabecalho);
     color: white;
     padding: 1px;
+    font-family: 'Press Start 2P';
 }
 
 .alinhador {
@@ -153,7 +213,7 @@ header {
 #poketipos {
     margin-top: 0px;
     background-color: var(--vermelho_pokebola);
-    height: 700px;
+    height: 900px;
     width: 100%;
     display: flex;
     padding: 25px;
@@ -184,6 +244,14 @@ nav a.active {
     gap: 10px;
 }
 
+.pikachuDestaque {
+    color: var(--amarelo_destaques);
+}
+
+.mestrePokemon {
+    color: var(--vermelho_pokebola);
+}
+
 .botoes_login button {
     font-family: 'Press Start 2P', cursive;
     font-size: 10px;
@@ -198,9 +266,10 @@ nav a.active {
 
 .main {
     margin-top: 7.5%;
+    font-family: 'Poppins';
     text-align: center;
     justify-content: space-around;
-    align-items: space-around;
+    align-items: center;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -212,7 +281,7 @@ h1 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 15px;
     max-width: 500px;
     margin: auto;
 }
@@ -268,7 +337,7 @@ div img {
     background-color: var(--fundo-cards);
 }
 .umpoucosobre p {
-    font-size: 13px;
+    font-size: 15px;
 
 }
 
@@ -279,102 +348,156 @@ div img {
     background-color:var(--normal);
     color: white; 
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .lutador {
     background-color:var(--lutador);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 .voador {
     background-color:var(--voador);
     color: white; 
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 .venenoso {
     background-color:var(--venenoso);
     color: white; 
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 .terrestre {
     background-color:var(--terrestre);
     color: white; 
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 .pedra {
     background-color:var(--pedra);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 .inseto {
     background-color:var(--inseto);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .fantasma {
     background-color:var(--fantasma);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .aco {
     background-color:var(--aco);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .fogo {
     background-color:var(--fogo);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .agua {
     background-color:var(--agua);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .planta {
     background-color:var(--planta);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .eletrico {
     background-color:var(--eletrico);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .psiquico {
     background-color:var(--psiquico);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .gelo {
     background-color:var(--gelo);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .dragao {
     background-color:var(--dragao);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 .sombrio {
     background-color:var(--sombrio);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 .fada {
     background-color:var(--fada);
     color: white;
     padding: 3px;
+    margin: 1px;
+    line-height: 20px;
+    font-family: 'Press Start 2P';
 }
 
 
