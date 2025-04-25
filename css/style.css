@@ -50,7 +50,8 @@ header {
     margin-top: 10px;
     width: 20%;
     color: var(--textos_rodape_bordas);    
-    height: 500px;
+    height: auto;
+    min-height: 330px;
     border-radius: 20px;
     font-family: 'Press Start 2P';
     justify-content: center;
@@ -64,7 +65,8 @@ header {
     padding: 10px 0px 0px 0px;
     width: 20%;
     color: var(--textos_rodape_bordas);
-    height: 500px;
+    height: auto;
+    min-height: 330px;
     border-radius: 20px;
     font-family: 'Press Start 2P';
     justify-content: center;
@@ -78,7 +80,8 @@ header {
     padding: 10px 0px 0px 0px;
     width: 20%;
     color: var(--textos_rodape_bordas);
-    height: 500px;
+    height: auto;
+    min-height: 330px;
     border-radius: 20px;
     font-family: 'Press Start 2P';
     justify-content: center;
@@ -93,7 +96,8 @@ header {
     margin-top: 0px;
     width: 20%;
     color: var(--textos_rodape_bordas);
-    height: 500px;
+    height: auto;
+    min-height: 330px;
     border-radius:20px;
     font-family: 'Press Start 2P';
     justify-content: center;
@@ -101,6 +105,30 @@ header {
     display: flex;
     flex-direction: column;
 }
+
+.carousel {
+    width: 300px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card {
+    display: none;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .card.active {
+    display: block;
+  }
+  
 
 .textoPixel {
     font-family: 'Press Start 2P', cursive;
@@ -131,7 +159,77 @@ header {
     align-items: center;
 }
 
-
+.carousel-container {
+    position: relative;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+  }
+  
+  .card {
+    flex: 0 0 80%;
+    margin: 0 5px;
+    opacity: 0.3;
+    transform: scale(0.8);
+    transition: transform 0.3s, opacity 0.3s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    z-index: 1;
+    display: none;
+  }
+  
+  .card img {
+    width: 150px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .card.active {
+    display: block;
+    opacity: ;
+    transform: translateX(-50%) scale(1);
+    z-index: 1;
+  }
+  
+  .card.prev,
+  .card.next {
+    display: block;
+    z-index: 2;
+    opacity: 0.3;
+    transform: translateX(calc(-50% - 110px)) scale(0.9);
+  }
+  
+  .card.next {
+    transform: translateX(calc(-50% + 110px)) scale(0.9);
+  }
+  
+  button {
+    background-color: var(--amarelo_destaques);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
 
 .pokeball {
     width: 70px;

@@ -2,23 +2,23 @@
 function tipagem(){
 resultadosEfetivos.innerHTML = ''
 resultadosEfetivos.innerHTML += ` 
-    <div class="supereficaz">Esse tipo é supereficaz contra os tipos: <br>
+    <div class="supereficaz"> <br>
     <p id="eficaz">
 
     </p>
    </div>
-    <div class="fraquezas">Esse tipo tem fraqueza aos tipos: <br>
+    <div class="fraquezas"> <br>
     <p id="fraq">
 
     </p>
    </div>
-    <div class="resistente">Esse tipo é resistente aos tipos:  
+    <div class="resistente">
       <br>
       <p id="resistencias">
 
       </p>
     </div>
-    <div class="imune">Esse tipo é imune aos tipos:  
+    <div class="imune">
       <br>
       <p id="imunidade">
 
@@ -32,44 +32,44 @@ resultadosEfetivos.innerHTML += `
     var mensagem4 = ""
 
 if (tipo == 'normal'){
-    mensagem1 += `o tipo <span class='normal'>Normal</span> <span style="color: black;font-size:bolder">NÃO</span> é super efetivo (causa 160% de dano) contra nenhuma outra tipagem.`
-    mensagem2 += `o tipo <span class='normal'>Normal</span> tem fraqueza (recebe 160% de dano) aos tipos: <br><br>
+    mensagem1 += `o tipo <span class='normal'>Normal</span> <span style="color: black;font-size:bolder">NÃO</span> é super efetivo contra nenhuma outra tipagem.`
+    mensagem2 += `o tipo <span class='normal'>Normal</span> tem fraqueza aos tipos: <br><br>
                   <span class='lutador'> Lutador </span><br>`
-    mensagem3 += `o tipo <span class='normal'>Normal</span> não é resistente (recebe 62.5% de dano) a nenhum tipo. <br><br>`
-    mensagem4 += `o tipo <span class='normal'>Normal</span> é imune (não recebe dano) ao tipo: <br><br>
+    mensagem3 += `o tipo <span class='normal'>Normal</span> não é resistente a nenhum tipo. <br><br>`
+    mensagem4 += `o tipo <span class='normal'>Normal</span> é imune ao tipo: <br><br>
                   <span class='fantasma'> Fantasma </span><br>`
 } else if (tipo == 'lutador'){
-    mensagem1 += `o tipo <span class='lutador'>Lutador</span> é super efetivo (causa 160% de dano) contra os tipos: <br><br>
+    mensagem1 += `o tipo <span class='lutador'>Lutador</span> é super efetivo contra os tipos: <br><br>
                   <span class='normal'> Normal </span><br><br>
                   <span class='pedra'> Pedra </span><br><br>
                   <span class='aco'> Aço </span><br><br>
                   <span class='gelo'> Gelo </span><br><br>
                   <span class='sombrio'> Sombrio </span><br><br>`
 
-    mensagem2 += `o tipo <span class='lutador'>Lutador</span> tem fraqueza (recebe 160% de dano) aos tipos: <br><br><br><br>
+    mensagem2 += `o tipo <span class='lutador'>Lutador</span> tem fraqueza aos tipos: <br><br><br><br>
                   <span class='voador'> Voador </span><br><br>
                   <span class='psiquico'> Psiquico </span><br><br>
                   <span class='fada'> Fada </span><br><br>`
 
-    mensagem3 += `o tipo <span class='lutador'>Lutador</span> é resistente (recebe 62.5% de dano) aos tipos: <br><br><br><br>
+    mensagem3 += `o tipo <span class='lutador'>Lutador</span> é resistente aos tipos: <br><br><br><br>
                   <span class='inseto'> Inseto </span><br><br>
                   <span class='pedra'> Pedra </span><br><br>
                   <span class='sombrio'> Sombrio </span><br><br>`
-    mensagem4 += `o tipo <span class='lutador'>Lutador</span> não possui imunidades.`
-} else if (tipo == 'voador'){
-    mensagem1 += `o tipo <span class='voador'>Voador</span> é super efetivo (causa 160% de dano) contra os tipos: <br><br><br><br>
+                  mensagem4 += `o tipo <span class='lutador'>Lutador</span> não possui imunidades.`
+                } else if (tipo == 'voador'){
+    mensagem1 += `o tipo <span class='voador'>Voador</span> é super efetivo contra os tipos: <br><br><br><br>
                   <span class='inseto'> Inseto </span><br><br>
                   <span class='lutador'> Lutador </span><br><br>
                   <span class='planta'> Planta </span><br><br>`
-    mensagem2 += `o tipo <span class='voador'>Voador</span> tem fraqueza (recebe 160% de dano) aos tipos: <br><br><br><br>
+    mensagem2 += `o tipo <span class='voador'>Voador</span> tem fraqueza aos tipos: <br><br><br><br>
                   <span class='pedra'> Pedra </span><br><br>
                   <span class='eletrico'> Elétrico </span><br><br>
                   <span class='gelo'> Gelo </span><br><br>`
-    mensagem3 += `o tipo <span class='voador'>Voador</span> é resistente (recebe 62.5% de dano) aos tipos: <br><br><br><br>
+    mensagem3 += `o tipo <span class='voador'>Voador</span> é resistente aos tipos: <br><br><br><br>
                   <span class='lutador'> Lutador </span><br><br>
                   <span class='inseto'> Inseto </span><br><br>
                   <span class='planta'> Planta </span><br><br>`
-    mensagem4 += `o tipo <span class='voador'>Voador</span> é imune (não recebe dano) ao tipo: <br><br><br><br>
+    mensagem4 += `o tipo <span class='voador'>Voador</span> é imune ao tipo: <br><br><br><br>
                   <span class='terrestre'> Terrestre </span><br><br>`
 }else if (tipo == 'venenoso'){
     mensagem1 += `o tipo <span class='venenoso'>Venenoso</span> é super efetivo contra os tipos: <br><br><br><br>
@@ -160,16 +160,16 @@ else if (tipo == 'aco'){
                   <span class='lutador'> Lutador </span><br><br>
                   <span class='terrestre'> Terrestre </span><br><br>`
     mensagem3 += `o tipo <span class='aco'>Aço</span> é resistente a muitos tipos: <br><br><br><br>
-                  <span class='normal'> Normal </span><br><br>
-                  <span class='voador'> Voador </span><br><br>
-                  <span class='pedra'> Pedra </span><br><br>
-                  <span class='inseto'> Inseto </span><br><br>
-                  <span class='aco'> Aço </span><br><br>
-                  <span class='planta'> Planta </span><br><br>
-                  <span class='psiquico'> Psíquico </span><br><br>
-                  <span class='gelo'> Gelo </span><br><br>
-                  <span class='dragao'> Dragão </span><br><br>
-                  <span class='fada'> Fada </span><br><br>`
+                  <span class='normal'> Normal</span>
+                  <span class='voador'> Voador</span><br><br>
+                  <span class='pedra'> Pedra</span>
+                  <span class='inseto'> Inseto</span><br><br>
+                  <span class='aco'> Aço</span>
+                  <span class='planta'> Planta</span><br><br>
+                  <span class='psiquico'> Psíquico</span>
+                  <span class='gelo'> Gelo</span><br><br>
+                  <span class='dragao'> Dragão</span>
+                  <span class='fada'> Fada</span><br><br>`
     mensagem4 += `o tipo <span class='aco'>Aço</span> é imune ao tipo: <br><br><br><br>
                   <span class='venenoso'> Venenoso </span><br><br>`
 }
@@ -181,15 +181,15 @@ else if (tipo == 'fogo'){
                   <span class='aco'> Aço </span><br><br>`
     mensagem2 += `o tipo <span class='fogo'>Fogo</span> tem fraqueza aos tipos: <br><br><br><br>
                   <span class='agua'> Água </span><br><br>
-                  <span class='rocha'> Pedra </span><br><br>
+                  <span class='pedra'> Pedra </span><br><br>
                   <span class='terrestre'> Terrestre </span><br><br>`
     mensagem3 += `o tipo <span class='fogo'>Fogo</span> é resistente aos tipos: <br><br><br><br>
-                  <span class='fogo'> Fogo </span><br><br>
-                  <span class='gelo'> Gelo </span><br><br>
-                  <span class='inseto'> Inseto </span><br><br>
-                  <span class='aco'> Aço </span><br><br>
-                  <span class='fada'> Fada </span><br><br>
-                  <span class='planta'> Planta </span><br><br>`
+                  <span class='fogo'> Fogo</span>
+                  <span class='gelo'> Gelo</span><br><br>
+                  <span class='inseto'> Inseto</span>
+                  <span class='aco'> Aço</span><br><br>
+                  <span class='fada'> Fada</span>
+                  <span class='planta'> Planta</span><br><br>`
     mensagem4 += `o tipo <span class='fogo'>Fogo</span> não possui imunidades.`
 }
 else if (tipo == 'agua'){
