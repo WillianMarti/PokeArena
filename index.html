@@ -7,6 +7,7 @@
   <title>PokeArena Will</title>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -163,97 +164,68 @@
 
         </div>
     </div>
-  </div>
-  <div style="background-color: var(--vermelho-pokebola); margin-top: 50px;">Conheça alguns dos Pokémon mais famosos desse universo!</div>
-  <div class="carousel-container">
-    <button id="prev">❮</button>
-    <div class="carousel">
-      <div class="card active">
-        <a href="https://pokemondb.net/pokedex/charizard">Charizard</a>
-        <a href="https://pokemondb.net/pokedex/charizard">
-          <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif" alt="Charizard">
-        </a>
-        <div class="info">Charizard é um Pokémon do tipo Fogo/Voador.</div>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/gengar"><img
-            src="https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif" alt="Gengar"></a>
+    <div class="pokemonsfamosos">
+      <h1 class="textoPixel pikachuDestaque" style="margin-bottom: 5%;">Pokémons mais famosos!</h1>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><span class="fogo">Charizard</span>
+          <p class="textoPixel textoPokemons">Famoso pokémon dragão que na verdade é insipirado em uma salamandra com asas, tendo a tipagem <span class="fogo">Fogo</span> e <span class="voador">Voador</span> e com sua criação na primeira geração sendo um dos iniciais o deixou no topo como <span class="pikachuDestaque">segundo pokémon mais conhecido.</span></p>
+          <a href="https://pokemondb.net/pokedex/charizard"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif" alt="Charizard"></a>
         </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/arcanine"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif" alt="Arcanine"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/bulbasaur"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" alt="Bulbasaur"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/umbreon"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/umbreon.gif" alt="Umbreon"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/lucario"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/lucario.gif" alt="Lucario"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/blaziken"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/blaziken.gif" alt="Blaziken"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/gardevoir"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/gardevoir.gif" alt="Gardevoir"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/pikachu"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif" alt="Pikachu"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/mew"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif" alt="Mew"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/arceus"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/arceus.gif" alt="Arceus"></a>
+        <div class="swiper-slide"><span class="eletrico">Pikachu</span>
+          <p class="textoPixel textoPokemons">O Pokémon definitivamente mais famoso do mundo "Pikachu" é um pokémon do tipo <span class="eletrico">Elétrico</span>tendo esse posto fortalecido pela sua importância no mundo do anime de <span class="pikachuDestaque">Pokémon</span> e se tornando um simbulo de pokémon no mundo</p> 
+          <a href="https://pokemondb.net/pokedex/pikachu"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif" alt="Pikachu"></a>
+        </div>
+        <div class="swiper-slide"><span class="fantasma">Gengar</span>
+          <p class="textoPixel textoPokemons">Um dos Pokémon <span class="fantasma">Fantasma</span> mais icônicos da primeira geração, Gengar é conhecido por sua natureza travessa e sorriso maligno. Como um Pokémon do tipo <span class="venenoso">Veneno</span> também, ele se tornou um <span class="pikachuDestaque">símbolo dos tipos sombrios</span> na franquia.</p>
+          <a href="https://pokemondb.net/pokedex/gengar"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif" alt="Gengar"></a>
+        </div>
+        <div class="swiper-slide"><span class="normal">Arceus</span>
+          <p class="textoPixel textoPokemons">Conhecido como <span class="pikachuDestaque">"O Criador"</span> no universo Pokémon, Arceus é um Pokémon lendário do tipo <span class="normal">Normal</span> (mas que pode mudar de tipo) e é considerado o deus do mundo Pokémon. Sua mitologia e poder absoluto o tornam um dos <span class="pikachuDestaque">mais reverenciados</span>.</p>
+          <a href="https://pokemondb.net/pokedex/arceus"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/arceus.gif" alt="Arceus"></a>
+        </div>
+        <div class="swiper-slide"><span class="dragao">Rayquaza</span>
+          <p class="textoPixel textoPokemons">O lendário guardião dos céus de Hoenn, Rayquaza é um poderoso Pokémon dos tipos <span class="dragao">Dragão</span> e <span class="voador">Voador</span>. Conhecido por <span class="pikachuDestaque">acalmar as batalhas entre Kyogre e Groudon</span>, sua Mega Evolução o tornou ainda mais impressionante e desejado pelos treinadores.</p>
+          <a href="https://pokemondb.net/pokedex/rayquaza"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/rayquaza.gif" alt="Rayquaza"></a>
+        </div>
+        <div class="swiper-slide"><span class="fogo">Arcanine</span>
+          <p class="textoPixel textoPokemons">Conhecido como <span class="pikachuDestaque">"A Lenda Pokémon"</span>, Arcanine é um majestoso Pokémon do tipo <span class="fogo">Fogo</span> com aparência de um grande cão/tigre. Sua velocidade impressionante e lealdade o tornam um dos <span class="pikachuDestaque">mais admirados</span> desde a primeira geração.</p>
+          <a href="https://pokemondb.net/pokedex/arcanine"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif" alt="Arcanine"></a>
+        </div>
+        <div class="swiper-slide"><span class="grama">Bulbasaur</span>
+          <p class="textoPixel textoPokemons">O primeiro da Pokédex Nacional, Bulbasaur é um Pokémon dos tipos <span class="planta">Planta</span> e <span class="venenoso">Veneno</span>, e um dos <span class="pikachuDestaque">iniciais de Kanto</span>. Seu bulbo nas costas é uma característica única que evolui junto com ele, tornando-o um favorito dos fãs.</p>
+          <a href="https://pokemondb.net/pokedex/bulbasaur"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" alt="Bulbasaur"></a>
+        </div>
+        <div class="swiper-slide"><span class="fogo">Blaziken</span>
+          <p class="textoPixel textoPokemons">O <span class="pikachuDestaque">primeiro Pokémon inicial com tipo Luta</span>, Blaziken combina <span class="fogo">Fogo</span> e <span class="lutador">Lutador</span> em um estilo de combate único. Sua aparência inspirada em galos de briga e suas poderosas pernas o tornam um dos <span class="pikachuDestaque">iniciais mais populares</span>.</p>
+          <a href="https://pokemondb.net/pokedex/blaziken"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/blaziken.gif" alt="Blaziken"></a>
+        </div>
+        <div class="swiper-slide"><span class="lutador">Lucario</span>
+          <p class="textoPixel textoPokemons">Este Pokémon dos tipos <span class="lutador">Lutador</span> e <span class="aco">Aço</span> é conhecido por sua <span class="pikachuDestaque">habilidade de sentir aura</span>. Lucario ganhou enorme popularidade após aparecer em filmes Pokémon e se tornou um <span class="pikachuDestaque">símbolo de nobreza e força</span>.</p>
+          <a href="https://pokemondb.net/pokedex/lucario"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/lucario.gif" alt="Lucario"></a>
+        </div>
+        <div class="swiper-slide"><span class="psiquico">Gardevoir</span>
+          <p class="textoPixel textoPokemons">Elegante e misterioso, Gardevoir é um Pokémon dos tipos <span class="psiquico">Psíquico</span> e <span class="fada">Fada</span> conhecido por sua <span class="pikachuDestaque">lealdade extrema</span> ao treinador. Sua capacidade de criar pequenos buracos negros para proteger seu treinador o torna <span class="pikachuDestaque">único e poderoso</span>.</p>
+          <a href="https://pokemondb.net/pokedex/gardevoir"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/gardevoir.gif" alt="Gardevoir"></a>
+        </div>
+        <div class="swiper-slide"><span class="sombrio">Umbreon</span>
+          <p class="textoPixel textoPokemons">Uma das evoluções noturnas de Eevee, Umbreon é um Pokémon do tipo <span class="sombrio">Sombrio</span> conhecido por seu <span class="pikachuDestaque">design marcante</span> com anéis amarelos que brilham no escuro. Sua natureza defensiva e aparência misteriosa o tornam um <span class="pikachuDestaque">favorito entre os fãs</span>.</p>
+          <a href="https://pokemondb.net/pokedex/umbreon"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/umbreon.gif" alt="Umbreon"></a>
+        </div>
+        <div class="swiper-slide"><span class="agua">Kyogre</span>
+          <p class="textoPixel textoPokemons">Este lendário Pokémon do tipo <span class="agua">Água</span> é conhecido como <span class="pikachuDestaque">"O Senhor dos Mares"</span>, capaz de expandir os oceanos com seu poder. Kyogre representa a <span class="pikachuDestaque">força primordial da natureza</span> e tem um papel central na mitologia Pokémon de Hoenn.</p>
+          <a href="https://pokemondb.net/pokedex/kyogre"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/kyogre.gif" alt="Kyogre"></a>
+        </div>
+
       </div>
 
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/mewtwo"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif" alt="Mewtwo"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/rayquaza"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/rayquaza.gif" alt="Rayquaza"></a>
-      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
 
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/dragonite"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif" alt="Dragonite"></a>
       </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/kyogre"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/kyogre.gif" alt="Kyogre"></a>
-      </div>
-      
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/groudon"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/groudon.gif" alt="Groudon"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/giratina"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/giratina.gif" alt="Giratina"></a>
-      </div>
-      
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/lugia"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/lugia.gif" alt="Lugia"></a>
-      </div>
-      <div class="card">
-        <a href="https://pokemondb.net/pokedex/ho-oh"><img
-          src="https://img.pokemondb.net/sprites/black-white/anim/normal/ho-oh.gif" alt="Ho-oh"></a>
-      </div>
-  
-</div>
-<button id="next">❯</button>
   </div>
 </div>
   <footer>
@@ -300,7 +272,6 @@
     }
   }
 </script>
-<script src="./scripts/scriptTipo.js"> </script>
 <script>
   const cards = document.querySelectorAll('.card');
   const nextBtn = document.getElementById('next');
@@ -340,3 +311,6 @@
 
   updateCarousel(); // inicializa
 </script>
+<script src="./scripts/scriptTipo.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./scripts/scrip.js"></script>
