@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha Pokémon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="pokeball"></div>
+        <h1>PokeArena</h1>
+        <nav>
+          <a href="./index.html" >Home</a>
+          <a href="batalha.html" class="active">Batalha Pokémon</a>
+          <a href="#quiz">Quiz</a>
+        </nav>
+        <div class="botoes_login">
+          <button>Login</button>
+          <button>Cadastro</button>
+        </div>
+      </header>
+      
+      <div class="banner">
+        <div class="escurecedor">
+        <video class="video" autoplay loop muted src="./assets/videobatalha.mp4" >
+        </video>
+      </div>
+      <div class="conteudo">
+          <p class="textoPokemons textoPixel">Bem-vindo a <span class="mestrePokemon"> PokeArena </span> a melhor arena de batalhas <span class="pikachuDestaque">Pokémon</span> da internet!</p>
+      </div>
+      
+      </div>
+
+      <div class="main">
+       
+          <div class="seletorPokemon">  <h1 class="textoPixel mestrePokemon">Escolha o seu Pokémon </h1> 
+            <select id="pokemonSelecionar" onchange="atualizar()">
+              <option value="#" disabled selected>-- Escolha um Pokémon --</option>
+          </select>
+          <button id="btn-batalhar">Iniciar Batalha</button>
+    
+          <div id="pokemon-info" style="display: none;">
+              <h2>Pokémon Selecionado: <span id="pokemon-nome"></span></h2>
+              <p><span id="pokemon-gif"></span></p>
+              <p>HP: <span id="pokemon-hp"></span></p>
+              <p>Tipo: <span id="pokemon-tipo"></span></p>
+              <div id="pokemon-ataque"></div>
+
+          </div>
+          </div>
+          
+    </div>
+      </div>
+</body>
+
+</html>
+<script src="./scripts/scriptsBatalha/scriptpuxarPokemon.js"></script>

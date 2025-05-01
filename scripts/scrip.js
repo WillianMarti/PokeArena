@@ -3,15 +3,12 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
         spaceBetween: 30,
+        slidesPerView: 1,
         centeredSlides: true,
         autoplay: {
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         },
-    // If we need pagination
-    
-
-    // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',

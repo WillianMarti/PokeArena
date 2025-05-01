@@ -17,7 +17,7 @@
     <h1>PokeArena</h1>
     <nav>
       <a href="#" class="active">Home</a>
-      <a href="#batalha">Batalha Pokémon</a>
+      <a href="batalha.html">Batalha Pokémon</a>
       <a href="#quiz">Quiz</a>
     </nav>
     <div class="botoes_login">
@@ -25,6 +25,9 @@
       <button>Cadastro</button>
     </div>
   </header>
+
+  
+  </div>
   <div class="main" id="main">
     <div class="bemvindoss">
       <a class="bemvindo textoPixel">Bem-vindo à arena de batalhas <span class="pikachuDestaque">Pokémon</span> mais
@@ -194,7 +197,7 @@
           <p class="textoPixel textoPokemons">Conhecido como <span class="pikachuDestaque">"A Lenda Pokémon"</span>, Arcanine é um majestoso Pokémon do tipo <span class="fogo">Fogo</span> com aparência de um grande cão/tigre. Sua velocidade impressionante e lealdade o tornam um dos <span class="pikachuDestaque">mais admirados</span> desde a primeira geração.</p>
           <a href="https://pokemondb.net/pokedex/arcanine"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif" alt="Arcanine"></a>
         </div>
-        <div class="swiper-slide"><span class="grama">Bulbasaur</span>
+        <div class="swiper-slide"><span class="planta">Bulbasaur</span>
           <p class="textoPixel textoPokemons">O primeiro da Pokédex Nacional, Bulbasaur é um Pokémon dos tipos <span class="planta">Planta</span> e <span class="venenoso">Veneno</span>, e um dos <span class="pikachuDestaque">iniciais de Kanto</span>. Seu bulbo nas costas é uma característica única que evolui junto com ele, tornando-o um favorito dos fãs.</p>
           <a href="https://pokemondb.net/pokedex/bulbasaur"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" alt="Bulbasaur"></a>
         </div>
@@ -271,45 +274,6 @@
       select.style.fontFamily = '"Press Start 2P"'
     }
   }
-</script>
-<script>
-  const cards = document.querySelectorAll('.card');
-  const nextBtn = document.getElementById('next');
-  const prevBtn = document.getElementById('prev');
-
-  let currentIndex = 0;
-
-  function updateCarousel() {
-    cards.forEach((card, index) => {
-      card.classList.remove('active', 'prev', 'next');
-
-      if (index === currentIndex) {
-        card.classList.add('active');
-      } else if (index === (currentIndex - 1 + cards.length) % cards.length) {
-        card.classList.add('prev');
-      } else if (index === (currentIndex + 1) % cards.length) {
-        card.classList.add('next');
-      }
-    });
-  }
-
-  nextBtn.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % cards.length;
-    updateCarousel();
-  });
-
-  prevBtn.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + cards.length) % cards.length;
-    updateCarousel();
-  });
-
-  cards.forEach(card => {
-    card.addEventListener('click', () => {
-      nextBtn.click(); // avança com clique no card
-    });
-  });
-
-  updateCarousel(); // inicializa
 </script>
 <script src="./scripts/scriptTipo.js"> </script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
