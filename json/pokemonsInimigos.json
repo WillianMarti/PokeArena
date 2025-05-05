@@ -7,8 +7,6 @@
       "hp": 250,
       "ataque": 120,
       "defesa": 130,
-      "super_ataque": 140,
-      "super_defesa": 150,
       "velocidade": 100,
       "ataques": [
         { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
@@ -27,8 +25,6 @@
       "hp": 240,
       "ataque": 130,
       "defesa": 110,
-      "super_ataque": 150,
-      "super_defesa": 120,
       "velocidade": 130,
       "ataques": [
         { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
@@ -47,8 +43,6 @@
       "hp": 260,
       "ataque": 130,
       "defesa": 160,
-      "super_ataque": 120,
-      "super_defesa": 140,
       "velocidade": 90,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -67,8 +61,6 @@
       "hp": 200,
       "ataque": 90,
       "defesa": 100,
-      "super_ataque": 120,
-      "super_defesa": 130,
       "velocidade": 110,
       "ataques": [
         { "nome": "Pó do Sono", "tipo": "inseto", "dano": 0, "precisao": 75, "efeito": "dormir" },
@@ -87,8 +79,6 @@
       "hp": 210,
       "ataque": 140,
       "defesa": 80,
-      "super_ataque": 70,
-      "super_defesa": 100,
       "velocidade": 120,
       "ataques": [
         { "nome": "Ferrão venenoso", "tipo": "venenoso", "dano": 35, "precisao": 100 },
@@ -107,8 +97,6 @@
       "hp": 230,
       "ataque": 120,
       "defesa": 110,
-      "super_ataque": 100,
-      "super_defesa": 100,
       "velocidade": 130,
       "ataques": [
         { "nome": "Furacão", "tipo": "voador", "dano": 45, "precisao": 95 },
@@ -128,8 +116,6 @@
       "hp": 220,
       "ataque": 130,
       "defesa": 90,
-      "super_ataque": 80,
-      "super_defesa": 90,
       "velocidade": 120,
       "ataques": [
         { "nome": "Hiper Dente", "tipo": "normal", "dano": 50, "precisao": 100 },
@@ -149,8 +135,6 @@
       "hp": 230,
       "ataque": 140,
       "defesa": 100,
-      "super_ataque": 90,
-      "super_defesa": 100,
       "velocidade": 130,
       "ataques": [
         { "nome": "Bico Broca", "tipo": "voador", "dano": 35, "precisao": 95 },
@@ -170,8 +154,6 @@
       "hp": 230,
       "ataque": 130,
       "defesa": 110,
-      "super_ataque": 90,
-      "super_defesa": 110,
       "velocidade": 100,
       "ataques": [
         { "nome": "Picada", "tipo": "venenoso", "dano": 35, "precisao": 100 },
@@ -190,8 +172,6 @@
       "hp": 220,
       "ataque": 120,
       "defesa": 90,
-      "super_ataque": 130,
-      "super_defesa": 100,
       "velocidade": 140,
       "ataques": [
         { "nome": "Trovão", "tipo": "eletrico", "dano": 45, "precisao": 95 },
@@ -211,8 +191,6 @@
       "hp": 240,
       "ataque": 140,
       "defesa": 150,
-      "super_ataque": 70,
-      "super_defesa": 90,
       "velocidade": 90,
       "ataques": [
         { "nome": "Garra", "tipo": "normal", "dano": 25, "precisao": 95 },
@@ -232,8 +210,6 @@
       "hp": 250,
       "ataque": 120,
       "defesa": 130,
-      "super_ataque": 100,
-      "super_defesa": 120,
       "velocidade": 100,
       "ataques": [
         { "nome": "Terremoto", "tipo": "terrestre", "dano": 45, "precisao": 100 },
@@ -253,8 +229,6 @@
       "hp": 250,
       "ataque": 140,
       "defesa": 110,
-      "super_ataque": 120,
-      "super_defesa": 100,
       "velocidade": 110,
       "ataques": [
         { "nome": "Terremoto", "tipo": "terrestre", "dano": 45, "precisao": 100 },
@@ -274,8 +248,6 @@
       "hp": 240,
       "ataque": 90,
       "defesa": 100,
-      "super_ataque": 130,
-      "super_defesa": 130,
       "velocidade": 90,
       "ataques": [
         { "nome": "Jogo de Luz", "tipo": "fada", "dano": 40, "precisao": 100 },
@@ -295,8 +267,6 @@
       "hp": 230,
       "ataque": 100,
       "defesa": 100,
-      "super_ataque": 130,
-      "super_defesa": 130,
       "velocidade": 130,
       "ataques": [
         { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
@@ -316,8 +286,6 @@
       "hp": 300,
       "ataque": 100,
       "defesa": 70,
-      "super_ataque": 110,
-      "super_defesa": 90,
       "velocidade": 70,
       "ataques": [
         { "nome": "Grito", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "reduz_ataque" },
@@ -337,8 +305,6 @@
       "hp": 240,
       "ataque": 110,
       "defesa": 120,
-      "super_ataque": 130,
-      "super_defesa": 120,
       "velocidade": 70,
       "ataques": [
         { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
@@ -358,8 +324,6 @@
       "hp": 220,
       "ataque": 130,
       "defesa": 120,
-      "super_ataque": 90,
-      "super_defesa": 120,
       "velocidade": 50,
       "ataques": [
         { "nome": "Cortar", "tipo": "planta", "dano": 25, "precisao": 95 },
@@ -379,8 +343,6 @@
       "hp": 220,
       "ataque": 90,
       "defesa": 90,
-      "super_ataque": 120,
-      "super_defesa": 110,
       "velocidade": 120,
       "ataques": [
         { "nome": "Pó do Sono", "tipo": "inseto", "dano": 0, "precisao": 75, "efeito": "dormir" },
@@ -400,8 +362,6 @@
       "hp": 200,
       "ataque": 140,
       "defesa": 80,
-      "super_ataque": 90,
-      "super_defesa": 100,
       "velocidade": 150,
       "ataques": [
         { "nome": "Terremoto", "tipo": "terrestre", "dano": 45, "precisao": 100 },
@@ -421,8 +381,6 @@
       "hp": 220,
       "ataque": 120,
       "defesa": 90,
-      "super_ataque": 100,
-      "super_defesa": 90,
       "velocidade": 140,
       "ataques": [
         { "nome": "Arranhão", "tipo": "normal", "dano": 25, "precisao": 100 },
@@ -442,8 +400,6 @@
       "hp": 240,
       "ataque": 110,
       "defesa": 100,
-      "super_ataque": 130,
-      "super_defesa": 110,
       "velocidade": 110,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -463,8 +419,6 @@
       "hp": 230,
       "ataque": 150,
       "defesa": 90,
-      "super_ataque": 90,
-      "super_defesa": 100,
       "velocidade": 120,
       "ataques": [
         { "nome": "Soco Rápido", "tipo": "lutador", "dano": 30, "precisao": 100 },
@@ -484,8 +438,6 @@
       "hp": 250,
       "ataque": 140,
       "defesa": 100,
-      "super_ataque": 120,
-      "super_defesa": 100,
       "velocidade": 110,
       "ataques": [
         { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
@@ -505,8 +457,6 @@
       "hp": 250,
       "ataque": 130,
       "defesa": 130,
-      "super_ataque": 100,
-      "super_defesa": 120,
       "velocidade": 90,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -526,8 +476,6 @@
       "hp": 200,
       "ataque": 70,
       "defesa": 80,
-      "super_ataque": 170,
-      "super_defesa": 120,
       "velocidade": 150,
       "ataques": [
         { "nome": "psiquico", "tipo": "psiquico", "dano": 60, "precisao": 100 },
@@ -547,8 +495,6 @@
       "hp": 250,
       "ataque": 160,
       "defesa": 120,
-      "super_ataque": 90,
-      "super_defesa": 110,
       "velocidade": 80,
       "ataques": [
         { "nome": "Soco Rápido", "tipo": "lutador", "dano": 30, "precisao": 100 },
@@ -568,8 +514,6 @@
       "hp": 240,
       "ataque": 130,
       "defesa": 100,
-      "super_ataque": 120,
-      "super_defesa": 100,
       "velocidade": 90,
       "ataques": [
         { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
@@ -589,8 +533,6 @@
       "hp": 240,
       "ataque": 100,
       "defesa": 100,
-      "super_ataque": 110,
-      "super_defesa": 150,
       "velocidade": 120,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -610,8 +552,6 @@
       "hp": 250,
       "ataque": 150,
       "defesa": 160,
-      "super_ataque": 90,
-      "super_defesa": 100,
       "velocidade": 70,
       "ataques": [
         { "nome": "pedra Angular", "tipo": "pedra", "dano": 40, "precisao": 95 },
@@ -631,8 +571,6 @@
       "hp": 230,
       "ataque": 130,
       "defesa": 100,
-      "super_ataque": 110,
-      "super_defesa": 100,
       "velocidade": 140,
       "ataques": [
         { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
@@ -652,8 +590,6 @@
       "hp": 260,
       "ataque": 100,
       "defesa": 150,
-      "super_ataque": 130,
-      "super_defesa": 100,
       "velocidade": 50,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -673,8 +609,6 @@
       "hp": 200,
       "ataque": 90,
       "defesa": 140,
-      "super_ataque": 150,
-      "super_defesa": 110,
       "velocidade": 90,
       "ataques": [
         { "nome": "Trovão", "tipo": "eletrico", "dano": 45, "precisao": 95 },
@@ -694,8 +628,6 @@
       "hp": 200,
       "ataque": 110,
       "defesa": 90,
-      "super_ataque": 90,
-      "super_defesa": 90,
       "velocidade": 100,
       "ataques": [
         { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 },
@@ -715,8 +647,6 @@
       "hp": 220,
       "ataque": 140,
       "defesa": 100,
-      "super_ataque": 90,
-      "super_defesa": 100,
       "velocidade": 130,
       "ataques": [
         { "nome": "Bico Broca", "tipo": "voador", "dano": 35, "precisao": 95 },
@@ -736,8 +666,6 @@
       "hp": 240,
       "ataque": 110,
       "defesa": 120,
-      "super_ataque": 110,
-      "super_defesa": 130,
       "velocidade": 90,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -757,8 +685,6 @@
       "hp": 280,
       "ataque": 130,
       "defesa": 110,
-      "super_ataque": 90,
-      "super_defesa": 130,
       "velocidade": 70,
       "ataques": [
         { "nome": "Toxina", "tipo": "venenoso", "dano": 0, "precisao": 85, "efeito": "envenenar" },
@@ -778,8 +704,6 @@
       "hp": 220,
       "ataque": 120,
       "defesa": 180,
-      "super_ataque": 110,
-      "super_defesa": 70,
       "velocidade": 90,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -799,8 +723,6 @@
       "hp": 200,
       "ataque": 90,
       "defesa": 90,
-      "super_ataque": 160,
-      "super_defesa": 110,
       "velocidade": 140,
       "ataques": [
         { "nome": "Bola Sombria", "tipo": "fantasma", "dano": 40, "precisao": 100 },
@@ -820,8 +742,6 @@
       "hp": 240,
       "ataque": 100,
       "defesa": 100,
-      "super_ataque": 120,
-      "super_defesa": 140,
       "velocidade": 90,
       "ataques": [
         { "nome": "Hipnose", "tipo": "psiquico", "dano": 0, "precisao": 70, "efeito": "dormir" },
@@ -841,8 +761,6 @@
       "hp": 230,
       "ataque": 150,
       "defesa": 130,
-      "super_ataque": 70,
-      "super_defesa": 90,
       "velocidade": 90,
       "ataques": [
         { "nome": "Garra", "tipo": "normal", "dano": 25, "precisao": 95 },
@@ -862,8 +780,6 @@
       "hp": 200,
       "ataque": 80,
       "defesa": 100,
-      "super_ataque": 120,
-      "super_defesa": 120,
       "velocidade": 160,
       "ataques": [
         { "nome": "Trovão", "tipo": "eletrico", "dano": 45, "precisao": 95 },
@@ -883,8 +799,6 @@
       "hp": 250,
       "ataque": 120,
       "defesa": 110,
-      "super_ataque": 140,
-      "super_defesa": 100,
       "velocidade": 70,
       "ataques": [
         { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
@@ -904,8 +818,6 @@
       "hp": 220,
       "ataque": 130,
       "defesa": 140,
-      "super_ataque": 80,
-      "super_defesa": 110,
       "velocidade": 70,
       "ataques": [
         { "nome": "Terremoto", "tipo": "terrestre", "dano": 45, "precisao": 100 },
@@ -925,8 +837,6 @@
       "hp": 220,
       "ataque": 150,
       "defesa": 80,
-      "super_ataque": 70,
-      "super_defesa": 120,
       "velocidade": 110,
       "ataques": [
         { "nome": "Chute", "tipo": "lutador", "dano": 35, "precisao": 95 },
@@ -946,8 +856,6 @@
       "hp": 220,
       "ataque": 140,
       "defesa": 120,
-      "super_ataque": 70,
-      "super_defesa": 140,
       "velocidade": 90,
       "ataques": [
         { "nome": "Soco Rápido", "tipo": "lutador", "dano": 30, "precisao": 100 },
@@ -967,8 +875,6 @@
       "hp": 250,
       "ataque": 100,
       "defesa": 110,
-      "super_ataque": 90,
-      "super_defesa": 110,
       "velocidade": 50,
       "ataques": [
         { "nome": "Lambida", "tipo": "fantasma", "dano": 30, "precisao": 100 },
@@ -988,8 +894,6 @@
       "hp": 230,
       "ataque": 110,
       "defesa": 140,
-      "super_ataque": 110,
-      "super_defesa": 100,
       "velocidade": 80,
       "ataques": [
         { "nome": "Toxina", "tipo": "venenoso", "dano": 0, "precisao": 85, "efeito": "envenenar" },
@@ -1009,8 +913,6 @@
       "hp": 270,
       "ataque": 150,
       "defesa": 150,
-      "super_ataque": 80,
-      "super_defesa": 90,
       "velocidade": 60,
       "ataques": [
         { "nome": "Terremoto", "tipo": "terrestre", "dano": 45, "precisao": 100 },
@@ -1030,8 +932,6 @@
       "hp": 400,
       "ataque": 50,
       "defesa": 50,
-      "super_ataque": 90,
-      "super_defesa": 130,
       "velocidade": 70,
       "ataques": [
         { "nome": "Refresco", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "cura" },
@@ -1051,8 +951,6 @@
       "hp": 230,
       "ataque": 100,
       "defesa": 150,
-      "super_ataque": 120,
-      "super_defesa": 70,
       "velocidade": 70,
       "ataques": [
         { "nome": "Chicote de Vinha", "tipo": "planta", "dano": 35, "precisao": 100 },
@@ -1072,8 +970,6 @@
       "hp": 270,
       "ataque": 140,
       "defesa": 120,
-      "super_ataque": 90,
-      "super_defesa": 120,
       "velocidade": 100,
       "ataques": [
         { "nome": "Megassoco", "tipo": "normal", "dano": 50, "precisao": 100 },
@@ -1093,8 +989,6 @@
       "hp": 230,
       "ataque": 120,
       "defesa": 100,
-      "super_ataque": 100,
-      "super_defesa": 100,
       "velocidade": 90,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -1114,8 +1008,6 @@
       "hp": 220,
       "ataque": 100,
       "defesa": 100,
-      "super_ataque": 140,
-      "super_defesa": 100,
       "velocidade": 130,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -1135,8 +1027,6 @@
       "hp": 200,
       "ataque": 70,
       "defesa": 100,
-      "super_ataque": 130,
-      "super_defesa": 140,
       "velocidade": 110,
       "ataques": [
         { "nome": "Confusão", "tipo": "psiquico", "dano": 35, "precisao": 100 },
@@ -1156,8 +1046,6 @@
       "hp": 230,
       "ataque": 140,
       "defesa": 100,
-      "super_ataque": 90,
-      "super_defesa": 100,
       "velocidade": 130,
       "ataques": [
         { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 },
@@ -1177,8 +1065,6 @@
       "hp": 210,
       "ataque": 80,
       "defesa": 70,
-      "super_ataque": 140,
-      "super_defesa": 120,
       "velocidade": 120,
       "ataques": [
         { "nome": "Raio de gelo", "tipo": "gelo", "dano": 35, "precisao": 100 },
@@ -1198,8 +1084,6 @@
       "hp": 220,
       "ataque": 110,
       "defesa": 90,
-      "super_ataque": 130,
-      "super_defesa": 100,
       "velocidade": 130,
       "ataques": [
         { "nome": "Trovão", "tipo": "eletrico", "dano": 45, "precisao": 95 },
@@ -1219,8 +1103,6 @@
       "hp": 230,
       "ataque": 120,
       "defesa": 90,
-      "super_ataque": 140,
-      "super_defesa": 100,
       "velocidade": 110,
       "ataques": [
         { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
@@ -1240,8 +1122,6 @@
       "hp": 230,
       "ataque": 150,
       "defesa": 120,
-      "super_ataque": 80,
-      "super_defesa": 90,
       "velocidade": 100,
       "ataques": [
         { "nome": "Garra", "tipo": "normal", "dano": 25, "precisao": 95 },
@@ -1261,8 +1141,6 @@
       "hp": 240,
       "ataque": 140,
       "defesa": 120,
-      "super_ataque": 90,
-      "super_defesa": 100,
       "velocidade": 130,
       "ataques": [
         { "nome": "Investida", "tipo": "normal", "dano": 30, "precisao": 100 },
@@ -1282,8 +1160,6 @@
       "hp": 280,
       "ataque": 150,
       "defesa": 110,
-      "super_ataque": 100,
-      "super_defesa": 130,
       "velocidade": 100,
       "ataques": [
         { "nome": "Hidro Bomba", "tipo": "agua", "dano": 55, "precisao": 80 },
@@ -1303,8 +1179,6 @@
       "hp": 300,
       "ataque": 110,
       "defesa": 120,
-      "super_ataque": 120,
-      "super_defesa": 130,
       "velocidade": 80,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -1324,8 +1198,6 @@
       "hp": 200,
       "ataque": 100,
       "defesa": 90,
-      "super_ataque": 100,
-      "super_defesa": 100,
       "velocidade": 100,
       "ataques": [
         { "nome": "Ataque Rápido", "tipo": "normal", "dano": 20, "precisao": 100 },
@@ -1345,8 +1217,6 @@
       "hp": 300,
       "ataque": 100,
       "defesa": 100,
-      "super_ataque": 140,
-      "super_defesa": 120,
       "velocidade": 90,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -1366,8 +1236,6 @@
       "hp": 220,
       "ataque": 90,
       "defesa": 90,
-      "super_ataque": 150,
-      "super_defesa": 110,
       "velocidade": 160,
       "ataques": [
         { "nome": "Trovão", "tipo": "eletrico", "dano": 45, "precisao": 95 },
@@ -1387,8 +1255,6 @@
       "hp": 230,
       "ataque": 150,
       "defesa": 100,
-      "super_ataque": 120,
-      "super_defesa": 120,
       "velocidade": 90,
       "ataques": [
         { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
@@ -1408,8 +1274,6 @@
       "hp": 220,
       "ataque": 100,
       "defesa": 100,
-      "super_ataque": 120,
-      "super_defesa": 100,
       "velocidade": 80,
       "ataques": [
         { "nome": "Tri Ataque", "tipo": "normal", "dano": 40, "precisao": 100 },
@@ -1429,8 +1293,6 @@
       "hp": 230,
       "ataque": 90,
       "defesa": 160,
-      "super_ataque": 130,
-      "super_defesa": 90,
       "velocidade": 70,
       "ataques": [
         { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
@@ -1450,8 +1312,6 @@
       "hp": 220,
       "ataque": 140,
       "defesa": 130,
-      "super_ataque": 90,
-      "super_defesa": 90,
       "velocidade": 100,
       "ataques": [
         { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 },
@@ -1471,8 +1331,6 @@
       "hp": 230,
       "ataque": 140,
       "defesa": 90,
-      "super_ataque": 90,
-      "super_defesa": 100,
       "velocidade": 150,
       "ataques": [
         { "nome": "Asa de aco", "tipo": "voador", "dano": 35, "precisao": 95 },
@@ -1492,8 +1350,6 @@
       "hp": 350,
       "ataque": 140,
       "defesa": 100,
-      "super_ataque": 100,
-      "super_defesa": 140,
       "velocidade": 50,
       "ataques": [
         { "nome": "Corpo Pesado", "tipo": "normal", "dano": 40, "precisao": 100 },
@@ -1513,8 +1369,6 @@
       "hp": 250,
       "ataque": 110,
       "defesa": 120,
-      "super_ataque": 130,
-      "super_defesa": 150,
       "velocidade": 110,
       "ataques": [
         { "nome": "Raio de gelo", "tipo": "gelo", "dano": 35, "precisao": 100 },
@@ -1534,8 +1388,6 @@
       "hp": 250,
       "ataque": 110,
       "defesa": 110,
-      "super_ataque": 150,
-      "super_defesa": 120,
       "velocidade": 130,
       "ataques": [
         { "nome": "Trovão", "tipo": "eletrico", "dano": 45, "precisao": 95 },
@@ -1555,8 +1407,6 @@
       "hp": 250,
       "ataque": 120,
       "defesa": 110,
-      "super_ataque": 150,
-      "super_defesa": 120,
       "velocidade": 120,
       "ataques": [
         { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
@@ -1576,8 +1426,6 @@
       "hp": 290,
       "ataque": 160,
       "defesa": 130,
-      "super_ataque": 140,
-      "super_defesa": 130,
       "velocidade": 100,
       "ataques": [
         { "nome": "Hiper Raio", "tipo": "normal", "dano": 60, "precisao": 90 },
@@ -1597,8 +1445,6 @@
       "hp": 300,
       "ataque": 150,
       "defesa": 100,
-      "super_ataque": 180,
-      "super_defesa": 120,
       "velocidade": 150,
       "ataques": [
         { "nome": "psiquico", "tipo": "psiquico", "dano": 60, "precisao": 100 },
@@ -1618,8 +1464,6 @@
       "hp": 280,
       "ataque": 130,
       "defesa": 130,
-      "super_ataque": 130,
-      "super_defesa": 130,
       "velocidade": 130,
       "ataques": [
         { "nome": "Transformação", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "copia_inimigo" },

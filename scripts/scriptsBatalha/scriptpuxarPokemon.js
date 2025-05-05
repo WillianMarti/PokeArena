@@ -4,14 +4,12 @@ let pokemonsInimigos = []; // Pokémon inimigos
 // Carrega os Pokémon do jogador e os inimigos
 async function carregarPokemons() {
     try {
-        // Carrega Pokémon do jogador
-        const responseJogador = await fetch('../json/pokemons.json');
+        const responseJogador = await fetch('json/pokemons.json');
         pokemons = await responseJogador.json();
-        
-        // Carrega Pokémon inimigos
-        const responseInimigos = await fetch('../json/pokemonsInimigos.json');
-        pokemonsInimigos = await responseInimigos.json();
-        
+
+        const responseInimigo = await fetch('json/pokemonsInimigos.json');
+        pokemonsInimigos = await responseInimigo.json(); // Corrigido aqui
+
         preencherSelect();
     } catch (error) {
         console.error("Erro ao carregar Pokémon:", error);
@@ -102,15 +100,25 @@ function validarPokemon(nomePokemon) {
     return pokemons.find(p => p.nome === nomePokemon);
 }
 
+function selecionarPokemonInimigo() {
+    const indiceAleatorio = Math.floor(Math.random() * pokemonsInimigos.length);
+    return pokemonsInimigos[indiceAleatorio];
+}
+
 
 
 function mostrarPokemon(pokemon) {
     const infoDiv = document.getElementById("pokemon-info");
     infoDiv.style.display = "block";
+
+    var pokemonInimigonum = Math.round(Math.random())
+    pokemonInimigonum * 84;
+
+    pokemonsInimigos[pokemonInimigonum]
     
-    document.getElementById("pokemon-gif").innerHTML = `<img src="${pokemon.imagem}">`
+    document.getElementById("pokemon-gif").innerHTML = `<img width="500px" height="500px" src="${pokemon.imagem}">`
     document.getElementById("pokemon-nome").textContent = pokemon.nome
-    document.getElementById("pokemon-hp").textContent = pokemon.hp
+    document.getElementById("pokemon-hp").textContent = `HP(Health Points): ${pokemon.hp}`
     if (pokemon.tipo == 'eletrico')
     {
         pokemon.tipo = 'Elétrico'
@@ -119,15 +127,23 @@ function mostrarPokemon(pokemon) {
     {
         pokemon.tipo = 'Fogo'
     }
-    document.getElementById("pokemon-tipo").textContent = 
-        Array.isArray(pokemon.tipo) ? pokemon.tipo.join(", ") : pokemon.tipo
 
+    const pokemonInimigo = selecionarPokemonInimigo();
+    const infoDivInimigo = document.getElementById("pokemon-inimigo-info");
+    infoDivInimigo.style.display = "block";
+
+
+
+    document.getElementById("pokemon")
+    document.getElementById("pokemon-tipo").textContent = `Tipos: 
+        ${Array.isArray(pokemon.tipo) ? pokemon.tipo.join(", ") : pokemon.tipo}
+        `
         const ataquesDiv = document.getElementById("pokemon-ataque");
         ataquesDiv.innerHTML = '';
         
         if (pokemon.ataques && pokemon.ataques.length > 0) {
             const ataquesTitle = document.createElement('h3');
-            ataquesTitle.textContent = 'Ataques:';
+
             ataquesDiv.appendChild(ataquesTitle);
             
             const ataquesList = document.createElement('div');
@@ -137,7 +153,6 @@ function mostrarPokemon(pokemon) {
                 const ataqueDiv = document.createElement('div');
                 ataqueDiv.className = 'ataque';
                 
-                // Aplica a cor do tipo
                 const tipoAtaque = ataque.tipo.toLowerCase();
                 if (cores[tipoAtaque]) {
                     ataqueDiv.style.backgroundColor = cores[tipoAtaque];
@@ -151,10 +166,8 @@ function mostrarPokemon(pokemon) {
                     <div>Precisão: ${ataque.precisao}%</div>
                 `;
                 
-                // Adiciona evento de clique para o ataque
                 ataqueDiv.addEventListener('click', () => {
                     console.log(`Usando ${ataque.nome}!`);
-                    // Aqui você pode implementar a lógica de batalha
                 });
                 
                 ataquesList.appendChild(ataqueDiv);
@@ -164,13 +177,20 @@ function mostrarPokemon(pokemon) {
         } else {
             ataquesDiv.textContent = 'Este Pokémon não tem ataques cadastrados.';
         }
-    }
+    
+    document.getElementById("pokemon-inimigo-gif").innerHTML = `<img src="${pokemonInimigo.imagem}">`;
+    document.getElementById("pokemon-inimigo-nome").textContent = pokemonInimigo.nome;
+    document.getElementById("pokemon-inimigo-hp").textContent = `HP(Health Points): ${pokemonInimigo.hp}`
 
-    function selecionarPokemonInimigo() {
-        // Seleciona um Pokémon aleatório apenas da lista de inimigos
-        const indiceAleatorio = Math.floor(Math.random() * pokemonsInimigos.length);
-        return pokemonsInimigos[indiceAleatorio];
+    let tipoInimigo = Array.isArray(pokemonInimigo.tipo) ? pokemonInimigo.tipo.join(", ") : pokemonInimigo.tipo;
+    if (tipoInimigo.toLowerCase() === "eletrico") {
+        tipoInimigo = "Elétrico";
+    } else if (tipoInimigo.toLowerCase() === "fogo") {
+        tipoInimigo = "Fogo";
     }
+    document.getElementById("pokemon-inimigo-tipo").textContent = `Tipos: ${tipoInimigo}`;
+}
+
 
     document.getElementById("btn-batalhar").addEventListener("click", () => {
         const select = document.getElementById("pokemonSelecionar");
@@ -185,10 +205,6 @@ function mostrarPokemon(pokemon) {
         
         if (pokemonSelecionado) {
             mostrarPokemon(pokemonSelecionado);
-            
-            // Seleciona e mostra o Pokémon inimigo (da lista separada)
-            const pokemonInimigo = selecionarPokemonInimigo();
-            mostrarPokemonInimigo(pokemonInimigo);
             
             console.log("Batalha iniciada!");
             console.log("Jogador:", pokemonSelecionado);

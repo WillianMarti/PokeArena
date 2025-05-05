@@ -29,13 +29,34 @@ header {
     /* flex-wrap: wrap; */
 }
 
+.batalha {
+    background-image: url(../assets/batalhapokemon.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.pokeinfo {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
 #select_efetivo {
     padding: 20px;
     border-radius: 10px;
 }
 
+
 .seletorPokemon {
+    margin-top: 100px;
     background-color: var(--textos_rodape_bordas);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .resultadosEfetivos{
@@ -126,6 +147,7 @@ header {
 }
 
 .bemvindoss {
+    background-color: var(--branco_fundo);
     width: 1000px;
     height: 100%;
     text-align: center;
@@ -207,7 +229,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 10px;
 }
 
 .ataque {
@@ -215,7 +236,7 @@ header {
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.2s;
-    min-width: 150px;
+    min-width: 350px;
 }
 
 .ataque:hover {
@@ -227,11 +248,30 @@ header {
     margin-bottom: 5px;
 }
 
+#pokemonSelecionar {
+    margin-bottom: 50px;
+}
+
+#pokemon-ataque {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 .umpoucosobre .ataque {
     background-color: var(--vermelho_pokebola);
     font-family: 'Press Start 2P';
     color: white;
     padding: 1px;
+}
+
+.pokeinfoinimigo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    margin-top: 50px;
 }
 
 .seletorPokemon {
@@ -248,8 +288,13 @@ header {
 }
 
 #pokemon-gif img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+}
+
+#pokemon-inimigo-gif img{
+    width: 250px;
+    height: 250px;
 }
 
 
@@ -360,6 +405,18 @@ nav a.active {
     cursor: pointer;
 }
 
+.botao_batalha {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    padding: 5px 10px;
+    background-color: var(--amarelo_destaques);
+    color: var(--textos_rodape_bordas);
+    border: 2px solid var(--vermelho_pokebola);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
 
 .main {
     margin-top: 7.5%;
@@ -370,6 +427,7 @@ nav a.active {
     display: flex;
     flex-direction: column;
     flex: 1;
+    background-color: var(--textos_rodape_bordas);
 }
 
 h1 {
@@ -401,7 +459,8 @@ footer {
     margin-top: 3%;
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Centraliza o conteúdo */
+    justify-content: center; 
+    background-color: var(--branco_fundo);
     width: 100%;
     gap: 20px; /* Espaço entre os itens */
 }
