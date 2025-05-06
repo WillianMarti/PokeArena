@@ -1,5 +1,4 @@
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
         spaceBetween: 30,
@@ -7,7 +6,7 @@ const swiper = new Swiper('.swiper', {
         centeredSlides: true,
         autoplay: {
           delay: 5000,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         },
     navigation: {
       nextEl: '.swiper-button-next',

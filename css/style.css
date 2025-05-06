@@ -34,15 +34,51 @@ header {
     background-size: cover;
     display: flex;
     flex-direction: row;
-    width: 80%;
-    height: 100%;
+    width: 0%; 
+    height: 1000px;
     justify-content: space-around;
+    transition: width 0.5s ease-in-out;
+    position: relative;
 }
 
-.pokeinfo {
-    margin-top: 200px;
-    margin-left: 100px;
+.pokeinfo{
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
 }
+
+.pokeinfoinimigo {
+    width: 40%;
+    padding: 0px 30px 30px 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#mensagens-batalha {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    text-align: center;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 #select_efetivo {
     padding: 20px;
@@ -57,6 +93,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .resultadosEfetivos{
@@ -227,6 +264,7 @@ header {
 
 .ataques-lista {
     display: flex;
+    margin-top: 125px;
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -272,6 +310,10 @@ header {
     align-items: center;
     margin-right: 150px;
     margin-top: 50px;
+}
+
+.pokeinfoinimigo .barravida{
+    margin-left: 25px;
 }
 
 .seletorPokemon {
@@ -370,6 +412,22 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
     font-size: 12px;
+}
+.barravida {
+    background-color: #2D2D2D;
+    width: 250px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 2px 3px 2px 3px;
+}
+
+.life {
+    background-color: #63bc5a;
+}
+
+.life-inimigo {
+    background-color: #63bc5a;
 }
 
 nav a.active {

@@ -224,7 +224,6 @@
 
       </div>
 
-      <!-- If we need navigation buttons -->
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
 
@@ -245,7 +244,6 @@
   function mostrar() {
     var tipo = select.value;
 
-    // Mapeamento dos valores para as variáveis CSS
     var cores = {
       'normal': '#97a0a7',
       'lutador': '#ce416b',
@@ -267,7 +265,6 @@
       'fada': '#ec8fe6'
     };
 
-    // Aplica a cor correspondente ao tipo selecionado
     if (tipo && cores[tipo]) {
       select.style.backgroundColor = cores[tipo];
       select.style.color = "white"
@@ -277,4 +274,4 @@
 </script>
 <script src="./scripts/scriptTipo.js"> </script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="./scripts/scrip.js"></script>
+<script src="./scripts/scriptCarrossel.js"></script>

@@ -1,345 +1,382 @@
 [
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/pikachu.gif",
-      "nome":  "Pikachu",
-      "tipo": ["eletrico"],
-      "nivel": 80,
-      "hp": 180,
-      "ataque": 110,
-      "defesa": 80,
-      "velocidade": 120,
-      "ataques": [
-        { "nome": "Choque do Trovão", "tipo": "eletrico", "dano": 40, "precisao": 100 },
-        { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 },
-        { "nome": "Cauda de Ferro", "tipo": "aco", "dano": 30, "precisao": 95 },
-        { "nome": "Onda de Choque", "tipo": "eletrico", "dano": 35, "precisao": 95 }
-      ],
-      "fraquezas": ["terrestre"],
-      "resistencias": ["eletrico", "voador", "aco"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/charizard.gif",
-      "nome":  "Charizard",
-      "tipo": ["fogo", "voador"],
-      "nivel": 80,
-      "hp": 240,
-      "ataque": 130,
-      "defesa": 110,
-      "velocidade": 130,
-      "ataques": [
-        { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
-        { "nome": "Garra de dragao", "tipo": "dragao", "dano": 35, "precisao": 100 },
-        { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 },
-        { "nome": "Rajada de Ar", "tipo": "voador", "dano": 30, "precisao": 95 }
-      ],
-      "fraquezas": ["agua", "eletrico", "pedra"],
-      "resistencias": ["fogo", "planta", "inseto"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/venusaur.gif",
-      "nome":  "Venusaur",
-      "tipo": ["planta", "venenoso"],
-      "nivel": 80,
-      "hp": 250,
-      "ataque": 120,
-      "defesa": 130,
-      "velocidade": 100,
-      "ataques": [
-        { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
-        { "nome": "Terremoto", "tipo": "terrestre", "dano": 45, "precisao": 100 },
-        { "nome": "Folha Navalha", "tipo": "planta", "dano": 35, "precisao": 95 },
-        { "nome": "Giro de Pólen", "tipo": "venenoso", "dano": 30, "precisao": 90 }
-      ],
-      "fraquezas": ["fogo", "psiquico", "voador", "gelo"],
-      "resistencias": ["agua", "eletrico", "planta", "fada"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/blastoise.gif",
-      "nome":  "Blastoise",
-      "tipo": ["agua"],
-      "nivel": 80,
-      "hp": 260,
-      "ataque": 130,
-      "defesa": 160,
-      "velocidade": 90,
-      "ataques": [
-        { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
-        { "nome": "Casco Canhão", "tipo": "agua", "dano": 40, "precisao": 100 },
-        { "nome": "Quebra-Crânio", "tipo": "normal", "dano": 35, "precisao": 95 },
-        { "nome": "Giro Rápido", "tipo": "normal", "dano": 20, "precisao": 100 }
-      ],
-      "fraquezas": ["eletrico", "planta"],
-      "resistencias": ["fogo", "agua", "gelo", "aco"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/meganium.gif",
-      "nome":  "Meganium",
-      "tipo": ["planta"],
-      "nivel": 80,
-      "hp": 240,
-      "ataque": 110,
-      "defesa": 140,
-      "velocidade": 100,
-      "ataques": [
-        { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
-        { "nome": "Corpo Pesado", "tipo": "normal", "dano": 40, "precisao": 100 },
-        { "nome": "Refresco", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "cura" },
-        { "nome": "Dança de Pétalas", "tipo": "planta", "dano": 35, "precisao": 90 }
-      ],
-      "fraquezas": ["fogo", "voador", "gelo", "venenoso", "inseto"],
-      "resistencias": ["agua", "eletrico", "planta", "terrestre"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/typhlosion.gif",
-      "nome":  "Typhlosion",
-      "tipo": ["fogo"],
-      "nivel": 80,
-      "hp": 240,
-      "ataque": 120,
-      "defesa": 110,
-      "velocidade": 130,
-      "ataques": [
-        { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
-        { "nome": "Explosão de Fumaça", "tipo": "fogo", "dano": 40, "precisao": 100 },
-        { "nome": "Soco de fogo", "tipo": "fogo", "dano": 35, "precisao": 95 },
-        { "nome": "Velocidade Extrema", "tipo": "normal", "dano": 20, "precisao": 100 }
-      ],
-      "fraquezas": ["agua", "terrestre", "pedra"],
-      "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "fada"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/feraligatr.gif",
-      "nome":  "Feraligatr",
-      "tipo": ["agua"],
-      "nivel": 80,
-      "hp": 260,
-      "ataque": 150,
-      "defesa": 130,
-      "velocidade": 100,
-      "ataques": [
-        { "nome": "Hidro Bomba", "tipo": "agua", "dano": 55, "precisao": 80 },
-        { "nome": "Quebra-Crânio", "tipo": "normal", "dano": 40, "precisao": 100 },
-        { "nome": "Garra de dragao", "tipo": "dragao", "dano": 35, "precisao": 100 },
-        { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 }
-      ],
-      "fraquezas": ["eletrico", "planta"],
-      "resistencias": ["fogo", "agua", "gelo", "aco"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/sceptile.gif",
-      "nome":  "Sceptile",
-      "tipo": ["planta"],
-      "nivel": 80,
-      "hp": 220,
-      "ataque": 130,
-      "defesa": 90,
-      "velocidade": 150,
-      "ataques": [
-        { "nome": "Lâmina de Folha", "tipo": "planta", "dano": 50, "precisao": 100 },
-        { "nome": "Garra de dragao", "tipo": "dragao", "dano": 40, "precisao": 100 },
-        { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 },
-        { "nome": "Energibola", "tipo": "planta", "dano": 35, "precisao": 95 }
-      ],
-      "fraquezas": ["fogo", "voador", "gelo", "venenoso", "inseto"],
-      "resistencias": ["agua", "eletrico", "planta", "terrestre"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/blaziken.gif",
-      "nome":  "Blaziken",
-      "tipo": ["fogo", "lutador"],
-      "nivel": 80,
-      "hp": 240,
-      "ataque": 160,
-      "defesa": 90,
-      "velocidade": 110,
-      "ataques": [
-        { "nome": "Soco de fogo", "tipo": "fogo", "dano": 45, "precisao": 100 },
-        { "nome": "voadora", "tipo": "Lutador", "dano": 45, "precisao": 100 },
-        { "nome": "Bico Broca", "tipo": "voador", "dano": 35, "precisao": 95 },
-        { "nome": "Patada Ígnea", "tipo": "fogo", "dano": 40, "precisao": 95 }
-      ],
-      "fraquezas": ["agua", "voador", "psiquico", "terrestre"],
-      "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "Trevas"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/swampert.gif",
-      "nome":  "Swampert",
-      "tipo": ["agua", "terrestre"],
-      "nivel": 80,
-      "hp": 280,
-      "ataque": 140,
-      "defesa": 130,
-      "velocidade": 80,
-      "ataques": [
-        { "nome": "Terremoto", "tipo": "terrestre", "dano": 50, "precisao": 100 },
-        { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
-        { "nome": "gelo Pateta", "tipo": "gelo", "dano": 35, "precisao": 95 },
-        { "nome": "Investida", "tipo": "normal", "dano": 30, "precisao": 100 }
-      ],
-      "fraquezas": ["planta"],
-      "resistencias": ["fogo", "eletrico", "pedra", "venenoso", "aco"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/torterrestre.gif",
-      "nome":  "Torterra",
-      "tipo": ["planta", "terrestre"],
-      "nivel": 80,
-      "hp": 280,
-      "ataque": 140,
-      "defesa": 150,
-      "velocidade": 70,
-      "ataques": [
-        { "nome": "Terremoto", "tipo": "terrestre", "dano": 50, "precisao": 100 },
-        { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
-        { "nome": "pedra Angular", "tipo": "pedra", "dano": 40, "precisao": 95 },
-        { "nome": "Mordida", "tipo": "sombrio", "dano": 35, "precisao": 95 }
-      ],
-      "fraquezas": ["fogo", "gelo", "voador", "inseto"],
-      "resistencias": ["eletrico", "pedra", "terrestre"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/infernape.gif",
-
-      "nome":  "Infernape",
-      "tipo": ["fogo", "lutador"],
-      "nivel": 80,
-      "hp": 240,
-      "ataque": 150,
-      "defesa": 90,
-      "velocidade": 130,
-      "ataques": [
-        { "nome": "Soco de fogo", "tipo": "fogo", "dano": 45, "precisao": 100 },
-        { "nome": "Garra de dragao", "tipo": "dragao", "dano": 40, "precisao": 100 },
-        { "nome": "voadora", "tipo": "Lutador", "dano": 45, "precisao": 100 },
-        { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 }
-      ],
-      "fraquezas": ["agua", "voador", "psiquico", "terrestre"],
-      "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "Trevas"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/empoleon.gif",
-      "nome":  "Empoleon",
-      "tipo": ["agua", "aco"],
-      "nivel": 80,
-      "hp": 260,
-      "ataque": 120,
-      "defesa": 130,
-      "velocidade": 80,
-      "ataques": [
-        { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
-        { "nome": "Garra de Metal", "tipo": "aco", "dano": 35, "precisao": 95 },
-        { "nome": "Bico Broca", "tipo": "voador", "dano": 35, "precisao": 95 },
-        { "nome": "Giro Rápido", "tipo": "normal", "dano": 20, "precisao": 100 }
-      ],
-      "fraquezas": ["eletrico", "Lutador", "terrestre"],
-      "resistencias": ["fogo", "agua", "gelo", "voador", "psiquico", "inseto", "fada", "normal", "dragao", "Metal"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/serperior.gif",
-      "nome":  "Serperior",
-      "tipo": ["planta"],
-      "nivel": 80,
-      "hp": 240,
-      "ataque": 110,
-      "defesa": 120,
-      "velocidade": 130,
-      "ataques": [
-        { "nome": "Chicote de Vinha", "tipo": "planta", "dano": 35, "precisao": 100 },
-        { "nome": "Folha Navalha", "tipo": "planta", "dano": 35, "precisao": 95 },
-        { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 },
-        { "nome": "Espelho de Grama", "tipo": "planta", "dano": 0, "precisao": 100, "efeito": "aumenta_defesa" }
-      ],
-      "fraquezas": ["fogo", "voador", "gelo", "venenoso", "inseto"],
-      "resistencias": ["agua", "eletrico", "planta", "terrestre"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/emboar.gif",
-      "nome":  "Emboar",
-      "tipo": ["fogo", "lutador"],
-      "nivel": 80,
-      "hp": 270,
-      "ataque": 150,
-      "defesa": 90,
-      "velocidade": 90,
-      "ataques": [
-        { "nome": "Soco de fogo", "tipo": "fogo", "dano": 45, "precisao": 100 },
-        { "nome": "voadora", "tipo": "Lutador", "dano": 45, "precisao": 100 },
-        { "nome": "Quebra-Crânio", "tipo": "normal", "dano": 40, "precisao": 100 },
-        { "nome": "Patada Ígnea", "tipo": "fogo", "dano": 40, "precisao": 95 }
-      ],
-      "fraquezas": ["agua", "voador", "psiquico", "terrestre"],
-      "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "Trevas"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/samurott.gif",
-      "nome":  "Samurott",
-      "tipo": ["agua"],
-      "nivel": 80,
-      "hp": 260,
-      "ataque": 140,
-      "defesa": 110,
-      "velocidade": 100,
-      "ataques": [
-        { "nome": "Golpe de Concha", "tipo": "agua", "dano": 45, "precisao": 100 },
-        { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 },
-        { "nome": "Garra de Metal", "tipo": "aco", "dano": 35, "precisao": 95 },
-        { "nome": "Aqua Jato", "tipo": "agua", "dano": 40, "precisao": 100 }
-      ],
-      "fraquezas": ["eletrico", "planta"],
-      "resistencias": ["fogo", "agua", "gelo", "aco"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gengar.gif",
-      "nome":  "Gengar",
-      "tipo": ["fantasma", "venenoso"],
-      "nivel": 80,
-      "hp": 200,
-      "ataque": 90,
-      "defesa": 90,
-      "velocidade": 140,
-      "ataques": [
-        { "nome": "Bola Sombria", "tipo": "Fantasma", "dano": 40, "precisao": 100 },
-        { "nome": "Onda Venenosa", "tipo": "venenoso", "dano": 35, "precisao": 100 },
-        { "nome": "Confusão", "tipo": "psiquico", "dano": 30, "precisao": 95 },
-        { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 }
-      ],
-      "fraquezas": ["Fantasma", "sombrio", "psiquico", "terrestre"],
-      "resistencias": ["venenoso", "inseto", "fada", "planta", "Lutador"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/garchomp.gif",
-      "nome":  "Garchomp",
-      "tipo": ["dragao", "terrestre"],
-      "nivel": 80,
-      "hp": 300,
-      "ataque": 170,
-      "defesa": 130,
-      "velocidade": 120,
-      "ataques": [
-        { "nome": "Garra de dragao", "tipo": "dragao", "dano": 50, "precisao": 100 },
-        { "nome": "Terremoto", "tipo": "terrestre", "dano": 50, "precisao": 100 },
-        { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 },
-        { "nome": "Investida", "tipo": "normal", "dano": 30, "precisao": 100 }
-      ],
-      "fraquezas": ["gelo", "dragao", "fada"],
-      "resistencias": ["fogo", "eletrico", "Veneno", "pedra"]
-    },
-    {
-      "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/dragonite.gif",
-      "nome":  "Dragonite",
-      "tipo": ["dragao", "voador"],
-      "nivel": 80,
-      "hp": 290,
-      "ataque": 160,
-      "defesa": 130,
-      "velocidade": 100,
-      "ataques": [
-        { "nome": "Hiper Raio", "tipo": "normal", "dano": 60, "precisao": 90 },
-        { "nome": "Garra de dragao", "tipo": "dragao", "dano": 50, "precisao": 100 },
-        { "nome": "Furacão", "tipo": "voador", "dano": 45, "precisao": 95 },
-        { "nome": "Trovão", "tipo": "eletrico", "dano": 45, "precisao": 95 }
-      ],
-      "fraquezas": ["gelo", "dragao", "fada", "pedra"],
-      "resistencias": ["fogo", "agua", "planta", "Lutador", "inseto", "terrestre"]
-    }
-  ]
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/pikachu.gif",
+    "nome": "Pikachu",
+    "tipo": ["eletrico"],
+    "nivel": 80,
+    "hp": 180,
+    "ataque": 110,
+    "defesa": 80,
+    "velocidade": 120,
+    "ataques": [
+      { "nome": "Choque do Trovão", "tipo": "eletrico", "dano": 40, "precisao": 100 },
+      { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 },
+      { "nome": "Cauda de Ferro", "tipo": "aco", "dano": 30, "precisao": 95 },
+      { "nome": "Onda de Choque", "tipo": "eletrico", "dano": 35, "precisao": 95 }
+    ],
+    "fraquezas": ["terrestre"],
+    "resistencias": ["eletrico", "voador", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/charizard.gif",
+    "nome": "Charizard",
+    "tipo": ["fogo", "voador"],
+    "nivel": 80,
+    "hp": 240,
+    "ataque": 130,
+    "defesa": 110,
+    "velocidade": 130,
+    "ataques": [
+      { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
+      { "nome": "Garra de dragao", "tipo": "dragao", "dano": 35, "precisao": 100 },
+      { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 },
+      { "nome": "Rajada de Ar", "tipo": "voador", "dano": 30, "precisao": 95 }
+    ],
+    "fraquezas": ["agua", "eletrico", "pedra"],
+    "resistencias": ["fogo", "planta", "inseto"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/venusaur.gif",
+    "nome": "Venusaur",
+    "tipo": ["planta", "venenoso"],
+    "nivel": 80,
+    "hp": 250,
+    "ataque": 120,
+    "defesa": 130,
+    "velocidade": 100,
+    "ataques": [
+      { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
+      { "nome": "Terremoto", "tipo": "terrestre", "dano": 45, "precisao": 100 },
+      { "nome": "Folha Navalha", "tipo": "planta", "dano": 35, "precisao": 95 },
+      { "nome": "Giro de Pólen", "tipo": "venenoso", "dano": 30, "precisao": 90 }
+    ],
+    "fraquezas": ["fogo", "psiquico", "voador", "gelo"],
+    "resistencias": ["agua", "eletrico", "planta", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/blastoise.gif",
+    "nome": "Blastoise",
+    "tipo": ["agua"],
+    "nivel": 80,
+    "hp": 260,
+    "ataque": 130,
+    "defesa": 160,
+    "velocidade": 90,
+    "ataques": [
+      { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
+      { "nome": "Casco Canhão", "tipo": "agua", "dano": 40, "precisao": 100 },
+      { "nome": "Quebra-Crânio", "tipo": "normal", "dano": 35, "precisao": 95 },
+      { "nome": "Giro Rápido", "tipo": "normal", "dano": 20, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "planta"],
+    "resistencias": ["fogo", "agua", "gelo", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/meganium.gif",
+    "nome": "Meganium",
+    "tipo": ["planta"],
+    "nivel": 80,
+    "hp": 240,
+    "ataque": 110,
+    "defesa": 140,
+    "velocidade": 100,
+    "ataques": [
+      { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
+      { "nome": "Corpo Pesado", "tipo": "normal", "dano": 40, "precisao": 100 },
+      { "nome": "Refresco", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "cura" },
+      { "nome": "Dança de Pétalas", "tipo": "planta", "dano": 35, "precisao": 90 }
+    ],
+    "fraquezas": ["fogo", "voador", "gelo", "venenoso", "inseto"],
+    "resistencias": ["agua", "eletrico", "planta", "terrestre"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/typhlosion.gif",
+    "nome": "Typhlosion",
+    "tipo": ["fogo"],
+    "nivel": 80,
+    "hp": 240,
+    "ataque": 120,
+    "defesa": 110,
+    "velocidade": 130,
+    "ataques": [
+      { "nome": "Lança-chamas", "tipo": "fogo", "dano": 45, "precisao": 100 },
+      { "nome": "Explosão de Fumaça", "tipo": "fogo", "dano": 40, "precisao": 100 },
+      { "nome": "Soco de fogo", "tipo": "fogo", "dano": 35, "precisao": 95 },
+      { "nome": "Velocidade Extrema", "tipo": "normal", "dano": 20, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "terrestre", "pedra"],
+    "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/feraligatr.gif",
+    "nome": "Feraligatr",
+    "tipo": ["agua"],
+    "nivel": 80,
+    "hp": 260,
+    "ataque": 150,
+    "defesa": 130,
+    "velocidade": 100,
+    "ataques": [
+      { "nome": "Hidro Bomba", "tipo": "agua", "dano": 55, "precisao": 80 },
+      { "nome": "Quebra-Crânio", "tipo": "normal", "dano": 40, "precisao": 100 },
+      { "nome": "Garra de dragao", "tipo": "dragao", "dano": 35, "precisao": 100 },
+      { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 }
+    ],
+    "fraquezas": ["eletrico", "planta"],
+    "resistencias": ["fogo", "agua", "gelo", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/sceptile.gif",
+    "nome": "Sceptile",
+    "tipo": ["planta"],
+    "nivel": 80,
+    "hp": 220,
+    "ataque": 130,
+    "defesa": 90,
+    "velocidade": 150,
+    "ataques": [
+      { "nome": "Lâmina de Folha", "tipo": "planta", "dano": 50, "precisao": 100 },
+      { "nome": "Garra de dragao", "tipo": "dragao", "dano": 40, "precisao": 100 },
+      { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 },
+      { "nome": "Energibola", "tipo": "planta", "dano": 35, "precisao": 95 }
+    ],
+    "fraquezas": ["fogo", "voador", "gelo", "venenoso", "inseto"],
+    "resistencias": ["agua", "eletrico", "planta", "terrestre"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/blaziken.gif",
+    "nome": "Blaziken",
+    "tipo": ["fogo", "lutador"],
+    "nivel": 80,
+    "hp": 240,
+    "ataque": 160,
+    "defesa": 90,
+    "velocidade": 110,
+    "ataques": [
+      { "nome": "Soco de fogo", "tipo": "fogo", "dano": 45, "precisao": 100 },
+      { "nome": "voadora", "tipo": "Lutador", "dano": 45, "precisao": 100 },
+      { "nome": "Bico Broca", "tipo": "voador", "dano": 35, "precisao": 95 },
+      { "nome": "Patada Ígnea", "tipo": "fogo", "dano": 40, "precisao": 95 }
+    ],
+    "fraquezas": ["agua", "voador", "psiquico", "terrestre"],
+    "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "Trevas"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/swampert.gif",
+    "nome": "Swampert",
+    "tipo": ["agua", "terrestre"],
+    "nivel": 80,
+    "hp": 280,
+    "ataque": 140,
+    "defesa": 130,
+    "velocidade": 80,
+    "ataques": [
+      { "nome": "Terremoto", "tipo": "terrestre", "dano": 50, "precisao": 100 },
+      { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
+      { "nome": "gelo Pateta", "tipo": "gelo", "dano": 35, "precisao": 95 },
+      { "nome": "Investida", "tipo": "normal", "dano": 30, "precisao": 100 }
+    ],
+    "fraquezas": ["planta"],
+    "resistencias": ["fogo", "eletrico", "pedra", "venenoso", "aco"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/torterra.gif",
+    "nome": "Torterra",
+    "tipo": ["planta", "terrestre"],
+    "nivel": 80,
+    "hp": 280,
+    "ataque": 140,
+    "defesa": 150,
+    "velocidade": 70,
+    "ataques": [
+      { "nome": "Terremoto", "tipo": "terrestre", "dano": 50, "precisao": 100 },
+      { "nome": "Raio Solar", "tipo": "planta", "dano": 50, "precisao": 100 },
+      { "nome": "pedra Angular", "tipo": "pedra", "dano": 40, "precisao": 95 },
+      { "nome": "Mordida", "tipo": "sombrio", "dano": 35, "precisao": 95 }
+    ],
+    "fraquezas": ["fogo", "gelo", "voador", "inseto"],
+    "resistencias": ["eletrico", "pedra", "terrestre"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/infernape.gif",
+    "nome": "Infernape",
+    "tipo": ["fogo", "lutador"],
+    "nivel": 80,
+    "hp": 240,
+    "ataque": 150,
+    "defesa": 90,
+    "velocidade": 130,
+    "ataques": [
+      { "nome": "Soco de fogo", "tipo": "fogo", "dano": 45, "precisao": 100 },
+      { "nome": "Garra de dragao", "tipo": "dragao", "dano": 40, "precisao": 100 },
+      { "nome": "voadora", "tipo": "Lutador", "dano": 45, "precisao": 100 },
+      { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "voador", "psiquico", "terrestre"],
+    "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "Trevas"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/empoleon.gif",
+    "nome": "Empoleon",
+    "tipo": ["agua", "aco"],
+    "nivel": 80,
+    "hp": 260,
+    "ataque": 120,
+    "defesa": 130,
+    "velocidade": 80,
+    "ataques": [
+      { "nome": "Jato de agua", "tipo": "agua", "dano": 45, "precisao": 100 },
+      { "nome": "Garra de Metal", "tipo": "aco", "dano": 35, "precisao": 95 },
+      { "nome": "Bico Broca", "tipo": "voador", "dano": 35, "precisao": 95 },
+      { "nome": "Giro Rápido", "tipo": "normal", "dano": 20, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "Lutador", "terrestre"],
+    "resistencias": ["fogo", "agua", "gelo", "voador", "psiquico", "inseto", "fada", "normal", "dragao", "Metal"],
+    "imunidades": ["venenoso"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/serperior.gif",
+    "nome": "Serperior",
+    "tipo": ["planta"],
+    "nivel": 80,
+    "hp": 240,
+    "ataque": 110,
+    "defesa": 120,
+    "velocidade": 130,
+    "ataques": [
+      { "nome": "Chicote de Vinha", "tipo": "planta", "dano": 35, "precisao": 100 },
+      { "nome": "Folha Navalha", "tipo": "planta", "dano": 35, "precisao": 95 },
+      { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 },
+      { "nome": "Espelho de Grama", "tipo": "planta", "dano": 0, "precisao": 100, "efeito": "aumenta_defesa" }
+    ],
+    "fraquezas": ["fogo", "voador", "gelo", "venenoso", "inseto"],
+    "resistencias": ["agua", "eletrico", "planta", "terrestre"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/emboar.gif",
+    "nome": "Emboar",
+    "tipo": ["fogo", "lutador"],
+    "nivel": 80,
+    "hp": 270,
+    "ataque": 150,
+    "defesa": 90,
+    "velocidade": 90,
+    "ataques": [
+      { "nome": "Soco de fogo", "tipo": "fogo", "dano": 45, "precisao": 100 },
+      { "nome": "voadora", "tipo": "Lutador", "dano": 45, "precisao": 100 },
+      { "nome": "Quebra-Crânio", "tipo": "normal", "dano": 40, "precisao": 100 },
+      { "nome": "Patada Ígnea", "tipo": "fogo", "dano": 40, "precisao": 95 }
+    ],
+    "fraquezas": ["agua", "voador", "psiquico", "terrestre"],
+    "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "Trevas"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/samurott.gif",
+    "nome": "Samurott",
+    "tipo": ["agua"],
+    "nivel": 80,
+    "hp": 260,
+    "ataque": 140,
+    "defesa": 110,
+    "velocidade": 100,
+    "ataques": [
+      { "nome": "Golpe de Concha", "tipo": "agua", "dano": 45, "precisao": 100 },
+      { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 },
+      { "nome": "Garra de Metal", "tipo": "aco", "dano": 35, "precisao": 95 },
+      { "nome": "Aqua Jato", "tipo": "agua", "dano": 40, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "planta"],
+    "resistencias": ["fogo", "agua", "gelo", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gengar.gif",
+    "nome": "Gengar",
+    "tipo": ["fantasma", "venenoso"],
+    "nivel": 80,
+    "hp": 200,
+    "ataque": 90,
+    "defesa": 90,
+    "velocidade": 140,
+    "ataques": [
+      { "nome": "Bola Sombria", "tipo": "Fantasma", "dano": 40, "precisao": 100 },
+      { "nome": "Onda Venenosa", "tipo": "venenoso", "dano": 35, "precisao": 100 },
+      { "nome": "Confusão", "tipo": "psiquico", "dano": 30, "precisao": 95 },
+      { "nome": "Ataque Rápido", "tipo": "normal", "dano": 50, "precisao": 100 }
+    ],
+    "fraquezas": ["Fantasma", "sombrio", "psiquico", "terrestre"],
+    "resistencias": ["venenoso", "inseto", "fada", "planta", "Lutador"],
+    "imunidades": ["normal", "lutador"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/garchomp.gif",
+    "nome": "Garchomp",
+    "tipo": ["dragao", "terrestre"],
+    "nivel": 80,
+    "hp": 300,
+    "ataque": 170,
+    "defesa": 130,
+    "velocidade": 120,
+    "ataques": [
+      { "nome": "Garra de dragao", "tipo": "dragao", "dano": 50, "precisao": 100 },
+      { "nome": "Terremoto", "tipo": "terrestre", "dano": 50, "precisao": 100 },
+      { "nome": "Cortar", "tipo": "normal", "dano": 25, "precisao": 95 },
+      { "nome": "Investida", "tipo": "normal", "dano": 30, "precisao": 100 }
+    ],
+    "fraquezas": ["gelo", "dragao", "fada"],
+    "resistencias": ["fogo", "eletrico", "Veneno", "pedra"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/dragonite.gif",
+    "nome": "Dragonite",
+    "tipo": ["dragao", "voador"],
+    "nivel": 80,
+    "hp": 290,
+    "ataque": 160,
+    "defesa": 130,
+    "velocidade": 100,
+    "ataques": [
+      { "nome": "Hiper Raio", "tipo": "normal", "dano": 60, "precisao": 90 },
+      { "nome": "Garra de dragao", "tipo": "dragao", "dano": 50, "precisao": 100 },
+      { "nome": "Furacão", "tipo": "voador", "dano": 45, "precisao": 95 },
+      { "nome": "Trovão", "tipo": "eletrico", "dano": 45, "precisao": 95 }
+    ],
+    "fraquezas": ["gelo", "dragao", "fada", "pedra"],
+    "resistencias": ["fogo", "agua", "planta", "Lutador", "inseto", "terrestre"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/azumarill.gif",
+    "nome": "Azumarill",
+    "tipo": ["fada", "agua"],
+    "nivel": 80,
+    "hp": 250,
+    "ataque": 160,
+    "defesa": 120,
+    "velocidade": 130,
+    "ataques": [
+      { "nome": "Hiper Raio", "tipo": "normal", "dano": 60, "precisao": 90},
+      { "nome": "Beijo Drenador", "tipo": "fada", "dano": 30, "precisao": 100},
+      { "nome": "Abraço Aconchegante", "tipo": "fada", "dano": 50, "precisao": 100},
+      { "nome": "Surfar", "tipo": "agua", "dano": 40, "precisao": 100}
+    ],
+    "fraquezas": ["eletrico", "planta", "venenoso", "aco"],
+    "resistencias": ["fogo", "gelo", "inseto", "lutador", "sombrio"],
+    "imunidades": ["dragao"]
+  }
+]
