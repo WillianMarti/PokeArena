@@ -187,10 +187,10 @@ function calcularDano(atacante, defensor, ataque) {
     }
 
     // 2. Cálculo base do dano
-    const nivel = atacante.nivel || 50;
+    const nivel = atacante.nivel 
     const poder = ataque.dano;
-    const ataqueStat = atacante.ataque || 100;
-    const defesaStat = defensor.defesa || 100;
+    const ataqueStat = atacante.ataque 
+    const defesaStat = defensor.defesa 
 
     let dano = Math.floor(
         ((2 * nivel / 5 + 2) * poder * (ataqueStat / defesaStat)) / 50 + 2
