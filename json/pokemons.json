@@ -1,6 +1,7 @@
 [
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/pikachu.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/pikachu.gif",
     "nome": "Pikachu",
     "tipo": ["eletrico"],
     "nivel": 80,
@@ -20,6 +21,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/charizard.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/charizard.gif",
     "nome": "Charizard",
     "tipo": ["fogo", "voador"],
     "nivel": 80,
@@ -39,6 +41,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/venusaur.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/venusaur.gif",
     "nome": "Venusaur",
     "tipo": ["planta", "venenoso"],
     "nivel": 80,
@@ -58,6 +61,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/blastoise.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/blastoise.gif",
     "nome": "Blastoise",
     "tipo": ["agua"],
     "nivel": 80,
@@ -77,6 +81,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/meganium.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/meganium.gif",
+
     "nome": "Meganium",
     "tipo": ["planta"],
     "nivel": 80,
@@ -96,6 +102,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/typhlosion.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/typhlosion.gif",
     "nome": "Typhlosion",
     "tipo": ["fogo"],
     "nivel": 80,
@@ -115,6 +122,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/feraligatr.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/feraligatr.gif",
+
     "nome": "Feraligatr",
     "tipo": ["agua"],
     "nivel": 80,
@@ -134,6 +143,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/sceptile.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/sceptile.gif",
+
     "nome": "Sceptile",
     "tipo": ["planta"],
     "nivel": 80,
@@ -153,6 +164,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/blaziken.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/blaziken.gif",
+
     "nome": "Blaziken",
     "tipo": ["fogo", "lutador"],
     "nivel": 80,
@@ -172,6 +185,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/swampert.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/swampert.gif",
+
     "nome": "Swampert",
     "tipo": ["agua", "terrestre"],
     "nivel": 80,
@@ -191,6 +206,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/torterra.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/torterra.gif",
+
     "nome": "Torterra",
     "tipo": ["planta", "terrestre"],
     "nivel": 80,
@@ -210,6 +227,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/infernape.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/infernape.gif",
+
     "nome": "Infernape",
     "tipo": ["fogo", "lutador"],
     "nivel": 80,
@@ -229,6 +248,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/empoleon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/empoleon.gif",
+
     "nome": "Empoleon",
     "tipo": ["agua", "aco"],
     "nivel": 80,
@@ -248,6 +269,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/serperior.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/serperior.gif",
+
     "nome": "Serperior",
     "tipo": ["planta"],
     "nivel": 80,
@@ -267,6 +290,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/emboar.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/emboar.gif",
+
     "nome": "Emboar",
     "tipo": ["fogo", "lutador"],
     "nivel": 80,
@@ -286,6 +311,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/samurott.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/samurott.gif",
+    
     "nome": "Samurott",
     "tipo": ["agua"],
     "nivel": 80,
@@ -305,6 +332,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gengar.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/gengar.gif",
+
     "nome": "Gengar",
     "tipo": ["fantasma", "venenoso"],
     "nivel": 80,
@@ -324,6 +353,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/garchomp.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/garchomp.gif",
+
     "nome": "Garchomp",
     "tipo": ["dragao", "terrestre"],
     "nivel": 80,
@@ -343,6 +374,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/dragonite.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/dragonite.gif",
+
     "nome": "Dragonite",
     "tipo": ["dragao", "voador"],
     "nivel": 80,
@@ -362,6 +395,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/azumarill.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/azumarill.gif",
+
     "nome": "Azumarill",
     "tipo": ["fada", "agua"],
     "nivel": 80,

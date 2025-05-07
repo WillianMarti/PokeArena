@@ -1,6 +1,7 @@
 [
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/venusaur.gif",
     "nome": "Venusaur",
     "tipo": ["planta", "venenoso"],
     "nivel": 80,
@@ -20,6 +21,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/charizard.gif",
     "nome": "Charizard",
     "tipo": ["fogo", "voador"],
     "nivel": 80,
@@ -39,6 +41,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/blastoise.gif",
     "nome": "Blastoise",
     "tipo": "agua",
     "nivel": 80,
@@ -58,6 +61,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/butterfree.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/butterfree.gif",
     "nome": "Butterfree",
     "tipo": ["inseto", "voador"],
     "nivel": 80,
@@ -77,6 +81,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/beedrill.gif",
     "nome": "Beedrill",
     "tipo": ["inseto", "venenoso"],
     "nivel": 80,
@@ -96,6 +101,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/pidgeot.gif",
+
     "nome": "Pidgeot",
     "tipo": ["normal", "voador"],
     "nivel": 80,
@@ -115,6 +122,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/raticate.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/raticate.gif",
     "nome": "Raticate",
     "tipo": "normal",
     "nivel": 80,
@@ -134,6 +142,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/fearow.gif",
+
     "nome": "Fearow",
     "tipo": ["normal", "voador"],
     "nivel": 80,
@@ -153,6 +163,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/arbok.gif",
+
     "nome": "Arbok",
     "tipo": "venenoso",
     "nivel": 80,
@@ -172,6 +184,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/raichu.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/raichu.gif",
+
     "nome": "Raichu",
     "tipo": "eletrico",
     "nivel": 80,
@@ -191,6 +205,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/sandslash.gif",
+
     "nome": "Sandslash",
     "tipo": "terrestre",
     "nivel": 80,
@@ -210,6 +226,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/nidoqueen.gif",
+
     "nome": "Nidoqueen",
     "tipo": ["venenoso", "terrestre"],
     "nivel": 80,
@@ -229,6 +247,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/nidoking.gif",
+
     "nome": "Nidoking",
     "tipo": ["venenoso", "terrestre"],
     "nivel": 80,
@@ -248,6 +268,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/clefable.gif",
+
     "nome": "Clefable",
     "tipo": "fada",
     "nivel": 80,
@@ -266,7 +288,10 @@
     "imunidades": ["dragao"]
   },
   {
+    
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/ninetales.gif",
+
     "nome": "Ninetales",
     "tipo": "fogo",
     "nivel": 80,
@@ -286,6 +311,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/wigglytuff.gif",
+
     "nome": "Wigglytuff",
     "tipo": ["normal", "fada"],
     "nivel": 80,
@@ -305,6 +332,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/vileplume.gif",
+
     "nome": "Vileplume",
     "tipo": ["planta", "venenoso"],
     "nivel": 80,
@@ -324,6 +353,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/parasect.gif",
+
     "nome": "Parasect",
     "tipo": ["inseto", "planta"],
     "nivel": 80,
@@ -343,6 +374,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/venomoth.gif",
+
     "nome": "Venomoth",
     "tipo": ["inseto", "venenoso"],
     "nivel": 80,
@@ -362,6 +395,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/dugtrio.gif",
+
     "nome": "Dugtrio",
     "tipo": "terrestre",
     "nivel": 80,
@@ -381,6 +416,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/persian.gif",
+
     "nome": "Persian",
     "tipo": "normal",
     "nivel": 80,
@@ -400,6 +437,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/golduck.gif",
+
     "nome": "Golduck",
     "tipo": "agua",
     "nivel": 80,
@@ -419,6 +458,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/primeape.gif",
+
     "nome": "Primeape",
     "tipo": "lutador",
     "nivel": 80,
@@ -438,6 +479,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/arcanine.gif",
+
     "nome": "Arcanine",
     "tipo": "fogo",
     "nivel": 80,
@@ -457,6 +500,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/poliwrath.gif",
+
     "nome": "Poliwrath",
     "tipo": ["agua", "lutador"],
     "nivel": 80,
@@ -476,6 +521,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/alakazam.gif",
+
     "nome": "Alakazam",
     "tipo": "psiquico",
     "nivel": 80,
@@ -495,6 +542,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/machamp.gif",
+
     "nome": "Machamp",
     "tipo": "lutador",
     "nivel": 80,
@@ -514,6 +563,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/victreebel.gif",
+
     "nome": "Victreebel",
     "tipo": ["planta", "venenoso"],
     "nivel": 80,
@@ -533,6 +584,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/tentacruel.gif",
+
     "nome": "Tentacruel",
     "tipo": ["agua", "venenoso"],
     "nivel": 80,
@@ -552,6 +605,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/golem.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/golem.gif",
+
     "nome": "Golem",
     "tipo": ["pedra", "terrestre"],
     "nivel": 80,
@@ -571,6 +626,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/rapidash.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rapidash.gif",
+
     "nome": "Rapidash",
     "tipo": "fogo",
     "nivel": 80,
@@ -590,6 +647,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/slowbro.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/slowbro.gif",
+
     "nome": "Slowbro",
     "tipo": ["agua", "psiquico"],
     "nivel": 80,
@@ -609,6 +668,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/magneton.gif",
+
     "nome": "Magneton",
     "tipo": ["eletrico", "aco"],
     "nivel": 80,
@@ -628,6 +689,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/farfetchd.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/farfetchd.gif",
+
     "nome": "Farfetch'd",
     "tipo": ["normal", "voador"],
     "nivel": 80,
@@ -647,6 +710,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/dodrio.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/dodrio.gif",
+
     "nome": "Dodrio",
     "tipo": ["normal", "voador"],
     "nivel": 80,
@@ -666,6 +731,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/dewgong.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/dewgong.gif",
+
     "nome": "Dewgong",
     "tipo": ["agua", "gelo"],
     "nivel": 80,
@@ -685,6 +752,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/muk.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/muk.gif",
+
     "nome": "Muk",
     "tipo": "venenoso",
     "nivel": 80,
@@ -704,6 +773,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/cloyster.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/cloyster.gif",
+
     "nome": "Cloyster",
     "tipo": ["agua", "gelo"],
     "nivel": 80,
@@ -723,6 +794,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/gengar.gif",
+
     "nome": "Gengar",
     "tipo": ["fantasma", "venenoso"],
     "nivel": 80,
@@ -742,6 +815,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/hypno.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/hypno.gif",
+
     "nome": "Hypno",
     "tipo": "psiquico",
     "nivel": 80,
@@ -761,6 +836,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/kingler.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/kingler.gif",
+
     "nome": "Kingler",
     "tipo": "agua",
     "nivel": 80,
@@ -780,6 +857,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/electrode.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/electrode.gif",
+
     "nome": "Electrode",
     "tipo": "eletrico",
     "nivel": 80,
@@ -799,6 +878,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/exeggutor.gif",
+
     "nome": "Exeggutor",
     "tipo": ["planta", "psiquico"],
     "nivel": 80,
@@ -818,6 +899,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/marowak.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/marowak.gif",
+
     "nome": "Marowak",
     "tipo": "terrestre",
     "nivel": 80,
@@ -837,6 +920,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonlee.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/hitmonlee.gif",
+
     "nome": "Hitmonlee",
     "tipo": "lutador",
     "nivel": 80,
@@ -856,6 +941,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonchan.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/hitmonchan.gif",
+
     "nome": "Hitmonchan",
     "tipo": "lutador",
     "nivel": 80,
@@ -875,6 +962,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/lickitung.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/lickitung.gif",
+
     "nome": "Lickitung",
     "tipo": "normal",
     "nivel": 80,
@@ -894,6 +983,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/weezing.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/weezing.gif",
+
     "nome": "Weezing",
     "tipo": "venenoso",
     "nivel": 80,
@@ -913,6 +1004,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/rhydon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rhydon.gif",
+
     "nome": "Rhydon",
     "tipo": ["terrestre", "pedra"],
     "nivel": 80,
@@ -932,6 +1025,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/chansey.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/chansey.gif",
+
     "nome": "Chansey",
     "tipo": "normal",
     "nivel": 80,
@@ -951,6 +1046,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/tangela.gif",
+
     "nome": "Tangela",
     "tipo": "planta",
     "nivel": 80,
@@ -970,6 +1067,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/kangaskhan.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/kangaskhan.gif",
+
     "nome": "Kangaskhan",
     "tipo": "normal",
     "nivel": 80,
@@ -989,6 +1088,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/seaking.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/seaking.gif",
+
     "nome": "Seaking",
     "tipo": "agua",
     "nivel": 80,
@@ -1008,6 +1109,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/starmie.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/starmie.gif",
+
     "nome": "Starmie",
     "tipo": ["agua", "psiquico"],
     "nivel": 80,
@@ -1027,6 +1130,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/mr-mime.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/mr-mime.gif",
+
     "nome": "Mr. Mime",
     "tipo": ["psiquico", "fada"],
     "nivel": 80,
@@ -1046,6 +1151,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/scyther.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/scyther.gif",
+
     "nome": "Scyther",
     "tipo": ["inseto", "voador"],
     "nivel": 80,
@@ -1065,6 +1172,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/jynx.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/jynx.gif",
+
     "nome": "Jynx",
     "tipo": ["gelo", "psiquico"],
     "nivel": 80,
@@ -1084,6 +1193,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/electabuzz.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/electabuzz.gif",
+
     "nome": "Electabuzz",
     "tipo": "eletrico",
     "nivel": 80,
@@ -1103,6 +1214,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/magmar.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/magmar.gif",
+
     "nome": "Magmar",
     "tipo": "fogo",
     "nivel": 80,
@@ -1122,6 +1235,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/pinsir.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/pinsir.gif",
+
     "nome": "Pinsir",
     "tipo": "inseto",
     "nivel": 80,
@@ -1141,6 +1256,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/tauros.gif",
+    
     "nome": "Tauros",
     "tipo": "normal",
     "nivel": 80,
@@ -1160,6 +1277,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/gyarados.gif",
+
     "nome": "Gyarados",
     "tipo": ["agua", "voador"],
     "nivel": 80,
@@ -1179,6 +1298,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/lapras.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/lapras.gif",
+
     "nome": "Lapras",
     "tipo": ["agua", "gelo"],
     "nivel": 80,
@@ -1198,6 +1319,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/eevee.gif",
+
     "nome": "Eevee",
     "tipo": "normal",
     "nivel": 80,
@@ -1217,6 +1340,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/vaporeon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/vaporeon.gif",
+
     "nome": "Vaporeon",
     "tipo": "agua",
     "nivel": 80,
@@ -1236,6 +1361,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/jolteon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/jolteon.gif",
+
     "nome": "Jolteon",
     "tipo": "eletrico",
     "nivel": 80,
@@ -1255,6 +1382,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/flareon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/flareon.gif",
+
     "nome": "Flareon",
     "tipo": "fogo",
     "nivel": 80,
@@ -1274,6 +1403,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/porygon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/porygon.gif",
+
     "nome": "Porygon",
     "tipo": "normal",
     "nivel": 80,
@@ -1293,6 +1424,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/omastar.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/omastar.gif",
+
     "nome": "Omastar",
     "tipo": ["pedra", "agua"],
     "nivel": 80,
@@ -1312,6 +1445,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/kabutops.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/kabutops.gif",
+
     "nome": "Kabutops",
     "tipo": ["pedra", "agua"],
     "nivel": 80,
@@ -1331,6 +1466,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/aerodactyl.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/aerodactyl.gif",
+
     "nome": "Aerodactyl",
     "tipo": ["pedra", "voador"],
     "nivel": 80,
@@ -1350,6 +1487,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/snorlax.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/snorlax.gif",
+
     "nome": "Snorlax",
     "tipo": "normal",
     "nivel": 80,
@@ -1369,6 +1508,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/articuno.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/articuno.gif",
+
     "nome": "Articuno",
     "tipo": ["gelo", "voador"],
     "nivel": 80,
@@ -1388,6 +1529,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/zapdos.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/zapdos.gif",
+
     "nome": "Zapdos",
     "tipo": ["eletrico", "voador"],
     "nivel": 80,
@@ -1407,6 +1550,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/moltres.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/moltres.gif",
+
     "nome": "Moltres",
     "tipo": ["fogo", "voador"],
     "nivel": 80,
@@ -1426,6 +1571,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/dragonite.gif",
+
     "nome": "Dragonite",
     "tipo": ["dragao", "voador"],
     "nivel": 80,
@@ -1445,6 +1592,8 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/mewtwo.gif",
+
     "nome": "Mewtwo",
     "tipo": "psiquico",
     "nivel": 80,
@@ -1464,6 +1613,7 @@
   },
   {
     "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/mew.gif",
     "nome": "Mew",
     "tipo": "psiquico",
     "nivel": 80,

@@ -1,0 +1,178 @@
+.batalha {
+    background-image: url(../assets/batalhapokemon.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 0%; 
+    height: 600px;
+    transition: width 0.5s ease-in-out;
+    position: relative;
+}
+
+#pokemon{
+    position: relative;
+    z-index: 3;
+    bottom: 0;
+}
+
+.atacar {
+    animation: atacar 2s;
+}
+
+.atacarInimigo {
+    animation: atacarInimigo 2s;
+}
+
+.piscar{
+    animation: piscar 2s ease-in-out;
+}
+
+.pokeinfo{
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.pokeinfoinimigo {
+    width: 40%;
+    padding: 0px 30px 30px 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#mensagens-batalha {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    text-align: center;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 1s ease-in-out;
+}
+
+.seletorPokemon {
+    margin-top: 100px;
+    background-color: var(--textos_rodape_bordas);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.ataques-lista {
+    display: flex;
+    margin-top: 90px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ataque {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    min-width: 350px;
+}
+
+.ataque:hover {
+    transform: scale(1.02);
+}
+
+.ataque strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#pokemonSelecionar {
+    margin-bottom: 50px;
+}
+
+#pokemon-ataque {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pokeinfoinimigo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.pokeinfoinimigo .barravida{
+    margin-left: 25px;
+}
+
+.seletorPokemon {
+    color: var(--branco_fundo);
+    background-color: var(--textos_rodape_bordas);
+    width: 1515px;
+    height: 700px;
+    margin-bottom: 0px;
+
+}
+
+.seletorPokemon h1 {
+    margin-top: 100px;
+}
+
+#pokemon-gif img{
+    width: 250px;
+    left: 0;
+    top: 0;
+    height: 250px;
+}
+
+#pokemon-inimigo-gif img{
+    width: 250px;
+    height: 250px;
+}
+
+.barravida {
+    background-color: #2D2D2D;
+    width: 250px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 2px 3px 2px 3px;
+}
+
+.life {
+    background-color: #63bc5a;
+}
+
+.life-inimigo {
+    background-color: #63bc5a;
+}
+
+.botao_batalha {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    padding: 5px 10px;
+    background-color: var(--amarelo_destaques);
+    color: var(--textos_rodape_bordas);
+    border: 2px solid var(--vermelho_pokebola);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}

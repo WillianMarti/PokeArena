@@ -160,29 +160,23 @@ function atualizarBarrasDeVida() {
         `${pokemonJogador.hpAtual}/${pokemonJogador.hp}`;
     document.getElementById("hp-texto-inimigo").textContent = 
         `${pokemonInimigo.hpAtual}/${pokemonInimigo.hp}`;
+
+    
 }
 
 // Mostra mensagens na div de mensagens
-function mostrarMensagem(texto) {
-    const mensagemDiv = document.getElementById("mensagens-batalha");
-    mensagemDiv.textContent = texto;
-    
-    // Limpa a mensagem após 2 segundos
-    setTimeout(() => {
-        mensagemDiv.textContent = '';
-    }, 4000);
-}
+
 
 // Calcula o dano usando a fórmula Pokémon
 function calcularDano(atacante, defensor, ataque) {
     // 1. Verifica se o ataque acerta
     if (Math.random() > ataque.precisao / 100) {
-        mostrarMensagem(`${atacante.nome} errou ${ataque.nome}!`);
+            mostrarMensagem(`${atacante.nome} errou ${ataque.nome}! `);  
         return 0;
     }
 
     if (defensor.imunidades && defensor.imunidades.includes(ataque.tipo.toLowerCase())) {
-        mostrarMensagem(`Não afeta ${defensor.nome} (imune a ${ataque.tipo})!`);
+        mostrarMensagem(`Não afeta ${defensor.nome} (imune a ${ataque.tipo})! `);
         return 0;
     }
 
@@ -204,10 +198,10 @@ function calcularDano(atacante, defensor, ataque) {
     // 4. Vantagem de tipo
     if (defensor.fraquezas && defensor.fraquezas.includes(ataque.tipo.toLowerCase())) {
         dano *= 2;
-        mostrarMensagem("É super efetivo!");
+        mostrarMensagem("É super efetivo! ");
     } else if (defensor.resistencias && defensor.resistencias.includes(ataque.tipo.toLowerCase())) {
         dano *= 0.5;
-        mostrarMensagem("Não foi muito efetivo...");
+        mostrarMensagem("Não foi muito efetivo... ");
     }
 
     // 5. Número aleatório entre 0.85 e 1.0
@@ -218,6 +212,18 @@ function calcularDano(atacante, defensor, ataque) {
 }
 
 function mostrarPokemon(pokemon) {
+
+
+    var numAle = Math.ceil(Math.random() * 1020)
+    var shinyi = false
+    var shinyj = false
+    if (numAle == 1019){
+        shinyi = true
+    }
+    if (numAle == 1018){
+        shinyj = true
+    }
+
     pokemonJogador = { 
         ...pokemon, 
         hpAtual: pokemon.hp // Usa o valor máximo de HP
@@ -233,15 +239,47 @@ function mostrarPokemon(pokemon) {
 
     const infoDiv = document.getElementById("pokemon-info");
     infoDiv.style.display = "block";    
-    
-    document.getElementById("pokemon-gif").innerHTML = `<img width="500px" height="500px" src="${pokemon.imagem}">`;
+
+    var aleatorio = Math.floor(Math.random() * 7) 
+
+    if (aleatorio == 1){
+        document.getElementById("batalha").style.backgroundImage = "url(assets/batalhapokemon.webp)"
+    }else if (aleatorio == 2){
+        document.getElementById("batalha").style.backgroundImage = "url(assets/pokebatalha2.gif)"
+    }else if (aleatorio == 3){
+        document.getElementById("batalha").style.backgroundImage = "url(assets/battlepokeke.gif)"
+    }else if (aleatorio == 4){
+        document.getElementById("batalha").style.backgroundImage = "url(assets/batalhapokemon3.png)"
+    }else if (aleatorio == 5){
+        document.getElementById("batalha").style.backgroundImage = "url(assets/pokebatalha4.png)"
+    }else if (aleatorio == 6){
+        document.getElementById("batalha").style.backgroundImage = "url(assets/pokebatalha5.png)"
+    }else if (aleatorio == 7){
+        document.getElementById("batalha").style.backgroundImage = "url(assets/pokebatalha6.png)"
+    }
+
+    document.getElementById("mensagens-batalha").style.width = "80%"
+    document.getElementById("mensagens-batalha").style.padding = "15px"
+ 
+    if (shinyj == true){
+        document.getElementById("pokemon-gif").innerHTML = `<img id="pokemon" src="${pokemon.imagemShiny}">`;
+    }else{
+        document.getElementById("pokemon-gif").innerHTML = `<img id="pokemon" src="${pokemon.imagem}">`;
+    }
     document.getElementById("pokemon-nome").textContent = pokemon.nome;
     document.getElementById("pokemon-tipo").textContent = `Tipos: ${formatarTipos(pokemon.tipo)}`;
     document.getElementById("batalha").style.width = '80%';
     
     const infoDivInimigo = document.getElementById("pokemon-inimigo-info");
     infoDivInimigo.style.display = "block";
-    document.getElementById("pokemon-inimigo-gif").innerHTML = `<img src="${pokemonInimigo.imagem}">`;
+
+    if (shinyi == true){
+        document.getElementById("pokemon-inimigo-gif").innerHTML = `<img id="pokemon-inimi" src="${pokemonInimigo.imagemShiny}">`;
+        shinyi = false
+    }else{
+        document.getElementById("pokemon-inimigo-gif").innerHTML = `<img id="pokemon-inimi" src="${pokemonInimigo.imagem}">`;
+    }
+
     document.getElementById("pokemon-inimigo-nome").textContent = pokemonInimigo.nome;
     document.getElementById("pokemon-inimigo-tipo").textContent = `Tipos: ${formatarTipos(pokemonInimigo.tipo)}`;
     const ataquesDiv = document.getElementById("pokemon-ataque");
@@ -267,9 +305,10 @@ function mostrarPokemon(pokemon) {
                 <div>Dano: ${ataque.dano}</div>
                 <div>Precisão: ${ataque.precisao}%</div>
             `;
-            
+
             ataqueDiv.addEventListener('click', () => {
                 if (!emBatalha) return;
+                animarPokemon()
 
                 const dano = calcularDano(pokemonJogador, pokemonInimigo, ataque);
                 pokemonInimigo.hpAtual = Math.max(0, pokemonInimigo.hpAtual - dano);
@@ -281,36 +320,78 @@ function mostrarPokemon(pokemon) {
                     emBatalha = false;
                     return;
                 }
+                animarPokemonInimigo()
 
                 setTimeout(() => {
                     const ataqueInimigo = pokemonInimigo.ataques[Math.floor(Math.random() * pokemonInimigo.ataques.length)];
                     const danoInimigo = calcularDano(pokemonInimigo, pokemonJogador, ataqueInimigo);
+                    animarPokemonDano()
                     pokemonJogador.hpAtual = Math.max(0, pokemonJogador.hpAtual - danoInimigo);
                     mostrarMensagem(`${pokemonInimigo.nome} usou ${ataqueInimigo.nome} e causou ${danoInimigo} de dano!`);
                     atualizarBarrasDeVida();
+                    document.getElementById("pokemon-ataque").style.pointerEvents = "all"
+
 
                     // Verifica se o jogador foi derrotado
                     if (pokemonJogador.hpAtual <= 0) {
                         mostrarMensagem(`${pokemonJogador.nome} foi derrotado!`);
                         emBatalha = false;
                     }
-                }, 1000);
+
+                    
+                }, 5000);
             });
             
             ataquesList.appendChild(ataqueDiv);
         });
         
         ataquesDiv.appendChild(ataquesList);
-    } else {
-        ataquesDiv.textContent = 'Este Pokémon não tem ataques cadastrados.';
     }
-
     atualizarBarrasDeVida();
+}
+
+function animarPokemon() {
+    document.getElementById("pokemon").classList.add("atacar")
+    setTimeout(() => {
+    document.getElementById("pokemon").classList.remove("atacar")
+    }, 1800);
+}
+
+function animarPokemonInimigo() {
+    document.getElementById("pokemon-inimi").classList.add("piscar")
+    setTimeout(() => {
+    document.getElementById("pokemon-inimi").classList.remove("piscar")
+    }, 1800);
+}
+
+function animarPokemonDano() {
+    document.getElementById("pokemon-inimi").classList.add("atacarInimigo")
+    document.getElementById("pokemon").classList.add("piscar")
+    setTimeout(() => {
+    document.getElementById("pokemon").classList.remove("piscar")
+    document.getElementById("pokemon-inimi").classList.remove("atacarInimigo")
+    }, 1800);
+}
+
+
+function mostrarMensagem(texto) {
+    const mensagemDiv = document.getElementById("mensagens-batalha");
+    mensagemDiv.textContent += texto;
+
+    document.getElementById("pokemon-ataque").style.pointerEvents = "none"
+
+    setTimeout(() => {
+        mensagemDiv.textContent = '';
+    }, 4000);
 }
 
 document.getElementById("btn-batalhar").addEventListener("click", () => {
     const select = document.getElementById("pokemonSelecionar");
     const nomePokemonSelecionado = select.value;
+    document.getElementById("pokemon-ataque").style.pointerEvents = "all"
+
+
+    
     
     if (!nomePokemonSelecionado) {
         mostrarMensagem("Selecione um Pokémon!");
