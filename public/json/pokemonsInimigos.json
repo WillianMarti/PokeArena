@@ -1,0 +1,1562 @@
+[
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/venusaur.gif",
+    "nome": "Venusaur",
+    "tipo": ["planta", "venenoso"],
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 169,
+    "defesa": 169,
+    "velocidade": 150,
+    "ataques": [
+      { "nome": "Solar Beam", "tipo": "planta", "dano": 120, "precisao": 100 },
+      { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Synthesis", "tipo": "planta", "dano": 0, "precisao": 100, "efeito": "cura" }
+    ],
+    "fraquezas": ["fogo", "psiquico", "voador", "gelo"],
+    "resistencias": ["agua", "eletrico", "planta", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/charizard.gif",
+    "nome": "Charizard",
+    "tipo": ["fogo", "voador"],
+    "nivel": 80,
+    "hp": 266,
+    "ataque": 183,
+    "defesa": 161,
+    "velocidade": 183,
+    "ataques": [
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Air Slash", "tipo": "voador", "dano": 75, "precisao": 95 },
+      { "nome": "Dragon Claw", "tipo": "dragao", "dano": 80, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "eletrico", "pedra"],
+    "resistencias": ["fogo", "planta", "inseto", "fada"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/blastoise.gif",
+    "nome": "Blastoise",
+    "tipo": "agua",
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 171,
+    "defesa": 201,
+    "velocidade": 143,
+    "ataques": [
+      { "nome": "Hydro Pump", "tipo": "agua", "dano": 110, "precisao": 80 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Dark Pulse", "tipo": "sombrio", "dano": 80, "precisao": 100 },
+      { "nome": "Flash Cannon", "tipo": "aco", "dano": 80, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "planta"],
+    "resistencias": ["fogo", "agua", "gelo", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/butterfree.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/butterfree.gif",
+    "nome": "Butterfree",
+    "tipo": ["inseto", "voador"],
+    "nivel": 80,
+    "hp": 228,
+    "ataque": 123,
+    "defesa": 143,
+    "velocidade": 163,
+    "ataques": [
+      { "nome": "Bug Buzz", "tipo": "inseto", "dano": 90, "precisao": 100 },
+      { "nome": "Air Slash", "tipo": "voador", "dano": 75, "precisao": 95 },
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Energy Ball", "tipo": "planta", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["fogo", "voador", "eletrico", "gelo", "pedra"],
+    "resistencias": ["planta", "lutador", "terrestre", "inseto"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/beedrill.gif",
+    "nome": "Beedrill",
+    "tipo": ["inseto", "venenoso"],
+    "nivel": 80,
+    "hp": 238,
+    "ataque": 193,
+    "defesa": 113,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 },
+      { "nome": "X-Scissor", "tipo": "inseto", "dano": 80, "precisao": 100 },
+      { "nome": "Drill Run", "tipo": "terrestre", "dano": 80, "precisao": 95 },
+      { "nome": "Brick Break", "tipo": "lutador", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["fogo", "voador", "psiquico", "pedra"],
+    "resistencias": ["planta", "lutador", "venenoso", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/pidgeot.gif",
+    "nome": "Pidgeot",
+    "tipo": ["normal", "voador"],
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 163,
+    "defesa": 153,
+    "velocidade": 183,
+    "ataques": [
+      { "nome": "Brave Bird", "tipo": "voador", "dano": 120, "precisao": 100 },
+      { "nome": "Hurricane", "tipo": "voador", "dano": 110, "precisao": 70 },
+      { "nome": "Heat Wave", "tipo": "fogo", "dano": 95, "precisao": 90 },
+      { "nome": "U-turn", "tipo": "inseto", "dano": 70, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "gelo", "pedra"],
+    "resistencias": ["planta", "inseto", "terrestre", "fantasma"],
+    "imunidades": ["terrestre", "fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/raticate.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/raticate.gif",
+    "nome": "Raticate",
+    "tipo": "normal",
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 183,
+    "defesa": 133,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "Double-Edge", "tipo": "normal", "dano": 120, "precisao": 100 },
+      { "nome": "Crunch", "tipo": "sombrio", "dano": 80, "precisao": 100 },
+      { "nome": "Sucker Punch", "tipo": "sombrio", "dano": 70, "precisao": 100 },
+      { "nome": "Iron Tail", "tipo": "aco", "dano": 100, "precisao": 75 }
+    ],
+    "fraquezas": ["lutador"],
+    "resistencias": ["fantasma"],
+    "imunidades": ["fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/fearow.gif",
+    "nome": "Fearow",
+    "tipo": ["normal", "voador"],
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 193,
+    "defesa": 143,
+    "velocidade": 183,
+    "ataques": [
+      { "nome": "Drill Peck", "tipo": "voador", "dano": 80, "precisao": 100 },
+      { "nome": "Double-Edge", "tipo": "normal", "dano": 120, "precisao": 100 },
+      { "nome": "U-turn", "tipo": "inseto", "dano": 70, "precisao": 100 },
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "gelo", "pedra"],
+    "resistencias": ["planta", "inseto", "terrestre", "fantasma"],
+    "imunidades": ["terrestre", "fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/arbok.gif",
+    "nome": "Arbok",
+    "tipo": "venenoso",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 183,
+    "defesa": 163,
+    "velocidade": 153,
+    "ataques": [
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Crunch", "tipo": "sombrio", "dano": 80, "precisao": 100 },
+      { "nome": "Gunk Shot", "tipo": "venenoso", "dano": 120, "precisao": 80 }
+    ],
+    "fraquezas": ["psiquico", "terrestre"],
+    "resistencias": ["planta", "venenoso", "inseto", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/raichu.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/raichu.gif",
+    "nome": "Raichu",
+    "tipo": "eletrico",
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 173,
+    "defesa": 133,
+    "velocidade": 203,
+    "ataques": [
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Volt Tackle", "tipo": "eletrico", "dano": 120, "precisao": 100 },
+      { "nome": "Iron Tail", "tipo": "aco", "dano": 100, "precisao": 75 },
+      { "nome": "Brick Break", "tipo": "lutador", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["terrestre"],
+    "resistencias": ["eletrico", "voador", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/sandslash.gif",
+    "nome": "Sandslash",
+    "tipo": "terrestre",
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 193,
+    "defesa": 203,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "X-Scissor", "tipo": "inseto", "dano": 80, "precisao": 100 },
+      { "nome": "Iron Head", "tipo": "aco", "dano": 80, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "planta", "gelo"],
+    "resistencias": ["veneno", "pedra", "eletrico"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/nidoqueen.gif",
+    "nome": "Nidoqueen",
+    "tipo": ["venenoso", "terrestre"],
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 173,
+    "defesa": 183,
+    "velocidade": 153,
+    "ataques": [
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "psiquico", "terrestre", "gelo"],
+    "resistencias": ["veneno", "pedra", "inseto", "fada"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/nidoking.gif",
+    "nome": "Nidoking",
+    "tipo": ["venenoso", "terrestre"],
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 203,
+    "defesa": 163,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 },
+      { "nome": "Megahorn", "tipo": "inseto", "dano": 120, "precisao": 85 },
+      { "nome": "Ice Punch", "tipo": "gelo", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "psiquico", "terrestre", "gelo"],
+    "resistencias": ["veneno", "pedra", "inseto", "fada"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/clefable.gif",
+    "nome": "Clefable",
+    "tipo": "fada",
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 133,
+    "defesa": 153,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Moonblast", "tipo": "fada", "dano": 95, "precisao": 100 },
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["venenoso", "aco"],
+    "resistencias": ["lutador", "inseto", "sombrio", "dragao"],
+    "imunidades": ["dragao"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/ninetales.gif",
+    "nome": "Ninetales",
+    "tipo": "fogo",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 153,
+    "defesa": 153,
+    "velocidade": 193,
+    "ataques": [
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Energy Ball", "tipo": "planta", "dano": 90, "precisao": 100 },
+      { "nome": "Dark Pulse", "tipo": "sombrio", "dano": 80, "precisao": 100 },
+      { "nome": "Solar Beam", "tipo": "planta", "dano": 120, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "terrestre", "pedra"],
+    "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/wigglytuff.gif",
+    "nome": "Wigglytuff",
+    "tipo": ["normal", "fada"],
+    "nivel": 80,
+    "hp": 338,
+    "ataque": 153,
+    "defesa": 113,
+    "velocidade": 113,
+    "ataques": [
+      { "nome": "Hyper Voice", "tipo": "normal", "dano": 90, "precisao": 100 },
+      { "nome": "Moonblast", "tipo": "fada", "dano": 95, "precisao": 100 },
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["venenoso", "aco"],
+    "resistencias": ["fantasma", "inseto", "sombrio", "dragao"],
+    "imunidades": ["fantasma", "dragao"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/vileplume.gif",
+    "nome": "Vileplume",
+    "tipo": ["planta", "venenoso"],
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 173,
+    "defesa": 183,
+    "velocidade": 113,
+    "ataques": [
+      { "nome": "Solar Beam", "tipo": "planta", "dano": 120, "precisao": 100 },
+      { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 },
+      { "nome": "Moonblast", "tipo": "fada", "dano": 95, "precisao": 100 },
+      { "nome": "Sleep Powder", "tipo": "planta", "dano": 0, "precisao": 75, "efeito": "dormir" }
+    ],
+    "fraquezas": ["fogo", "psiquico", "voador", "gelo"],
+    "resistencias": ["agua", "eletrico", "planta", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/parasect.gif",
+    "nome": "Parasect",
+    "tipo": ["inseto", "planta"],
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 193,
+    "defesa": 183,
+    "velocidade": 83,
+    "ataques": [
+      { "nome": "X-Scissor", "tipo": "inseto", "dano": 80, "precisao": 100 },
+      { "nome": "Seed Bomb", "tipo": "planta", "dano": 80, "precisao": 100 },
+      { "nome": "Brick Break", "tipo": "lutador", "dano": 75, "precisao": 100 },
+      { "nome": "Spore", "tipo": "planta", "dano": 0, "precisao": 100, "efeito": "dormir" }
+    ],
+    "fraquezas": ["fogo", "voador", "veneno", "gelo", "inseto", "pedra"],
+    "resistencias": ["agua", "eletrico", "planta", "lutador", "terrestre"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/venomoth.gif",
+    "nome": "Venomoth",
+    "tipo": ["inseto", "venenoso"],
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 133,
+    "defesa": 133,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "Bug Buzz", "tipo": "inseto", "dano": 90, "precisao": 100 },
+      { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 },
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Sleep Powder", "tipo": "planta", "dano": 0, "precisao": 75, "efeito": "dormir" }
+    ],
+    "fraquezas": ["fogo", "voador", "psiquico", "pedra"],
+    "resistencias": ["planta", "lutador", "venenoso", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/dugtrio.gif",
+    "nome": "Dugtrio",
+    "tipo": "terrestre",
+    "nivel": 80,
+    "hp": 228,
+    "ataque": 203,
+    "defesa": 123,
+    "velocidade": 223,
+    "ataques": [
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Sucker Punch", "tipo": "sombrio", "dano": 70, "precisao": 100 },
+      { "nome": "Iron Head", "tipo": "aco", "dano": 80, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "planta", "gelo"],
+    "resistencias": ["veneno", "pedra", "eletrico"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/persian.gif",
+    "nome": "Persian",
+    "tipo": "normal",
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 173,
+    "defesa": 133,
+    "velocidade": 203,
+    "ataques": [
+      { "nome": "Slash", "tipo": "normal", "dano": 70, "precisao": 100 },
+      { "nome": "Dark Pulse", "tipo": "sombrio", "dano": 80, "precisao": 100 },
+      { "nome": "Water Pulse", "tipo": "agua", "dano": 60, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["lutador"],
+    "resistencias": ["fantasma"],
+    "imunidades": ["fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/golduck.gif",
+    "nome": "Golduck",
+    "tipo": "agua",
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 173,
+    "defesa": 153,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "Hydro Pump", "tipo": "agua", "dano": 110, "precisao": 80 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Cross Chop", "tipo": "lutador", "dano": 100, "precisao": 80 }
+    ],
+    "fraquezas": ["eletrico", "planta"],
+    "resistencias": ["fogo", "agua", "gelo", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/primeape.gif",
+    "nome": "Primeape",
+    "tipo": "lutador",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 213,
+    "defesa": 133,
+    "velocidade": 183,
+    "ataques": [
+      { "nome": "Close Combat", "tipo": "lutador", "dano": 120, "precisao": 100 },
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Ice Punch", "tipo": "gelo", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["voador", "psiquico", "fada"],
+    "resistencias": ["pedra", "inseto", "sombrio"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/arcanine.gif",
+    "nome": "Arcanine",
+    "tipo": "fogo",
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 203,
+    "defesa": 153,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Extreme Speed", "tipo": "normal", "dano": 80, "precisao": 100 },
+      { "nome": "Crunch", "tipo": "sombrio", "dano": 80, "precisao": 100 },
+      { "nome": "Solar Beam", "tipo": "planta", "dano": 120, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "terrestre", "pedra"],
+    "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/poliwrath.gif",
+    "nome": "Poliwrath",
+    "tipo": ["agua", "lutador"],
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 183,
+    "defesa": 183,
+    "velocidade": 143,
+    "ataques": [
+      { "nome": "Hydro Pump", "tipo": "agua", "dano": 110, "precisao": 80 },
+      { "nome": "Close Combat", "tipo": "lutador", "dano": 120, "precisao": 100 },
+      { "nome": "Ice Punch", "tipo": "gelo", "dano": 75, "precisao": 100 },
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "planta", "voador", "psiquico", "fada"],
+    "resistencias": ["fogo", "agua", "gelo", "pedra", "inseto", "sombrio", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/alakazam.gif",
+    "nome": "Alakazam",
+    "tipo": "psiquico",
+    "nivel": 80,
+    "hp": 228,
+    "ataque": 113,
+    "defesa": 123,
+    "velocidade": 223,
+    "ataques": [
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 80, "precisao": 100 },
+      { "nome": "Focus Blast", "tipo": "lutador", "dano": 120, "precisao": 70 },
+      { "nome": "Energy Ball", "tipo": "planta", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["fantasma", "inseto", "sombrio"],
+    "resistencias": ["psiquico", "lutador"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/machamp.gif",
+    "nome": "Machamp",
+    "tipo": "lutador",
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 243,
+    "defesa": 173,
+    "velocidade": 123,
+    "ataques": [
+      { "nome": "Dynamic Punch", "tipo": "lutador", "dano": 100, "precisao": 50 },
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Ice Punch", "tipo": "gelo", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["voador", "psiquico", "fada"],
+    "resistencias": ["pedra", "inseto", "sombrio"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/victreebel.gif",
+    "nome": "Victreebel",
+    "tipo": ["planta", "venenoso"],
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 203,
+    "defesa": 153,
+    "velocidade": 143,
+    "ataques": [
+      { "nome": "Leaf Blade", "tipo": "planta", "dano": 90, "precisao": 100 },
+      { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 },
+      { "nome": "Sucker Punch", "tipo": "sombrio", "dano": 70, "precisao": 100 },
+      { "nome": "Sleep Powder", "tipo": "planta", "dano": 0, "precisao": 75, "efeito": "dormir" }
+    ],
+    "fraquezas": ["fogo", "psiquico", "voador", "gelo"],
+    "resistencias": ["agua", "eletrico", "planta", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/tentacruel.gif",
+    "nome": "Tentacruel",
+    "tipo": ["agua", "venenoso"],
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 153,
+    "defesa": 153,
+    "velocidade": 183,
+    "ataques": [
+      { "nome": "Hydro Pump", "tipo": "agua", "dano": 110, "precisao": 80 },
+      { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Giga Drain", "tipo": "planta", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "psiquico", "terrestre"],
+    "resistencias": ["fogo", "agua", "gelo", "lutador", "venenoso", "inseto", "fada", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/golem.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/golem.gif",
+    "nome": "Golem",
+    "tipo": ["pedra", "terrestre"],
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 213,
+    "defesa": 223,
+    "velocidade": 113,
+    "ataques": [
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Explosion", "tipo": "normal", "dano": 250, "precisao": 100, "efeito": "auto-destruicao" },
+      { "nome": "Fire Punch", "tipo": "fogo", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "planta", "lutador", "terrestre", "aco"],
+    "resistencias": ["fogo", "eletrico", "veneno", "normal", "voador", "inseto"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/rapidash.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rapidash.gif",
+    "nome": "Rapidash",
+    "tipo": "fogo",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 193,
+    "defesa": 153,
+    "velocidade": 203,
+    "ataques": [
+      { "nome": "Flare Blitz", "tipo": "fogo", "dano": 120, "precisao": 100 },
+      { "nome": "Megahorn", "tipo": "inseto", "dano": 120, "precisao": 85 },
+      { "nome": "Wild Charge", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "terrestre", "pedra"],
+    "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/slowbro.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/slowbro.gif",
+    "nome": "Slowbro",
+    "tipo": ["agua", "psiquico"],
+    "nivel": 80,
+    "hp": 288,
+    "ataque": 153,
+    "defesa": 203,
+    "velocidade": 83,
+    "ataques": [
+      { "nome": "Surf", "tipo": "agua", "dano": 90, "precisao": 100 },
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "planta", "fantasma", "sombrio", "inseto"],
+    "resistencias": ["fogo", "agua", "gelo", "lutador", "psiquico", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/magneton.gif",
+    "nome": "Magneton",
+    "tipo": ["eletrico", "aco"],
+    "nivel": 80,
+    "hp": 228,
+    "ataque": 133,
+    "defesa": 193,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Flash Cannon", "tipo": "aco", "dano": 80, "precisao": 100 },
+      { "nome": "Tri Attack", "tipo": "normal", "dano": 80, "precisao": 100 },
+      { "nome": "Explosion", "tipo": "normal", "dano": 250, "precisao": 100, "efeito": "auto-destruicao" }
+    ],
+    "fraquezas": ["fogo", "lutador", "terrestre"],
+    "resistencias": ["eletrico", "voador", "planta", "inseto", "pedra", "aco", "fada"],
+    "imunidades": ["veneno"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/farfetchd.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/farfetchd.gif",
+    "nome": "Farfetch'd",
+    "tipo": ["normal", "voador"],
+    "nivel": 80,
+    "hp": 228,
+    "ataque": 163,
+    "defesa": 133,
+    "velocidade": 153,
+    "ataques": [
+      { "nome": "Brave Bird", "tipo": "voador", "dano": 120, "precisao": 100 },
+      { "nome": "Leaf Blade", "tipo": "planta", "dano": 90, "precisao": 100 },
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 },
+      { "nome": "Quick Attack", "tipo": "normal", "dano": 40, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "gelo", "pedra"],
+    "resistencias": ["planta", "inseto", "terrestre", "fantasma"],
+    "imunidades": ["terrestre", "fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/dodrio.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/dodrio.gif",
+    "nome": "Dodrio",
+    "tipo": ["normal", "voador"],
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 203,
+    "defesa": 153,
+    "velocidade": 193,
+    "ataques": [
+      { "nome": "Drill Peck", "tipo": "voador", "dano": 80, "precisao": 100 },
+      { "nome": "Double-Edge", "tipo": "normal", "dano": 120, "precisao": 100 },
+      { "nome": "Jump Kick", "tipo": "lutador", "dano": 100, "precisao": 95 },
+      { "nome": "U-turn", "tipo": "inseto", "dano": 70, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "gelo", "pedra"],
+    "resistencias": ["planta", "inseto", "terrestre", "fantasma"],
+    "imunidades": ["terrestre", "fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/dewgong.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/dewgong.gif",
+    "nome": "Dewgong",
+    "tipo": ["agua", "gelo"],
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 163,
+    "defesa": 183,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Surf", "tipo": "agua", "dano": 90, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Signal Beam", "tipo": "inseto", "dano": 75, "precisao": 100 },
+      { "nome": "Sheer Cold", "tipo": "gelo", "dano": 0, "precisao": 30, "efeito": "ohko" }
+    ],
+    "fraquezas": ["eletrico", "planta", "lutador", "pedra"],
+    "resistencias": ["agua", "gelo"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/muk.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/muk.gif",
+    "nome": "Muk",
+    "tipo": "venenoso",
+    "nivel": 80,
+    "hp": 308,
+    "ataque": 203,
+    "defesa": 163,
+    "velocidade": 113,
+    "ataques": [
+      { "nome": "Gunk Shot", "tipo": "venenoso", "dano": 120, "precisao": 80 },
+      { "nome": "Shadow Punch", "tipo": "fantasma", "dano": 60, "precisao": 100 },
+      { "nome": "Fire Blast", "tipo": "fogo", "dano": 110, "precisao": 85 },
+      { "nome": "Explosion", "tipo": "normal", "dano": 250, "precisao": 100, "efeito": "auto-destruicao" }
+    ],
+    "fraquezas": ["psiquico", "terrestre"],
+    "resistencias": ["planta", "venenoso", "inseto", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/cloyster.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/cloyster.gif",
+    "nome": "Cloyster",
+    "tipo": ["agua", "gelo"],
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 183,
+    "defesa": 253,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Hydro Pump", "tipo": "agua", "dano": 110, "precisao": 80 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Explosion", "tipo": "normal", "dano": 250, "precisao": 100, "efeito": "auto-destruicao" },
+      { "nome": "Spike Cannon", "tipo": "normal", "dano": 20, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "planta", "lutador", "pedra"],
+    "resistencias": ["agua", "gelo"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/gengar.gif",
+    "nome": "Gengar",
+    "tipo": ["fantasma", "venenoso"],
+    "nivel": 80,
+    "hp": 228,
+    "ataque": 133,
+    "defesa": 133,
+    "velocidade": 203,
+    "ataques": [
+      { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 80, "precisao": 100 },
+      { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Focus Blast", "tipo": "lutador", "dano": 120, "precisao": 70 }
+    ],
+    "fraquezas": ["fantasma", "sombrio", "psiquico", "terrestre"],
+    "resistencias": ["venenoso", "inseto", "fada", "planta", "lutador"],
+    "imunidades": ["normal", "lutador"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/hypno.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/hypno.gif",
+    "nome": "Hypno",
+    "tipo": "psiquico",
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 153,
+    "defesa": 153,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 80, "precisao": 100 },
+      { "nome": "Focus Blast", "tipo": "lutador", "dano": 120, "precisao": 70 },
+      { "nome": "Hypnosis", "tipo": "psiquico", "dano": 0, "precisao": 60, "efeito": "dormir" }
+    ],
+    "fraquezas": ["fantasma", "inseto", "sombrio"],
+    "resistencias": ["psiquico", "lutador"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/kingler.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/kingler.gif",
+    "nome": "Kingler",
+    "tipo": "agua",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 243,
+    "defesa": 203,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Crabhammer", "tipo": "agua", "dano": 100, "precisao": 90 },
+      { "nome": "X-Scissor", "tipo": "inseto", "dano": 80, "precisao": 100 },
+      { "nome": "Rock Slide", "tipo": "pedra", "dano": 75, "precisao": 90 },
+      { "nome": "Swords Dance", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "aumenta_ataque" }
+    ],
+    "fraquezas": ["eletrico", "planta"],
+    "resistencias": ["fogo", "agua", "gelo", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/electrode.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/electrode.gif",
+    "nome": "Electrode",
+    "tipo": "eletrico",
+    "nivel": 80,
+    "hp": 228,
+    "ataque": 123,
+    "defesa": 153,
+    "velocidade": 253,
+    "ataques": [
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Explosion", "tipo": "normal", "dano": 250, "precisao": 100, "efeito": "auto-destruicao" },
+      { "nome": "Signal Beam", "tipo": "inseto", "dano": 75, "precisao": 100 },
+      { "nome": "Light Screen", "tipo": "psiquico", "dano": 0, "precisao": 100, "efeito": "reduz_dano_especial" }
+    ],
+    "fraquezas": ["terrestre"],
+    "resistencias": ["eletrico", "voador", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/exeggutor.gif",
+    "nome": "Exeggutor",
+    "tipo": ["planta", "psiquico"],
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 183,
+    "defesa": 173,
+    "velocidade": 113,
+    "ataques": [
+      { "nome": "Solar Beam", "tipo": "planta", "dano": 120, "precisao": 100 },
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 },
+      { "nome": "Explosion", "tipo": "normal", "dano": 250, "precisao": 100, "efeito": "auto-destruicao" }
+    ],
+    "fraquezas": ["fogo", "voador", "gelo", "veneno", "fantasma", "sombrio", "inseto"],
+    "resistencias": ["agua", "eletrico", "planta", "terrestre", "psiquico", "lutador"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/marowak.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/marowak.gif",
+    "nome": "Marowak",
+    "tipo": "terrestre",
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 153,
+    "defesa": 203,
+    "velocidade": 113,
+    "ataques": [
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Bonemerang", "tipo": "terrestre", "dano": 50, "precisao": 90, "hits": 2 },
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Double-Edge", "tipo": "normal", "dano": 120, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "planta", "gelo"],
+    "resistencias": ["veneno", "pedra", "eletrico"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonlee.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/hitmonlee.gif",
+    "nome": "Hitmonlee",
+    "tipo": "lutador",
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 243,
+    "defesa": 123,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "High Jump Kick", "tipo": "lutador", "dano": 130, "precisao": 90 },
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 },
+      { "nome": "Blaze Kick", "tipo": "fogo", "dano": 85, "precisao": 90 }
+    ],
+    "fraquezas": ["voador", "psiquico", "fada"],
+    "resistencias": ["pedra", "inseto", "sombrio"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonchan.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/hitmonchan.gif",
+    "nome": "Hitmonchan",
+    "tipo": "lutador",
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 223,
+    "defesa": 183,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Close Combat", "tipo": "lutador", "dano": 120, "precisao": 100 },
+      { "nome": "Ice Punch", "tipo": "gelo", "dano": 75, "precisao": 100 },
+      { "nome": "Thunder Punch", "tipo": "eletrico", "dano": 75, "precisao": 100 },
+      { "nome": "Fire Punch", "tipo": "fogo", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["voador", "psiquico", "fada"],
+    "resistencias": ["pedra", "inseto", "sombrio"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/lickitung.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/lickitung.gif",
+    "nome": "Lickitung",
+    "tipo": "normal",
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 153,
+    "defesa": 173,
+    "velocidade": 83,
+    "ataques": [
+      { "nome": "Body Slam", "tipo": "normal", "dano": 85, "precisao": 100 },
+      { "nome": "Power Whip", "tipo": "planta", "dano": 120, "precisao": 85 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Fire Blast", "tipo": "fogo", "dano": 110, "precisao": 85 }
+    ],
+    "fraquezas": ["lutador"],
+    "resistencias": ["fantasma"],
+    "imunidades": ["fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/weezing.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/weezing.gif",
+    "nome": "Weezing",
+    "tipo": "venenoso",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 173,
+    "defesa": 203,
+    "velocidade": 123,
+    "ataques": [
+      { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 },
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Explosion", "tipo": "normal", "dano": 250, "precisao": 100, "efeito": "auto-destruicao" }
+    ],
+    "fraquezas": ["psiquico", "terrestre"],
+    "resistencias": ["planta", "venenoso", "inseto", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/rhydon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rhydon.gif",
+    "nome": "Rhydon",
+    "tipo": ["terrestre", "pedra"],
+    "nivel": 80,
+    "hp": 298,
+    "ataque": 223,
+    "defesa": 223,
+    "velocidade": 93,
+    "ataques": [
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Megahorn", "tipo": "inseto", "dano": 120, "precisao": 85 },
+      { "nome": "Ice Punch", "tipo": "gelo", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "planta", "lutador", "terrestre", "aco"],
+    "resistencias": ["fogo", "eletrico", "veneno", "normal", "voador", "inseto"],
+    "imunidades": ["eletrico"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/chansey.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/chansey.gif",
+    "nome": "Chansey",
+    "tipo": "normal",
+    "nivel": 80,
+    "hp": 458,
+    "ataque": 63,
+    "defesa": 63,
+    "velocidade": 113,
+    "ataques": [
+      { "nome": "Seismic Toss", "tipo": "lutador", "dano": 0, "precisao": 100, "dano_fixo": "igual_nivel" },
+      { "nome": "Soft-Boiled", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "cura" },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["lutador"],
+    "resistencias": ["fantasma"],
+    "imunidades": ["fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/tangela.gif",
+    "nome": "Tangela",
+    "tipo": "planta",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 153,
+    "defesa": 203,
+    "velocidade": 113,
+    "ataques": [
+      { "nome": "Solar Beam", "tipo": "planta", "dano": 120, "precisao": 100 },
+      { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 },
+      { "nome": "Ancient Power", "tipo": "pedra", "dano": 60, "precisao": 100 },
+      { "nome": "Sleep Powder", "tipo": "planta", "dano": 0, "precisao": 75, "efeito": "dormir" }
+    ],
+    "fraquezas": ["fogo", "voador", "gelo", "veneno", "inseto"],
+    "resistencias": ["agua", "eletrico", "planta", "terrestre"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/kangaskhan.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/kangaskhan.gif",
+    "nome": "Kangaskhan",
+    "tipo": "normal",
+    "nivel": 80,
+    "hp": 298,
+    "ataque": 203,
+    "defesa": 183,
+    "velocidade": 153,
+    "ataques": [
+      { "nome": "Double-Edge", "tipo": "normal", "dano": 120, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Crunch", "tipo": "sombrio", "dano": 80, "precisao": 100 },
+      { "nome": "Fire Punch", "tipo": "fogo", "dano": 75, "precisao": 100 }
+    ],
+    "fraquezas": ["lutador"],
+    "resistencias": ["fantasma"],
+    "imunidades": ["fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/seaking.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/seaking.gif",
+    "nome": "Seaking",
+    "tipo": "agua",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 183,
+    "defesa": 153,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Waterfall", "tipo": "agua", "dano": 80, "precisao": 100 },
+      { "nome": "Megahorn", "tipo": "inseto", "dano": 120, "precisao": 85 },
+      { "nome": "Poison Jab", "tipo": "venenoso", "dano": 80, "precisao": 100 },
+      { "nome": "Drill Run", "tipo": "terrestre", "dano": 80, "precisao": 95 }
+    ],
+    "fraquezas": ["eletrico", "planta"],
+    "resistencias": ["fogo", "agua", "gelo", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/starmie.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/starmie.gif",
+    "nome": "Starmie",
+    "tipo": ["agua", "psiquico"],
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 163,
+    "defesa": 163,
+    "velocidade": 203,
+    "ataques": [
+      { "nome": "Hydro Pump", "tipo": "agua", "dano": 110, "precisao": 80 },
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "planta", "fantasma", "sombrio", "inseto"],
+    "resistencias": ["fogo", "agua", "gelo", "lutador", "psiquico", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/mr-mime.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/mr-mime.gif",
+    "nome": "Mr. Mime",
+    "tipo": ["psiquico", "fada"],
+    "nivel": 80,
+    "hp": 228,
+    "ataque": 113,
+    "defesa": 163,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Dazzling Gleam", "tipo": "fada", "dano": 80, "precisao": 100 },
+      { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 80, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["venenoso", "fantasma", "aco"],
+    "resistencias": ["psiquico", "lutador", "dragao"],
+    "imunidades": ["dragao"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/scyther.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/scyther.gif",
+    "nome": "Scyther",
+    "tipo": ["inseto", "voador"],
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 203,
+    "defesa": 153,
+    "velocidade": 193,
+    "ataques": [
+      { "nome": "X-Scissor", "tipo": "inseto", "dano": 80, "precisao": 100 },
+      { "nome": "Aerial Ace", "tipo": "voador", "dano": 60, "precisao": 100 },
+      { "nome": "Brick Break", "tipo": "lutador", "dano": 75, "precisao": 100 },
+      { "nome": "Swords Dance", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "aumenta_ataque" }
+    ],
+    "fraquezas": ["fogo", "voador", "eletrico", "gelo", "pedra"],
+    "resistencias": ["planta", "lutador", "terrestre", "inseto"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/jynx.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/jynx.gif",
+    "nome": "Jynx",
+    "tipo": ["gelo", "psiquico"],
+    "nivel": 80,
+    "hp": 238,
+    "ataque": 113,
+    "defesa": 103,
+    "velocidade": 183,
+    "ataques": [
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 80, "precisao": 100 },
+      { "nome": "Lovely Kiss", "tipo": "normal", "dano": 0, "precisao": 75, "efeito": "dormir" }
+    ],
+    "fraquezas": ["fogo", "pedra", "fantasma", "sombrio", "inseto", "aco"],
+    "resistencias": ["gelo", "psiquico"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/electabuzz.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/electabuzz.gif",
+    "nome": "Electabuzz",
+    "tipo": "eletrico",
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 173,
+    "defesa": 133,
+    "velocidade": 203,
+    "ataques": [
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Ice Punch", "tipo": "gelo", "dano": 75, "precisao": 100 },
+      { "nome": "Fire Punch", "tipo": "fogo", "dano": 75, "precisao": 100 },
+      { "nome": "Cross Chop", "tipo": "lutador", "dano": 100, "precisao": 80 }
+    ],
+    "fraquezas": ["terrestre"],
+    "resistencias": ["eletrico", "voador", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/magmar.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/magmar.gif",
+    "nome": "Magmar",
+    "tipo": "fogo",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 183,
+    "defesa": 133,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Thunder Punch", "tipo": "eletrico", "dano": 75, "precisao": 100 },
+      { "nome": "Cross Chop", "tipo": "lutador", "dano": 100, "precisao": 80 },
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "terrestre", "pedra"],
+    "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/pinsir.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/pinsir.gif",
+    "nome": "Pinsir",
+    "tipo": "inseto",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 243,
+    "defesa": 183,
+    "velocidade": 153,
+    "ataques": [
+      { "nome": "X-Scissor", "tipo": "inseto", "dano": 80, "precisao": 100 },
+      { "nome": "Close Combat", "tipo": "lutador", "dano": 120, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 }
+    ],
+    "fraquezas": ["fogo", "voador", "pedra"],
+    "resistencias": ["planta", "lutador", "terrestre"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/tauros.gif",
+    "nome": "Tauros",
+    "tipo": "normal",
+    "nivel": 80,
+    "hp": 268,
+    "ataque": 203,
+    "defesa": 183,
+    "velocidade": 203,
+    "ataques": [
+      { "nome": "Double-Edge", "tipo": "normal", "dano": 120, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Fire Blast", "tipo": "fogo", "dano": 110, "precisao": 85 }
+    ],
+    "fraquezas": ["lutador"],
+    "resistencias": ["fantasma"],
+    "imunidades": ["fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/gyarados.gif",
+    "nome": "Gyarados",
+    "tipo": ["agua", "voador"],
+    "nivel": 80,
+    "hp": 308,
+    "ataque": 243,
+    "defesa": 173,
+    "velocidade": 163,
+    "ataques": [
+      { "nome": "Waterfall", "tipo": "agua", "dano": 80, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Ice Fang", "tipo": "gelo", "dano": 65, "precisao": 95 },
+      { "nome": "Dragon Dance", "tipo": "dragao", "dano": 0, "precisao": 100, "efeito": "aumenta_ataque_velocidade" }
+    ],
+    "fraquezas": ["eletrico", "pedra"],
+    "resistencias": ["fogo", "agua", "gelo", "aco"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/lapras.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/lapras.gif",
+    "nome": "Lapras",
+    "tipo": ["agua", "gelo"],
+    "nivel": 80,
+    "hp": 338,
+    "ataque": 173,
+    "defesa": 183,
+    "velocidade": 123,
+    "ataques": [
+      { "nome": "Surf", "tipo": "agua", "dano": 90, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["eletrico", "planta", "lutador", "pedra"],
+    "resistencias": ["agua", "gelo"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/eevee.gif",
+    "nome": "Eevee",
+    "tipo": "normal",
+    "nivel": 80,
+    "hp": 228,
+    "ataque": 153,
+    "defesa": 133,
+    "velocidade": 153,
+    "ataques": [
+      { "nome": "Double-Edge", "tipo": "normal", "dano": 120, "precisao": 100 },
+      { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 80, "precisao": 100 },
+      { "nome": "Iron Tail", "tipo": "aco", "dano": 100, "precisao": 75 },
+      { "nome": "Quick Attack", "tipo": "normal", "dano": 40, "precisao": 100 }
+    ],
+    "fraquezas": ["lutador"],
+    "resistencias": ["fantasma"],
+    "imunidades": ["fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/vaporeon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/vaporeon.gif",
+    "nome": "Vaporeon",
+    "tipo": "agua",
+    "nivel": 80,
+    "hp": 338,
+    "ataque": 153,
+    "defesa": 153,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Hydro Pump", "tipo": "agua", "dano": 110, "precisao": 80 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 80, "precisao": 100 },
+      { "nome": "Acid Armor", "tipo": "venenoso", "dano": 0, "precisao": 100, "efeito": "aumenta_defesa" }
+    ],
+    "fraquezas": ["eletrico", "planta"],
+    "resistencias": ["fogo", "agua", "gelo", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/jolteon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/jolteon.gif",
+    "nome": "Jolteon",
+    "tipo": "eletrico",
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 133,
+    "defesa": 133,
+    "velocidade": 253,
+    "ataques": [
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 80, "precisao": 100 },
+      { "nome": "Signal Beam", "tipo": "inseto", "dano": 75, "precisao": 100 },
+      { "nome": "Quick Attack", "tipo": "normal", "dano": 40, "precisao": 100 }
+    ],
+    "fraquezas": ["terrestre"],
+    "resistencias": ["eletrico", "voador", "aco"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/flareon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/flareon.gif",
+    "nome": "Flareon",
+    "tipo": "fogo",
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 253,
+    "defesa": 153,
+    "velocidade": 133,
+    "ataques": [
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Superpower", "tipo": "lutador", "dano": 120, "precisao": 100 },
+      { "nome": "Iron Tail", "tipo": "aco", "dano": 100, "precisao": 75 },
+      { "nome": "Quick Attack", "tipo": "normal", "dano": 40, "precisao": 100 }
+    ],
+    "fraquezas": ["agua", "terrestre", "pedra"],
+    "resistencias": ["fogo", "planta", "gelo", "inseto", "aco", "fada"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/porygon.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/porygon.gif",
+    "nome": "Porygon",
+    "tipo": "normal",
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 153,
+    "defesa": 153,
+    "velocidade": 123,
+    "ataques": [
+      { "nome": "Tri Attack", "tipo": "normal", "dano": 80, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Recover", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "cura" }
+    ],
+    "fraquezas": ["lutador"],
+    "resistencias": ["fantasma"],
+    "imunidades": ["fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/omastar.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/omastar.gif",
+    "nome": "Omastar",
+    "tipo": ["pedra", "agua"],
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 133,
+    "defesa": 223,
+    "velocidade": 113,
+    "ataques": [
+      { "nome": "Hydro Pump", "tipo": "agua", "dano": 110, "precisao": 80 },
+      { "nome": "Ancient Power", "tipo": "pedra", "dano": 60, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Spikes", "tipo": "terrestre", "dano": 0, "precisao": 100, "efeito": "arma_armadilha" }
+    ],
+    "fraquezas": ["eletrico", "planta", "lutador", "terrestre"],
+    "resistencias": ["fogo", "normal", "voador", "veneno"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/kabutops.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/kabutops.gif",
+    "nome": "Kabutops",
+    "tipo": ["pedra", "agua"],
+    "nivel": 80,
+    "hp": 248,
+    "ataque": 223,
+    "defesa": 203,
+    "velocidade": 153,
+    "ataques": [
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Aqua Jet", "tipo": "agua", "dano": 40, "precisao": 100 },
+      { "nome": "X-Scissor", "tipo": "inseto", "dano": 80, "precisao": 100 },
+      { "nome": "Swords Dance", "tipo": "normal", "dano": 0, "precisao": 100, "efeito": "aumenta_ataque" }
+    ],
+    "fraquezas": ["eletrico", "planta", "lutador", "terrestre"],
+    "resistencias": ["fogo", "normal", "voador", "veneno"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/aerodactyl.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/aerodactyl.gif",
+    "nome": "Aerodactyl",
+    "tipo": ["pedra", "voador"],
+    "nivel": 80,
+    "hp": 258,
+    "ataque": 203,
+    "defesa": 133,
+    "velocidade": 253,
+    "ataques": [
+      { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+      { "nome": "Aerial Ace", "tipo": "voador", "dano": 60, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Fire Fang", "tipo": "fogo", "dano": 65, "precisao": 95 }
+    ],
+    "fraquezas": ["agua", "eletrico", "gelo", "aco"],
+    "resistencias": ["normal", "fogo", "veneno", "voador"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/snorlax.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/snorlax.gif",
+    "nome": "Snorlax",
+    "tipo": "normal",
+    "nivel": 80,
+    "hp": 388,
+    "ataque": 203,
+    "defesa": 153,
+    "velocidade": 83,
+    "ataques": [
+      { "nome": "Body Slam", "tipo": "normal", "dano": 85, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+      { "nome": "Crunch", "tipo": "sombrio", "dano": 80, "precisao": 100 },
+      { "nome": "Rest", "tipo": "psiquico", "dano": 0, "precisao": 100, "efeito": "cura" }
+    ],
+    "fraquezas": ["lutador"],
+    "resistencias": ["fantasma"],
+    "imunidades": ["fantasma"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/articuno.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/articuno.gif",
+    "nome": "Articuno",
+    "tipo": ["gelo", "voador"],
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 163,
+    "defesa": 183,
+    "velocidade": 173,
+    "ataques": [
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+      { "nome": "Hurricane", "tipo": "voador", "dano": 110, "precisao": 70 },
+      { "nome": "Ancient Power", "tipo": "pedra", "dano": 60, "precisao": 100 },
+      { "nome": "Roost", "tipo": "voador", "dano": 0, "precisao": 100, "efeito": "cura" }
+    ],
+    "fraquezas": ["fogo", "eletrico", "pedra", "aco"],
+    "resistencias": ["planta", "terrestre", "inseto"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/zapdos.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/zapdos.gif",
+    "nome": "Zapdos",
+    "tipo": ["eletrico", "voador"],
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 163,
+    "defesa": 173,
+    "velocidade": 203,
+    "ataques": [
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+      { "nome": "Drill Peck", "tipo": "voador", "dano": 80, "precisao": 100 },
+      { "nome": "Heat Wave", "tipo": "fogo", "dano": 95, "precisao": 90 },
+      { "nome": "Roost", "tipo": "voador", "dano": 0, "precisao": 100, "efeito": "cura" }
+    ],
+    "fraquezas": ["gelo", "pedra"],
+    "resistencias": ["planta", "lutador", "inseto", "aco"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/moltres.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/moltres.gif",
+    "nome": "Moltres",
+    "tipo": ["fogo", "voador"],
+    "nivel": 80,
+    "hp": 278,
+    "ataque": 183,
+    "defesa": 173,
+    "velocidade": 183,
+    "ataques": [
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Air Slash", "tipo": "voador", "dano": 75, "precisao": 95 },
+      { "nome": "Solar Beam", "tipo": "planta", "dano": 120, "precisao": 100 },
+      { "nome": "Roost", "tipo": "voador", "dano": 0, "precisao": 100, "efeito": "cura" }
+    ],
+    "fraquezas": ["agua", "eletrico", "pedra"],
+    "resistencias": ["planta", "inseto", "fada", "aco"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/dragonite.gif",
+    "nome": "Dragonite",
+    "tipo": ["dragao", "voador"],
+    "nivel": 80,
+    "hp": 318,
+    "ataque": 263,
+    "defesa": 203,
+    "velocidade": 163,
+    "ataques": [
+      { "nome": "Outrage", "tipo": "dragao", "dano": 120, "precisao": 100 },
+      { "nome": "Hurricane", "tipo": "voador", "dano": 110, "precisao": 70 },
+      { "nome": "Fire Punch", "tipo": "fogo", "dano": 75, "precisao": 100 },
+      { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 }
+    ],
+    "fraquezas": ["gelo", "dragao", "fada", "pedra"],
+    "resistencias": ["fogo", "agua", "planta", "lutador", "inseto", "terrestre"],
+    "imunidades": ["terrestre"]
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/mewtwo.gif",
+    "nome": "Mewtwo",
+    "tipo": "psiquico",
+    "nivel": 80,
+    "hp": 338,
+    "ataque": 243,
+    "defesa": 183,
+    "velocidade": 253,
+    "ataques": [
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 80, "precisao": 100 },
+      { "nome": "Aura Sphere", "tipo": "lutador", "dano": 80, "precisao": 100 },
+      { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["fantasma", "sombrio", "inseto"],
+    "resistencias": ["psiquico", "lutador"],
+    "imunidades": []
+  },
+  {
+    "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif",
+    "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/mew.gif",
+    "nome": "Mew",
+    "tipo": "psiquico",
+    "nivel": 80,
+    "hp": 308,
+    "ataque": 203,
+    "defesa": 203,
+    "velocidade": 203,
+    "ataques": [
+      { "nome": "Psychic", "tipo": "psiquico", "dano": 90, "precisao": 100 },
+      { "nome": "Aura Sphere", "tipo": "lutador", "dano": 80, "precisao": 100 },
+      { "nome": "Flamethrower", "tipo": "fogo", "dano": 90, "precisao": 100 },
+      { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 }
+    ],
+    "fraquezas": ["fantasma", "sombrio", "inseto"],
+    "resistencias": ["psiquico", "lutador"],
+    "imunidades": []
+  }
+]

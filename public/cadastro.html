@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/styleLogCad.css">
+    <link rel="stylesheet" href="./css/styleNativo.css">
+    <script src="./js/sessao.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="pokeball"></div>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="batalha.html">Batalha Pokémon</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+        <div class="botoes_login">
+            <a href="./login.html"><button>Login</button></a>
+            <a href="./cadastro.html"  class="active"> <button>Cadastro</button> </a>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="escurecedor">
+            <video class="video" autoplay loop muted src="./assets/videocadastro.mp4">
+            </video>
+        </div>
+        <div class="conteudo">
+            <div  class="container">
+
+                <form class="formulario" action="">
+                    <span class="texto"><a href="#">Adentrando o mundo <span class="pikachuDestaque">Pokémon </span></a></span>
+                    <input placeholder="Nome" id="input_nome" name="nome" class="input" required=""/>
+                    <input placeholder="E-mail" id="input_email" name="email" type="email" class="input" required=""/>
+                    <input placeholder="Senha" id="input_senha" name="password" type="password" class="input" required=""/>
+                    <input placeholder="Confirmar Senha" id="input_confirmarSenha" name="password" type="password" class="input" required=""/>
+                </form>
+                    <button onclick="cadastrar()" class="cadastro-botao">Cadastre-se</button>
+                <div id="div_erros_login"></div>
+                <div class="alerta_erro">
+      <div class="card_erro" id="cardErro">
+        <span id="mensagem_erro"></span>
+      </div>
+    </div>
+            </div>
+            </div>
+
+    </div>
+</body>
+
+</html>
+<script>
+    var listaUsuarios = []
+
+    function cadastrar() {
+    // aguardar();
+
+    //Recupere o valor da nova input pelo nome do id
+    // Agora vá para o método fetch logo abaixo
+    var nomeVar = input_nome.value;
+    var emailVar = input_email.value;
+    var senhaVar = input_senha.value;
+    var confirmacaoSenhaVar = input_confirmarSenha.value;
+
+    if (
+      nomeVar == "" ||
+      emailVar == "" ||
+      senhaVar == "" ||
+      confirmacaoSenhaVar == "" 
+    ) {
+      cardErro.style.display = "block";
+      mensagem_erro.innerHTML =
+        "(Mensagem de erro para todos os campos em branco)";
+
+      finalizarAguardar();
+      return false;
+    } else {
+      setInterval(sumirMensagem, 5000);
+    }
+
+    fetch("/usuarios/cadastrar", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        nomeServer: nomeVar,
+        emailServer: emailVar,
+        senhaServer: senhaVar,
+      }),
+    })
+      .then(function (resposta) {
+        console.log("resposta: ", resposta);
+
+        if (resposta.ok) {
+          cardErro.style.display = "block";
+
+          mensagem_erro.innerHTML =
+            "Cadastro realizado com sucesso! Redirecionando para tela de Login...";
+
+          setTimeout(() => {
+            window.location = "login.html";
+          }, "2000");
+
+          limparFormulario();
+          finalizarAguardar();
+        } else {
+          throw "Houve um erro ao tentar realizar o cadastro!";
+        }
+      })
+      .catch(function (resposta) {
+        console.log(`#ERRO: ${resposta}`);
+        finalizarAguardar();
+      });
+
+    return false;
+  }
+
+  // Listando empresas cadastradas 
+
+  function sumirMensagem() {
+    cardErro.style.display = "none";
+  }
+</script>

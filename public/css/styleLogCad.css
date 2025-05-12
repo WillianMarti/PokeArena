@@ -1,0 +1,114 @@
+.formulario {
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 600px;
+    background-color: var(--agua);
+    border-radius: 40px;
+    padding: 25px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+    margin: 20px;
+}
+
+.alerta_erro{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 75px;
+  top: 50px;
+}
+
+.loading-div {
+  width: 50px;
+  margin: auto;
+  display: none;
+}
+
+.loading-div img {
+  height: 50px;
+  width: 50px;
+}
+
+.card_erro {
+  display: none;
+  background-color: #fff;
+  color: black;
+  width: 230px;
+  position: fixed;
+  border-radius: 4px;
+  border: #ED145B 3px solid;
+  padding: 10px;
+  margin-right: 10%;
+}
+
+.card_erro #mensagem_erro{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.formulario .input {
+    width: 90%;
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+}
+
+.formulario .input::-moz-placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.formulario .input::placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.formulario .input:focus {
+    outline: none;
+    border-inline: 2px solid #12b1d1;
+}
+
+.formulario .texto {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.formulario .texto a {
+    font-size: 15px;
+    color: var(--vermelho_pokebola);
+    text-decoration: none;
+}
+
+.cadastro-botao {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background: linear-gradient(45deg,rgb(231, 50, 50) 0%,rgb(196, 25, 25) 100%);
+    color: white;
+    padding-block: 15px;
+    font-family: 'Press Start 2P';
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: var(--agua) 0px 20px 10px -15px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.cadastro-botao:hover {
+    transform: scale(1.03);
+    box-shadow: var(--agua) 0px 23px 10px -20px;
+}
+
+.cadastro-botao:active {
+    transform: scale(0.95);
+    box-shadow: var(--dragao) 0px 15px 10px -10px;
+}
