@@ -7,6 +7,7 @@
   <title>PokeArena Will</title>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <script src="./js/sessao.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/styleIndex.css">
   <link rel="stylesheet" href="./css/styleNativo.css">
@@ -15,12 +16,12 @@
 <body>
   <header>
     <div class="pokeball"></div>
-    <nav>
+    <nav id="navpo">
       <a href="#" class="active">Home</a>
-      <a href="batalha.html">Batalha Pokémon</a>
-      <a href="#quiz">Quiz</a>
+      <a href="batalha.html" id="batalhar">Batalha Pokémon</a>
+      <a href="#quiz" id="quizer">Quiz</a>
     </nav>
-    <div class="botoes_login">
+    <div class="botoes_login" id="logins">
     <a href="./login.html"><button>Login</button></a>
     <a href="./cadastro.html">  <button>Cadastro</button> </a>
     </div>
@@ -64,7 +65,7 @@
           </span>
       </div>
       <div>
-        <img src="./assets/all-pokemon-pictures-03imn29v8gsd3lup.jpg" alt="Todos os Pokémon">
+        <img src="./assets/all-pokemon-pictures-03imn29v8gsd3lup.jpg" width="100%" alt="Todos os Pokémon">
       </div>
     </div>
 
@@ -300,3 +301,4 @@
 <script src="./js/scriptTipo.js"> </script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./js/scriptCarrossel.js"></script>
+<script>validarSessaoLogin()</script>

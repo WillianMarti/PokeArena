@@ -1,0 +1,169 @@
+.sidebar {
+    width: 250px;
+    background-color: var(--azul_cabecalho);
+    padding: 15px 15px 15px 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.direcionamentos {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.direcionamentosnav {
+    min-width: 230px;
+    justify-content: space-between;
+}
+
+.direcionamentosnav span {
+    font-size: 13px;
+}
+.direcionamentos img{
+    width: 40px;
+    height:40px;
+}
+
+.sidebar .pokeball {
+    left: 17%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:hover {
+    background-color: #ddd; 
+}
+
+.main-content {
+    margin-left: 250px;
+}
+
+
+.parent {
+display: grid;
+width: 100%;
+max-height: 100vh;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.parent img {
+    width: 100%;
+    height: 100%;
+}
+
+.div1 { grid-area: 1 / 1 / 6 / 2; padding: 5px 5px 5px 35px; }
+.div2 { grid-area: 1 / 2 / 2 / 3; padding: 5px; }
+.div3 { grid-area: 1 / 3 / 2 / 4; padding: 5px; }
+.div4 { grid-area: 1 / 4 / 2 / 5; padding: 5px; }
+.div5 { grid-area: 1 / 5 / 2 / 6; padding: 5px; }
+.div6 { grid-area: 2 / 2 / 5 / 4; padding: 5px; }
+.div7 { grid-area: 2 / 4 / 5 / 6; padding: 5px; }
+.div8 { grid-area: 5 / 2 / 6 / 4; padding: 5px; }
+.div9 { grid-area: 5 / 4 / 6 / 6; padding: 5px}
+
+.info {
+    padding: 2.5px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.pokeFavorito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pokeFavorito img{
+    width: 200px;
+    height: 210px;
+}
+
+.pokeInimigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pokeInimigo img{
+    width: 200px;
+    height: 210px;
+}
+
+.iconTipo {
+    width: 100%;
+    height: 100%;
+}
+
+.infoTextos {
+    padding: 2.5px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.shinysEncontrados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mensagem {
+    margin-bottom: 7px;
+}
+
+.numero {
+    font-size: 100px;
+}
+
+.infoPerfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoPerfil img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 100px;
+    margin-bottom: 100px;
+}
+
+.infoPerfil .infoUsuario {
+    background-color: lightgray;
+    border: 2px solid;
+    padding: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.infoPerfil #excluir{
+    margin-top: 300px;
+}

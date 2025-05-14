@@ -211,15 +211,15 @@ p {
     justify-content: center; 
     background-color: var(--branco_fundo);
     width: 100%;
-    gap: 20px; /* Espaço entre os itens */
+    gap: 20px; 
 }
 
 .main .container div {
-    width: 45%; /* Ajusta o tamanho dos itens para evitar sobrecarga */
+    width: 45%; 
 }
 
 div img {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     border-radius: 15px;
 }

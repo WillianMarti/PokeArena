@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navbar Lateral</title>
+    <link rel="stylesheet" href="./css/styleNativo.css">
+    <link rel="stylesheet" href="./css/stylePerfil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 <body>
-    oioi
+    <div class="sidebar">
+        <div class="pokeball"></div>
+    <div class="direcionamentos">
+    <div class="direcionamentosnav"><a href="#"> <img src="./assets/treinador-de-pokemon.png" alt=""><span class="textoPixel textoPokemons">Perfil</span></a></div></div>
+
+     <div class="direcionamentos">
+    <div class="direcionamentosnav"><a href="#"><img src="./assets/smartphone.png" alt=""><span class="textoPixel textoPokemons">Estátisticas</span></a></div></div>
+
+     <div class="direcionamentos">
+    <div class="direcionamentosnav"><a href="#"> <img src="./assets/mistico.png" alt=""><span class="textoPixel textoPokemons">Batalha</span></a></div></div>
+    
+    <div class="direcionamentos">
+    <div class="direcionamentosnav"><a href="#"> <img src="./assets/seta-esquerda.png" alt=""><span class="textoPixel textoPokemons">Sair da Conta</span></a></div></div>
+    </div>
+    </div>
+<div class="main-content">
+<div class="parent">
+<div class="div1"> 
+    <div class="infoPerfil">
+        <img src="./assets/avatar.png">
+    Nome Usuário
+    <div id="infoNome" class="infoUsuario">Willian</div>
+
+    Email Usuário
+    <div id="infoEmail" class="infoUsuario">willian@sptech.school</div>
+
+    Senha Usuário
+    <div class="infoUsuario">*********</div>
+
+    <div class="infoUsuario mestrePokemon" id="excluir">Excluir Perfil</div>
+    <div class="infoUsuario pikachuDestaque">Mudar Senha</div>
+
+</div>
+</div>
+<div class="div2"> 
+    <div class="infoTextos">
+        <div class="shinysEncontrados">
+           <span class="pikachuDestaque" id="mensagem">Shinys:</span>
+           <span class="numero">7</span>
+        </div>
+    </div>  
+</div>
+<div class="div3"> 
+    <div class="infoTextos">
+        <div class="shinysEncontrados">
+           <span class="pikachuDestaque" id="mensagem">Seus Shinys:</span>
+           <span class="numero">23</span>
+        </div>
+    </div>  
+</div>
+<div class="div4"> 
+     <div class="infoTextos">
+        <div class="shinysEncontrados">
+           <span class="pikachuDestaque" id="mensagem">Vitórias:</span>
+           <span class="numero">3</span>
+        </div>
+    </div> 
+ </div>
+<div class="div5"> 
+    <div class="infoTextos">
+        <div class="shinysEncontrados">
+           <span class="pikachuDestaque" id="mensagem">Derrotas:</span>
+           <span class="numero">7</span>
+        </div>
+    </div>  
+ </div>
+<div class="div6">
+    <div class="info">
+        <div class="pokeInimigo">
+            Tipo Inimigo Mais Utilizado:
+            <span class="planta">Planta</span>
+            <img class="iconTipo" src="./assets/planta.png">
+        </div>
+    </div> 
+</div>
+<div class="div7">    
+    <div class="info">
+        <div class="pokeInimigo">
+            Tipo Pokémon Mais Utilizado:
+            <span class="fogo">Fogo</span>
+            <img class="iconTipo" src="./assets/fogo.png">
+        </div>
+    </div> 
+</div>
+<div class="div8"> 
+    <div class="info">
+        <div class="pokeInimigo">
+            Pokémon inimigo Recorrente:
+            <span class="agua">Tentacruel</span>
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif">
+        </div></div> </div>
+<div class="div9">
+     <div class="info">
+        <div class="pokeFavorito">
+            Pokémon Mais Utilizado:
+            <span class="fogo">Charizard</span>
+            <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif">
+        </div>
+     </div>
+ </div>
+</div>
+</div>
 </body>
 </html>
+<script>
+    var nome = sessionStorage.getItem('NOME_USUARIO')
+    var email = sessionStorage.getItem('EMAIL_USUARIO')
+
+    infoNome.innerHTML = nome
+    infoEmail.innerHTML = email
+
+</script>
