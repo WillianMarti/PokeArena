@@ -298,6 +298,8 @@ function mostrarPokemon(pokemon) {
     const ataquesDiv = document.getElementById("pokemon-ataque");
     ataquesDiv.innerHTML = '';
     
+    cadastrarInimigo(pokemonInimigo)
+    
     if (pokemon.ataques && pokemon.ataques.length > 0) {
         const ataquesList = document.createElement('div');
         ataquesList.className = 'ataques-lista';
@@ -425,5 +427,34 @@ document.getElementById("btn-batalhar").addEventListener("click", () => {
         mostrarMensagem("Pokémon não encontrado no sistema!");
     }
 });
+
+function cadastrarInimigo(pokemonInimigo) {
+
+    var nomePokemonInimigo = pokemonInimigo.nome
+
+    fetch("/batalhas/cadastrarInimigo", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        nome: nomePokemonInimigo
+    }),
+    })
+        .then(function (resposta) {
+        console.log("resposta: ", resposta);
+
+        if (resposta.ok) {
+            console.log('tudo ok')
+        } else {
+          throw "Houve um erro ao tentar realizar o cadastro do pokemon inimigo!";
+        }
+      })
+      .catch(function (resposta) {
+        console.log(`#ERRO: ${resposta}`);
+      });
+
+    return false;
+}
 
 carregarPokemons();
