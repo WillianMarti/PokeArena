@@ -432,6 +432,7 @@ function cadastrarInimigo(pokemonInimigo) {
 
     var nomePokemonInimigo = pokemonInimigo.nome
 
+
     fetch("/batalhas/cadastrarInimigo", {
       method: "POST",
       headers: {
@@ -440,9 +441,12 @@ function cadastrarInimigo(pokemonInimigo) {
       body: JSON.stringify({
         nome: nomePokemonInimigo
     }),
+    
     })
         .then(function (resposta) {
         console.log("resposta: ", resposta);
+
+    sessionStorage.NOME_POKEMON_INIMIGO = nomePokemonInimigo;
 
         if (resposta.ok) {
             console.log('tudo ok')

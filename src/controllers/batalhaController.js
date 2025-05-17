@@ -5,6 +5,7 @@ function cadastrarInimigo(req, res) {
 
     var nomePokemonInimigo = req.body.nome;
 
+
     if (!nomePokemonInimigo || nomePokemonInimigo.trim() === "") {
         return res.status(400).send("Nome do Pokémon inimigo é inválido!");
     }
