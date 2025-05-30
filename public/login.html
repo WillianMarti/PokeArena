@@ -17,15 +17,15 @@
 <body>
     <header>
         <div class="pokeball"></div>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="batalha.html">Batalha Pokémon</a>
-            <a href="#quiz">Quiz</a>
-        </nav>
-        <div class="botoes_login">
-            <button>Login</button>
-            <a href="./cadastro.html"  class="active"> <button>Cadastro</button> </a>
-        </div>
+        <nav id="navpo">
+      <a href="./index.html">Home</a>
+      <a href="batalha.html" id="batalhar">Batalha Pokémon</a>
+      <a href="sobremim.html">Sobre Mim</a>
+    </nav>
+    <div class="botoes_login" id="logins">
+    <a href="./login.html"><button>Login</button></a>
+    <a href="./cadastro.html">  <button>Cadastro</button> </a>
+    </div>
     </header>
 
     <div class="banner">
@@ -68,8 +68,9 @@
 
         if (emailVar == "" || senhaVar == "") {
             cardErro.style.display = "block"
-            mensagem_erro.innerHTML = "(Mensagem de erro para todos os campos em branco)";
+            mensagem_erro.innerHTML = "Impossivel prosseguir com todos os campos em branco)";
             finalizarAguardar();
+
             return false;
         }
         else {
@@ -102,7 +103,7 @@
                     sessionStorage.NOME_USUARIO = json.nome;
 
                     setTimeout(() => {
-                        window.location = "./perfil.html";
+                        window.location = "./dashboard/dashboard.html";
                     }, 1000); // apenas para exibir o loading
 
                 });
@@ -128,3 +129,4 @@
         cardErro.style.display = "none"
     }
 </script>
+<script>validarSessaoLogin()</script>

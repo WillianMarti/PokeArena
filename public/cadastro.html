@@ -17,15 +17,15 @@
 <body>
     <header>
         <div class="pokeball"></div>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="batalha.html">Batalha Pokémon</a>
-            <a href="#quiz">Quiz</a>
-        </nav>
-        <div class="botoes_login">
-            <a href="./login.html"><button>Login</button></a>
-            <a href="./cadastro.html"  class="active"> <button>Cadastro</button> </a>
-        </div>
+        <nav id="navpo">
+      <a href="./index.html">Home</a>
+      <a href="batalha.html" id="batalhar">Batalha Pokémon</a>
+      <a href="sobremim.html">Sobre Mim</a>
+    </nav>
+    <div class="botoes_login" id="logins">
+    <a href="./login.html"><button>Login</button></a>
+    <a href="./cadastro.html">  <button>Cadastro</button> </a>
+    </div>
     </header>
 
     <div class="banner">
@@ -39,17 +39,16 @@
                 <form class="formulario" action="">
                     <span class="texto"><a href="#">Adentrando o mundo <span class="pikachuDestaque">Pokémon </span></a></span>
                     <input placeholder="Nome" id="input_nome" name="nome" class="input" required=""/>
-                    <input placeholder="E-mail" id="input_email" name="email" type="email" class="input" required=""/>
-                    <input placeholder="Senha" id="input_senha" name="password" type="password" class="input" required=""/>
+                    <input placeholder="E-mail" id="input_email" name="email" type="email" class="input" required="" oninput="formatarEmail()"/>
+                    <input placeholder="Senha" id="input_senha" name="password" oninput="formatarSenha()" type="password" class="input" required=""/>
+                    A senha deve conter no mínimo 8 caracteres e pelo menos um caractere especial <br>  <br>(!@#$%¨&*()) <br> <br>
                     <input placeholder="Confirmar Senha" id="input_confirmarSenha" name="password" type="password" class="input" required=""/>
                 </form>
                     <button onclick="cadastrar()" class="cadastro-botao">Cadastre-se</button>
-                <div id="div_erros_login"></div>
-                <div class="alerta_erro">
-      <div class="card_erro" id="cardErro">
-        <span id="mensagem_erro"></span>
-      </div>
-    </div>
+                  <div_mensagem id="div_mensagem"></div_mensagem>
+        <div id="div_aguardar" class="loading-div">
+                    <img src="./assets/loading.gif" id="loading-gif">
+                    </div>
             </div>
             </div>
 
@@ -57,12 +56,16 @@
 </body>
 
 </html>
+<script>validarSessaoLogin()</script>
 <script>
+    var valida = false
+    var valido = false;
     var listaUsuarios = []
 
     function cadastrar() {
     // aguardar();
-
+    formatarSenha(valida)
+    formatarEmail(valido)
     //Recupere o valor da nova input pelo nome do id
     // Agora vá para o método fetch logo abaixo
     var nomeVar = input_nome.value;
@@ -76,15 +79,29 @@
       senhaVar == "" ||
       confirmacaoSenhaVar == "" 
     ) {
-      cardErro.style.display = "block";
-      mensagem_erro.innerHTML =
-        "(Mensagem de erro para todos os campos em branco)";
-
-      finalizarAguardar();
+      div_mensagem.innerHTML = 
+        '<span style="color: red">Preencha todos os campos!</span>';  
       return false;
     } else {
-      setInterval(sumirMensagem, 5000);
+      setInterval(5000);
     }
+    if (senhaVar != confirmacaoSenhaVar) {
+      div_mensagem.innerHTML = 
+        '<span style="color: red">As senhas não conferem!</span>';
+      return false;
+    }
+
+if (!valida) {
+  div_mensagem.innerHTML = 
+    '<span style="color: red">A senha está inválida, siga as regras acima.<br></span>';
+  return false;
+}
+
+if (!valido) {
+  div_mensagem.innerHTML =  
+    '<span style="color: red">O e-mail está inválido, siga as regras acima.<br></span>';
+  return false;
+}
 
     fetch("/usuarios/cadastrar", {
       method: "POST",
@@ -101,30 +118,68 @@
         console.log("resposta: ", resposta);
 
         if (resposta.ok) {
-          cardErro.style.display = "block";
-
-          mensagem_erro.innerHTML =
-            "Cadastro realizado com sucesso! Redirecionando para tela de Login...";
 
           setTimeout(() => {
             window.location = "login.html";
           }, "2000");
 
-          limparFormulario();
-          finalizarAguardar();
         } else {
           throw "Houve um erro ao tentar realizar o cadastro!";
         }
       })
       .catch(function (resposta) {
         console.log(`#ERRO: ${resposta}`);
-        finalizarAguardar();
       });
 
     return false;
   }
 
-  function sumirMensagem() {
-    cardErro.style.display = "none";
-  }
+</script>
+<script>
+
+function formatarSenha() {
+    var senha = input_senha.value;
+    var caracteresEspeciais = '!@#$%¨&*()';
+    var mensagem = '';
+    var contem = 0;
+
+    for (var i = 0; i < senha.length; i++) {
+        var caracterAtual = senha[i];
+        for (var j = 0; j < caracteresEspeciais.length; j++) {
+            if (caracterAtual == caracteresEspeciais[j]) {
+                contem++;
+            }
+        }
+    }
+
+    if (contem > 0 && senha.length >= 8) {
+        mensagem = '<span style="color: #00ffd1">A senha está válida</span>';
+        valida = true;
+    } else {
+        mensagem = '<span style="color: red">A senha está inválida</span>';
+        valida = false;
+    }
+    div_mensagem.innerHTML = mensagem;
+}
+
+function formatarEmail() {
+    var email = input_email.value;
+    var mensagem = '';
+
+    var arroba = email.indexOf('@');
+    var ponto = email.lastIndexOf('.');
+
+    if (
+        arroba > 0 && 
+        ponto > arroba + 1 && 
+        ponto < email.length - 1
+    ) {
+        mensagem = '<span style="color: #00ffd1">E-mail válido</span>';
+         valido = true;
+    } else {
+        mensagem = '<span style="color: red">E-mail inválido</span>';
+         valido = false;
+    }
+    div_mensagem.innerHTML = mensagem;
+}
 </script>

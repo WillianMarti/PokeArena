@@ -19,7 +19,7 @@
     <nav id="navpo">
       <a href="#" class="active">Home</a>
       <a href="batalha.html" id="batalhar">Batalha Pokémon</a>
-      <a href="#quiz" id="quizer">Quiz</a>
+      <a href="sobremim.html">Sobre Mim</a>
     </nav>
     <div class="botoes_login" id="logins">
     <a href="./login.html"><button>Login</button></a>
@@ -39,9 +39,9 @@
         <span class="mestrePokemon">verdadeiro mestre Pokémon.</span></p>
   </div>
   <div class="navpoke">
-  <a id="navpokeball" href="#umpoucosobre"><span class="textoPixel">Tipos Pokémon</span> <img src="./assets/Sprite-0001.gif"> </a>
+  <a id="navpokeball" onclick="descerUmPoucoSobre()"><span class="textoPixel"><u>Tipos Pokémon</u></span> <img src="./assets/Sprite-0001.gif"> </a>
   <a id="navpokeball" href="./batalha.html"><span class="textoPixel ">PokeBatalha</span> <img src="./assets/Sprite-0002.gif"> </a>
-  <a id="navpokeball" href="#"><span class="textoPixel ">Quiz</span> <img src="./assets/Sprite-0003.gif"> </a>
+  <a id="navpokeball" href="./sobremim.html"><span class="textoPixel ">Sobre Mim</span> <img src="./assets/Sprite-0003.gif"> </a>
   <a id="navpokeball" href="./login.html"><span class="textoPixel ">Login</span> <img src="./assets/Sprite-0004.gif"> </a>
 
 </div>
@@ -78,10 +78,7 @@
         <span>
           <img id="pokeball1" src="./assets/F.png">
         </span>
-        <p class="bemvindos">Antes de tudo, vamos entender um pouco mais sobre os nossos famosos monstros de bolso. Conhecidos como
-          Pokémon, essas criaturas únicas possuem habilidades especiais e podem evoluir para formas mais poderosas. Cada
-          Pokémon pertence a um ou mais tipos, como fogo, água, planta, elétrico e muitos outros, o que influencia
-          diretamente em suas forças e fraquezas nas batalhas.
+        <p class="bemvindos">O mundo Pokémon é repleto de criaturas incríveis chamadas Pokémon, cada uma com habilidades e características únicas. Eles podem ser capturados, treinados e evoluídos, participando de batalhas emocionantes. Os Pokémon possuem diferentes tipos, como fogo, água e planta, que determinam suas vantagens e desvantagens em combate. É um universo de aventura, estratégia e amizade!
         </p>
           <span>
             <img id="pokeball2" src="./assets/F.png">
@@ -256,9 +253,6 @@
       </div>
   </div>
 </div>
-  <footer>
-    &copy; 2025 PokeArena Will. Todos os direitos reservados.
-  </footer>
 </body>
 
 </html>
@@ -302,3 +296,10 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./js/scriptCarrossel.js"></script>
 <script>validarSessaoLogin()</script>
+<script>
+ function descerUmPoucoSobre(){
+    document.getElementById("umpoucosobre").scrollIntoView({
+      behavior: "smooth"
+    });
+  }
+</script>

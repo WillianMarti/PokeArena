@@ -16,15 +16,15 @@
 <body>
     <header>
         <div class="pokeball"></div>
-        <nav>
-          <a href="./index.html" >Home</a>
-          <a href="batalha.html" class="active">Batalha Pokémon</a>
-          <a href="#quiz">Quiz</a>
-        </nav>
-        <div class="botoes_login">
-          <button>Login</button>
-         <a href="./cadastro.html"> <button>Cadastro</button> </a>
-        </div>
+        <nav id="navpo">
+      <a href="./index.html" >Home</a>
+      <a href="batalha.html" class="active" id="batalhar">Batalha Pokémon</a>
+      <a href="sobremim.html" id="quizer">Sobre Mim</a>
+    </nav>
+    <div class="botoes_login" id="logins">
+    <a href="./login.html"><button>Login</button></a>
+    <a href="./cadastro.html">  <button>Cadastro</button> </a>
+    </div>
       </header>
       
       <div class="banner">
@@ -46,8 +46,13 @@
       </div>
 
       <div class="main">
-       
-          <div class="seletorPokemon">  <h1 class="textoPixel mestrePokemon">Escolha o seu Pokémon </h1> 
+          <div class="container">
+            <h1 class="textoPixel pikachuDestaque">Batalha Pokémon</h1>
+            <p class="textoPixel pikachuDestaque">Escolha o seu Pokémon e inicie uma batalha épica! e descubra se você é realmente um treinador <span class="eletrico">Pokémon</span></p>
+
+            <h2 class="textoPixel pikachuDestaque"> Como Jogar </h2>
+        </div>
+          <div class="seletorPokemon">  <h1 class="textoPixel pikachuDestaque">Escolha o seu Pokémon </h1> 
             <select id="pokemonSelecionar" onchange="atualizar()">
               <option value="#" disabled selected>-- Escolha um Pokémon --</option>
           </select>
@@ -87,13 +92,14 @@
     </div>
     <div id="pokemon-ataque"></div>
 
-      </div>
+
 
 
 </body>
 
 </html>
-<script src="./js/scriptpuxarPokemon.js"></script>
+<script src="./js/scriptPokemon.js"></script>
 <script>
   validarSessao()
+  validarSessaoLogin()
 </script>

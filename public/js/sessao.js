@@ -17,13 +17,11 @@ function validarSessaoLogin() {
     if (email != null && nome != null) {
         document.getElementById('logins').style.display = 'flex';
         document.getElementById('batalhar').style.display = '';
-        document.getElementById('quizer').style.display = '';
 
-        document.getElementById('logins').innerHTML = `<img width="50px" height="50px" src="./assets/avatar.png"> <br>Nome:${nome}`
+        document.getElementById('logins').innerHTML = `<img width="50px" onclick="irParaPerfil()" height="50px" src="./assets/treinador-de-pokemon.png" id="animationSair"> <img width="50px" onclick="limparSessao()" height="50px" src="./assets/seta-esquerda.png" id="animationSair"> <br>${nome}`
     } else {
         document.getElementById('navpo').style.marginRight = '0%';
         document.getElementById('logins').style.display = 'flex'
-        document.getElementById('quizer').style.display = 'none';
         document.getElementById('batalhar').style.display = 'none';
     }
 }
@@ -32,6 +30,10 @@ function validarSessaoLogin() {
 function limparSessao() {
     sessionStorage.clear();
     window.location = "../login.html";
+}
+
+function irParaPerfil() {
+    window.location = "../dashboard/dashboard.html";
 }
 
 // carregamento (loading)

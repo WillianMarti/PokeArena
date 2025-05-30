@@ -30,7 +30,7 @@
     "tipo": ["fogo", "voador"],
     "nivel": 80,
     "hp": 240,
-    "ataque": 130,
+    "ataque": 180,
     "defesa": 110,
     "velocidade": 130,
     "ataques": [
