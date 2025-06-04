@@ -2,93 +2,213 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Batalha Pokémon</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/styleNativo.css">
-    <link rel="stylesheet" href="./css/styleBatalha.css"> 
-    <script src="./js/sessao.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/pokearena.png" type="image/x-icon">
+  <title>PokeBatalha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/styleNativo.css">
+  <link rel="stylesheet" href="./css/styleBatalha.css">
+  <script src="./js/sessao.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="pokeball"></div>
-        <nav id="navpo">
-      <a href="./index.html" >Home</a>
-      <a href="batalha.html" class="active" id="batalhar">Batalha Pokémon</a>
+  <header>
+    <div class="pokeball"></div>
+    <nav id="navpo">
+      <a href="./index.html">Home</a>
+      <a href="batalha.html" class="active" id="batalhar">PokeBatalha</a>
       <a href="sobremim.html" id="quizer">Sobre Mim</a>
     </nav>
     <div class="botoes_login" id="logins">
-    <a href="./login.html"><button>Login</button></a>
-    <a href="./cadastro.html">  <button>Cadastro</button> </a>
+      <a href="./login.html"><button>Login</button></a>
+      <a href="./cadastro.html"> <button>Cadastro</button> </a>
     </div>
-      </header>
-      
-      <div class="banner">
-        <div class="escurecedor">
-        <video class="video" autoplay loop muted src="./assets/videobatalha.mp4" >
-        </video>
-      </div>
-      <div class="conteudo">
-          <p class="textoPokemons textoPixel">Bem-vindo a página de <span class="mestrePokemon"> Batalha Pokémon </span> aprenda a ser o verdadeiro <span class="pikachuDestaque">Mestre Pokémon</span> da internet!</p>
-      </div>  
-      <div class="navpoke">
-  <a id="navpokeball" href="#umpoucosobre"><span class="textoPixel">Tipos Pokémon</span> <img src="./assets/Sprite-0001.gif"> </a>
-  <a id="navpokeball" href="./batalha.html"><span class="textoPixel ">PokeBatalha</span> <img src="./assets/Sprite-0002.gif"> </a>
-  <a id="navpokeball" href="#"><span class="textoPixel ">Quiz</span> <img src="./assets/Sprite-0003.gif"> </a>
-  <a id="navpokeball" href="#"><span class="textoPixel ">Login</span> <img src="./assets/Sprite-0004.gif"> </a>
+  </header>
 
-</div>
-      
-      </div>
+  <div class="banner">
+    <div class="escurecedor">
+      <video class="video" autoplay loop muted src="./assets/videobatalha.mp4">
+      </video>
+    </div>
+    <div class="conteudo">
+      <p class="textoPokemons textoPixel">Bem-vindo a página de <span class="mestrePokemon"> Batalha Pokémon </span>
+        aprenda a ser o verdadeiro <span class="pikachuDestaque">Mestre Pokémon</span> da internet!</p>
+    </div>
+    <div class="navpoke">
+      <a id="navpokeball" href="#umpoucosobre"><span class="textoPixel">Tipos Pokémon</span> <img
+          src="./assets/Sprite-0001.gif"> </a>
+      <a id="navpokeball" href="./batalha.html"><span class="textoPixel ">PokeBatalha</span> <img
+          src="./assets/Sprite-0002.gif"> </a>
+      <a id="navpokeball" href="#"><span class="textoPixel ">Sobre Mim</span> <img src="./assets/Sprite-0003.gif"> </a>
+      <a id="navpokeball" href="./login.html"><span class="textoPixel ">Login</span> <img src="./assets/Sprite-0004.gif"> </a>
 
-      <div class="main">
-          <div class="container">
-            <h1 class="textoPixel pikachuDestaque">Batalha Pokémon</h1>
-            <p class="textoPixel pikachuDestaque">Escolha o seu Pokémon e inicie uma batalha épica! e descubra se você é realmente um treinador <span class="eletrico">Pokémon</span></p>
+    </div>
 
-            <h2 class="textoPixel pikachuDestaque"> Como Jogar </h2>
+  </div>
+
+  <div class="main">
+    <div class="containers">
+      <h1 class="textoPixel pikachuDestaque">Batalha Pokémon</h1>
+      <p class="textoPixel pikachuDestaque">Escolha o seu Pokémon e inicie uma batalha épica! e descubra se você é
+        realmente um treinador <span class="eletrico">Pokémon</span></p>
+
+      <h2 class="textoPixel pikachuDestaque"> Como Jogar </h2>
+      <div class="container">
+        <div>
+          <img class="cardImagem" src="./assets/comojos.png" alt="Todos os Pokémon">
         </div>
-          <div class="seletorPokemon">  <h1 class="textoPixel pikachuDestaque">Escolha o seu Pokémon </h1> 
-            <select id="pokemonSelecionar" onchange="atualizar()">
-              <option value="#" disabled selected>-- Escolha um Pokémon --</option>
-          </select>
-          <button id="btn-batalhar" class="botao_batalha">Iniciar Batalha</button>
-          <div class="seletor" id="seletor">
-            <h2><span id="pokemon-nome-pre" class="textoPixel"></span></h2>
-            <div class="alinhador-pre"> 
-              <div class="poke1"> 
+
+        <div class="umpoucosobre">
+          <span>
+            <img id="pokeball1" src="./assets/F.png">
+          </span>
+          <p class="bemvindos">Lembre-se de que cada <span class="eletrico">Pokémon</span> tem um tipo diferente, e cada
+            tipo tem suas próprias fraquezas e resistências. Escolha sabiamente! <br>
+            Após a seleção algumas informações importantes do seu pokémon ira aparecer para que você verifique se é ele que você quer usar para sua <span class="lutador">batalha</span>.</p>
+          </p>
+          <span>
+            <img id="pokeball2" src="./assets/F.png">
+          </span>
+        </div>
+      </div>
+      <div class="container">
+        <div>
+          <img class="cardImagem"  src="./assets/comojogar.png" alt="Todos os Pokémon">
+        </div>
+
+        <div class="umpoucosobre">
+          <span>
+            <img id="pokeball1" src="./assets/F.png">
+          </span>
+          <p class="bemvindos">
+            Para iniciar uma <span class="lutador">batalha</span>, após escolher um Pokémon da lista e clique no botão <span
+              class="eletrico">"Iniciar Batalha"</span>.
+            Durante a batalha, você pode atacar o Pokémon inimigo usando os ataques disponíveis. O objetivo é reduzir a
+            vida do Pokémon inimigo a zero.</p>
+          </p>
+          <span>
+            <img id="pokeball2" src="./assets/F.png">
+          </span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="umpoucosobre">
+          <span>
+            <img id="pokeball1" src="./assets/F.png">
+          </span>
+          <p class="bemvindos">Os <span class="fogo">ataques</span> tem um dano, precisão e tipagem assim como os pokémon, que define se o ataque será super-efetivo ou não. Lembre de antes de iniciar uma batalha usar as ferramentas do site lá na página inicial para lembrar as tipagens <span class="eletrico">Super Efetivas</span></p>
+          </p>
+          <span>
+            <img id="pokeball2" src="./assets/F.png">
+          </span>
+        </div>
+        <div>
+          <img class="cardImagem"  src="./assets/ataques.png" alt="Todos os Pokémon">
+        </div>
+      </div>
+    </div>
+    <div class="modal-overlay" id="modalOverlay" onclick="fecharModal()">
+      <div class="modal" onclick="event.stopPropagation()">
+        <div id="pokedex" class="pokedex">
+        <div class="imagensPoke">
+        <span id="imgPokedex"></span>
+        <span id="imgPokedexShiny"></span>
+        </div>
+        <div id="pokedexNomePoke"></div>
+        <div class="pokedex-info">
+            <span class="tipoPokedex textoPixel">Tipos:</span>
+            <span id="tipoPokedex"class="tipoPokedex textoPixel"></span>
+            <span id="tipoPokedex2"class="tipoPokedex textoPixel"></span>
+        </div>       
+            <div class="ataques-lista-Pokedex">
+              <div id="ataque0" class="ataquePokedex">
+                <span class="textoPixel">Ataque 1:</span>
+                <span id="nomeAtaque0" class="textoPixel">Thunder</span>
+                <span id="tipoAtaque0" class="textoPixel">Fogo</span>
+              </div>
+              <div id="ataque1" class="ataquePokedex">
+                <span class="textoPixel">Ataque 2:</span>
+                <span id="nomeAtaque1" class="textoPixel">Thunder</span>
+                <span id="tipoAtaque1" class="textoPixel">Planta</span>
+              </div>
+              <div id="ataque2" class="ataquePokedex">
+                <span class="textoPixel">Ataque 3:</span>
+                <span id="nomeAtaque2" class="textoPixel">Thunder</span>
+                <span id="tipoAtaque2" class="textoPixel">Terrestre</span>
+              </div>
+              <div id="ataque3" class="ataquePokedex">
+                <span class="textoPixel">Ataque 4:</span>
+                <span id="nomeAtaque3" class="textoPixel">Thunder</span>
+                <span id="tipoAtaque3" class="textoPixel">Fogo</span>
+              </div>
+            </div>
+            <div class="ataqueDefesaPokedex">
+              <span id="ataquePokedex" class="textoPixel mestrePokemon">
+                Atq:124
+              </span>
+              <span id="defesaPokedex" class="textoPixel pikachuDestaque">
+                Def:100
+              </span>
+            </div>
+        </div>
+        <div class="shinynormal mestrePokemon"><span class="textoPokedex">Normal</span> <span class="textoPokedex">Shiny</span></div>
+      </div>
+      <div class="botaoSairModal"><a onclick="fecharModal()">X</a></div>
+    </div>
+
+    <div class="seletorPokemon">
+      <h1 class="textoPixel pikachuDestaque">Escolha o seu Pokémon </h1>
+      <div class="selecttt">
+      <select id="pokemonSelecionar" onchange="atualizar(); exibirPokemonPokedex()">
+        <option value="#" disabled selected>-- Escolha um Pokémon --</option>
+      </select>
+      <button onclick="exibirPokemonPokedex()" class="botao_batalha">Ver estatisticas</button>
+      </div>
+      <button id="btn-batalhar" class="botao_batalha">Iniciar Batalha</button>
+      <div class="seletor" id="seletor">
+        <h2><span id="pokemon-nome-pre" class="textoPixel"></span></h2>
+        <div class="alinhador-pre">
+          <div class="poke1">
             <p><span id="pokemon-gif-pre" class="textoPixel"></span></p>
-            </div>
-              <div class="poke2">
-              <p><span id="pokemon-gif-shiny-pre" class="textoPixel"></span></p>
-            </div>
-              <p> <span id="pokemon-tipo-pre" class="textoPixel"></span></p>
-            </div>
-              <div id="pokemon-ataque-pre"></div>
-
           </div>
+          <div class="poke2">
+            <p><span id="pokemon-gif-shiny-pre" class="textoPixel"></span></p>
+          </div>
+          <p> <span id="pokemon-tipo-pre" class="textoPixel"></span></p>
+        </div>
+        <div id="pokemon-ataque-pre"></div>
+
+      </div>
+      <p>
+      <div class="batalha" id="batalha">
+        <div id="pokemon-info" class="pokeinfo">
+          <h2><span id="pokemon-nome" class="textoPixel"></span></h2>
+          <p><span id="pokemon-gif" class="textoPixel"></span></p>
           <p>
-          <div class="batalha" id="batalha">
-          <div id="pokemon-info" class="pokeinfo">
-              <h2><span id="pokemon-nome" class="textoPixel"></span></h2>
-              <p><span id="pokemon-gif" class="textoPixel"></span></p>
-              <p><div id="barravida" class="barravida"><div id="life" class="life"><span id="hp-texto-jogador" class="hp-texto"></span></div></div></p>
-              <p> <span id="pokemon-tipo" class="textoPixel"></span></p>
-
+          <div id="barravida" class="barravida">
+            <div id="life" class="life"><span id="hp-texto-jogador" class="hp-texto"></span></div>
           </div>
-          <div id="pokemon-inimigo-info" class="pokeinfoinimigo">
-            <h2><span id="pokemon-inimigo-nome" class="textoPixel"></span></h2>
-            <p><span id="pokemon-inimigo-gif" class="textoPixel"></span></p>
-            <p><div id="barravida" class="barravida"><div id="life-inimigo" class="life-inimigo"><span id="hp-texto-inimigo" class="hp-texto"></span></div></div></p>
-            <p> <span id="pokemon-inimigo-tipo" class="textoPixel"></span></p>
+          </p>
+          <p> <span id="pokemon-tipo" class="textoPixel"></span></p>
+
+        </div>
+        <div id="pokemon-inimigo-info" class="pokeinfoinimigo">
+          <h2><span id="pokemon-inimigo-nome" class="textoPixel"></span></h2>
+          <p><span id="pokemon-inimigo-gif" class="textoPixel"></span></p>
+          <p>
+          <div id="barravida" class="barravida">
+            <div id="life-inimigo" class="life-inimigo"><span id="hp-texto-inimigo" class="hp-texto"></span></div>
+          </div>
+          </p>
+          <p> <span id="pokemon-inimigo-tipo" class="textoPixel"></span></p>
 
         </div>
         <div id="mensagens-batalha"></div>
-        </div></p>
+      </div>
+      </p>
     </div>
     <div id="pokemon-ataque"></div>
 
@@ -103,3 +223,9 @@
   validarSessao()
   validarSessaoLogin()
 </script>
+<script>
+
+    function fecharModal() {
+      document.getElementById('modalOverlay').style.display = 'none';
+    }
+  </script>

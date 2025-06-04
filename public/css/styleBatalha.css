@@ -8,16 +8,181 @@
     position: relative;
 }
 
+.containers {
+    margin-top: 7vh;
+    /* margin-left: 20vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    gap: 5vw; 
+}
+
 .container {
+    display: flex;
+    /* padding: 6%; */
+    flex-direction: row;
+    justify-content: center; 
+    width: 80vw;
+    gap: 5vw;
+    height: 50vh;
+}
+
+.umpoucosobre #pokeball1 {
+    z-index: 1;
+    position: absolute;
+    max-height: 25%;
+    width: 15%;
+    left: 25px;
+    top: 15px;
+    animation: rodar1 2s infinite;
+}
+.umpoucosobre #pokeball2 {
+    z-index: 1;
+    position: absolute;
+    max-height: 25%;
+    width: 15%;
+    right: 25px;
+    bottom: 15px;
+    animation: rodar2 2s infinite;
+}
+
+.umpoucosobre {
+    position: relative;
+    z-index: 2;
+    padding: 3% 0px 3% 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: var(--fundo-cards);
+}
+
+
+/* .container div {
+    width: 100%; 
+} */
+
+/* .pokedex {
+    min-width: 50%;
+    min-height: 30%;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    left: 20vw;
+    display: none;
+} */
+
+/* .pokedex .pokedex-img {
+    width: 60%;
+    height: 40%;
+    border-radius: 15px;
+} */
+
+
+.container img {
+    width: 575px;
+    height: 100%;
+    border-radius: 15px;
+}
+.cardImagem {
+    min-width: 250px;
+    min-height: 10px;
+}
+.pokedex-pokemon{
+    position:relative;
+    width: 90px;
+    height: 90px;
+    /* left: -10vw;
+    top: -5.0vh; */
+    z-index: 2;
+}
+
+#pokedexNomePoke {
+    width: 17.5%;
+    height: 26px; 
+    position: relative;
+    top: 5.8vh;
+    left: 20.5vw;
+    border-radius: 8px;
+}
+
+.imagensPoke {
+    position: relative;
+    top: 25vh;
+    left: 45vh;
+    display: flex;
+    width: 180px;
+    height: 90px;
+    flex-direction: row;
+}
+
+.modal-overlay {
+  display: none; /* Oculto inicialmente */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokedex {
+  width: 80vw;
+  height: 70vh;
+  position: absolute;
+  background-image: url("../assets/pokedex_no_background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  z-index: 1;
+  background-position: center;
+}
+
+.botaoSairModal {
+    background-color: var(--vermelho_pokebola);
+    z-index: 95;
+    border-radius: 500px;
+    position: relative;
+    bottom: 30vh;
+    left: 31vw;
+    font-size: 25px;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Press Start 2P";
+}
+
+.pokedex-info {
+    position: relative;
+    top: 37vh;
+    right: 14.5vw;
+    /* top: 24.5vh;
+    left: -68vw; */
+    /* width: 100%; */
+    font-size: 12px;
+    /* height: 100%; */
+    color: var(--amarelo_destaques);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    width: 75vw;
 }
-
 #pokemon{
     position: relative;
     z-index: 3;
@@ -58,6 +223,13 @@
 .piscar{
     animation: piscar 2s ease-in-out;
 }
+
+/* .bemvindoss {
+    background-color: var(--branco_fundo);
+    width: 1000px;
+    height: 100;
+    text-align: center;
+} */
 
 .pokeinfo{
     width: 40%;
@@ -107,7 +279,8 @@
 
 .seletorPokemon {
     margin: 5px;
-    margin-top: 100px;
+    position:static;
+    margin-top: 12vh;
     background-color: var(--textos_rodape_bordas);
     display: flex;
     flex-direction: column;
@@ -141,6 +314,100 @@ body {
     transform: scale(1.02);
 }
 
+.ataques-lista {
+    display: flex;
+    width: 99vw;
+    margin-top: 140px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ataques-lista-Pokedex {
+      display: flex;
+  flex-wrap: wrap;
+  width: 21.5%;
+  height: 45%;
+    position: relative;
+    left: 43vw;
+    top: 5px;
+}
+.shinynormal {
+    width: 140px;
+    position: relative;
+    z-index: 20;
+    right: 13vw;
+    bottom: 5.5vw;
+    justify-content: space-between;
+    display: flex;
+}
+
+.textoPokedex {
+    font-size: 10px;
+    font-family: "Press Start 2P";
+}
+.ataqueDefesaPokedex {
+    display: flex;
+    height: 20px;
+    width: 200px;
+    position: relative;
+    /* right: 10vw; */
+    top: 3.3vh;
+    left: 43.4vw;
+    font-size: 14.3px;
+    gap: 3.3vw;
+}
+
+.ataquePokedex {
+width: 50%;   /* metade da largura do container */
+  height: 50%;  /* metade da altura do container */
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  font-size: 12px;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#ataque0 {
+    /* background-color: var(--eletrico); */
+    height: 50%;
+    padding: 10px;
+    width: 50%;
+}
+#ataque1 {
+    /* background-color: var(--agua); */
+    padding: 10px;
+    height: 50%;
+    width: 50%;
+}
+#ataque2 {
+    /* background-color: var(--fogo); */
+    height: 50%;
+    padding: 10px;
+    width: 50%;
+}
+#ataque3 {
+    /* background-color: var(--pedra); */
+    width: 50%;
+    padding: 10px;
+    height: 50%;
+}
+
+.ataque {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    min-width: 350px;
+}
+
+.ataque:hover {
+    transform: scale(1.02);
+}
+
 .ataque strong {
     display: block;
     margin-bottom: 5px;
@@ -159,7 +426,7 @@ body {
 #pokemon-tipo {
     position: relative;
     left: 0px;
-    top: 25px;
+    top: 13px;
 }
 
 #pokemon-inimigo-tipo {

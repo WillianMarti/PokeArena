@@ -2,11 +2,11 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="shortcut icon" href="../assets/icon/favicon2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/pokearena.png" type="image/x-icon">
+    <title>Dashboards</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AquaTech | Dashboards</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="./../css/dashboards.css">
@@ -26,8 +26,8 @@
 <body>
     <div class="sidebar">
         <div class="pokeball"></div>
-        <div class="ola"> Bem-vindo </div>
-    <div id="infoNome" class="infoUsuario"><br></div>
+        <div class="ola"> Bem-vindo 
+    <div id="infoNome" class="infoUsuario"><br></div></div>
     <div class="direcionamentos">
     <div class="direcionamentosnav"><a href="../index.html"> <img src="./../assets/treinador-de-pokemon.png" alt=""><span class="textoPixel textoPokemons">Home</span></a></div></div>
 
@@ -38,7 +38,7 @@
     <div class="direcionamentosnav"><a href="../batalha.html"> <img src="./../assets/mistico.png" alt=""><span class="textoPixel textoPokemons">Batalha</span></a></div></div>
     
     <div class="direcionamentos">
-    <div class="direcionamentosnav"><a href="../sobremim.html"> <img src="./../assets/seta-esquerda.png" alt=""><span class="textoPixel textoPokemons">Sobre Mim</span></a></div></div>
+    <div class="direcionamentosnav"><a href="../sobremim.html"> <img src="./../assets/informacoes.png" alt=""><span class="textoPixel textoPokemons">Sobre Mim</span></a></div></div>
 
     <div class="direcionamentos">
     <div class="direcionamentosnav"><a onclick="limparSessao()" href="../login.html"> <img src="./../assets/seta-esquerda.png" alt=""><span class="textoPixel textoPokemons">Sair da Conta</span></a></div></div>
@@ -208,7 +208,7 @@ function exibirWinrate(resposta) {
                 } else {
                     console.error('Nenhum dado encontrado ou erro na API');
                 }
-            })
+            })  
                 .catch(function (error) {
                     console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
                 });
@@ -444,9 +444,22 @@ function exibirTipoQueJogadorMaisUsou(resposta) {
 
     var tipoMaisUsado = resposta[0].tipoJogador;
     var quantidadeUsos = resposta[0].QtdTipo;
-
+    if (tipoMaisUsado == 'dragao')
+{
+    tipoMaisUsadoTexto = "dragão"
+}   else if (tipoMaisUsado == 'eletrico')
+{
+    tipoMaisUsadoTexto = 'elétrico'
+}   else if (tipoMaisUsado == 'psiquico')
+{
+    tipoMaisUsadoTexto = 'psíquico'
+}
+else 
+{
+    tipoMaisUsadoTexto = tipoMaisUsado
+}
     document.getElementById('tipoPokemonJogador').innerHTML = `<img class="imgInimigo" src="../assets/Tipos/${tipoMaisUsado.toLowerCase()}.png" alt="${tipoMaisUsado}">
-        <p>O tipo que o jogador mais usou é: <span class="mestrePokemon"><br>${tipoMaisUsado}</p> <br> com a quantidade de: <br> ${quantidadeUsos}</span>
+        <p>O tipo que o jogador mais usou é: <span class="mestrePokemon"><br>${tipoMaisUsadoTexto}</p> <br> com a quantidade de: <br> ${quantidadeUsos}</span>
     `;
 };
 
@@ -474,7 +487,6 @@ function plotarGraficoEvolucaoResultados(resposta) {
         dadosVitorias.push(Number(resposta[i].vitorias));
         dadosDerrotas.push(Number(resposta[i].derrotas));
     }
-
  const config3 = {
         type: 'line',
         data: {
@@ -483,10 +495,10 @@ function plotarGraficoEvolucaoResultados(resposta) {
                 {
                     label: 'Vitórias',
                     data: dadosVitorias,
-                    borderColor: 'rgba(75, 192, 213, 1)',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderWidth: 2,
-                    tension: 0.3
+                            borderColor: 'rgba(75, 192, 213, 1)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderWidth: 2,
+                            tension: 0.3
                 },
                 {
                     label: 'Derrotas',

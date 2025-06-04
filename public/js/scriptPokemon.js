@@ -62,6 +62,44 @@ function preencherSelect() {
         select.appendChild(option);
     });
 }
+function exibirPokemonPokedex(){
+    const select = document.getElementById("pokemonSelecionar");
+    var nomePokemonSelecionado = select.value;
+
+    var pokemonSelecionado = validarPokemon(nomePokemonSelecionado);
+
+    if (pokemonSelecionado) {
+        mostrarPokemonPokedex(pokemonSelecionado);
+        console.log("Pokémon exibido na Pokédex!");
+    }
+}
+
+function mostrarPokemonPokedex(pokemonSelecionado) {
+    document.getElementById("tipoPokedex").innerHTML = ''
+    document.getElementById("tipoPokedex2").innerHTML = ''
+    document.getElementById('modalOverlay').style.display = 'flex';
+    document.getElementById("imgPokedex").innerHTML = `<img id="imgPokedex" src="${pokemonSelecionado.imagemFrente}" class="pokedex-pokemon" id="pokemon-gif-Pokedex">`;
+    document.getElementById("imgPokedexShiny").innerHTML = `<img id="imgPokedexShiny" src="${pokemonSelecionado.imagemFrenteShiny}" class="pokedex-pokemon" id="pokemon-shiny-gif-Pokedex">`;
+    document.getElementById("pokedexNomePoke").innerHTML = `<span class="${pokemonSelecionado.tipo[0]}">${pokemonSelecionado.nome}</span>`
+    document.getElementById("pokedexNomePoke").style.backgroundColor = `var(--${pokemonSelecionado.tipo[0]})`
+
+    document.getElementById("tipoPokedex").textContent = `${pokemonSelecionado.tipo[0]}`
+    if(pokemonSelecionado.tipo[1]){
+        document.getElementById("tipoPokedex2").textContent = `${pokemonSelecionado.tipo[1]}`;
+    }
+
+    document.getElementById("ataquePokedex").innerHTML = `Atq:${pokemonSelecionado.ataque}`
+    document.getElementById("defesaPokedex").innerHTML = `Def:${pokemonSelecionado.defesa}`
+
+
+    for (var i = 0; i < pokemonSelecionado.ataques.length; i++){
+        ataqueatual = pokemonSelecionado.ataques[i]
+        tipoataqueAtual = pokemonSelecionado.ataques[i].tipo
+        document.getElementById(`ataque${i}`).style.backgroundColor = `var(--${tipoataqueAtual})`
+        document.getElementById(`nomeAtaque${i}`).innerHTML = `<span style="font-size: 9px">${ataqueatual.nome}</span>`
+        document.getElementById(`tipoAtaque${i}`).innerHTML = ataqueatual.tipo
+    }
+}
 
 // Atualiza a cor do select quando um Pokémon é selecionado
 function atualizar() {
@@ -495,5 +533,6 @@ function cadastrarBatalha(pokemonInimigo, pokemonJogador, resultadoBatalha, inim
 
     return false;
 }
+
 
 carregarPokemons();

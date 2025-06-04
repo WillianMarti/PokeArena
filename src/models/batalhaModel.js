@@ -24,7 +24,7 @@ function cadastrarBatalha(fkIdPersonagemInimigo, fkNomePokemonInimigo, tipoPokem
 var instrucaoSql = `
 INSERT INTO Batalha (fkIdPersonagemInimigo, nomePokemonInimigo, tipoPokemonInimigo, pokemonInimigoShiny, idUsuario, nomePokemonJogador, tipoPokemonJogador, pokemonJogadorShiny, UsuarioVenceu)
 VALUES
-(${fkIdPersonagemInimigo}, '${fkNomePokemonInimigo}', '${tipoPokemonInimigo}', ${PokemonInimigoShiny}, ${idUsuario}, '${nomePokemonJogador}', '${tipoPokemonJogador}', ${PokemonJogadorShiny}, ${UsuarioVenceu});
+(${fkIdPersonagemInimigo}, "${fkNomePokemonInimigo}", '${tipoPokemonInimigo}', ${PokemonInimigoShiny}, ${idUsuario}, '${nomePokemonJogador}', '${tipoPokemonJogador}', ${PokemonJogadorShiny}, ${UsuarioVenceu});
 `
 
     console.log("Executando a instrução SQL: \n" + instrucaoSql);

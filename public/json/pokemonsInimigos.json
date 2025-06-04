@@ -1558,5 +1558,227 @@
     "fraquezas": ["fantasma", "sombrio", "inseto"],
     "resistencias": ["psiquico", "lutador"],
     "imunidades": []
-  }
+  },
+  {
+  "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/kyogre.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/kyogre.gif",
+  "nome": "Kyogre",
+  "tipo": ["agua"],
+  "nivel": 80,
+  "hp": 362,
+  "ataque": 202,
+  "defesa": 232,
+  "velocidade": 180,
+  "ataques": [
+    { "nome": "Water Spout", "tipo": "agua", "dano": 150, "precisao": 100 },
+    { "nome": "Ice Beam", "tipo": "gelo", "dano": 90, "precisao": 100 },
+    { "nome": "Thunder", "tipo": "eletrico", "dano": 110, "precisao": 70 },
+    { "nome": "Origin Pulse", "tipo": "agua", "dano": 110, "precisao": 85 }
+  ],
+  "fraquezas": ["planta", "eletrico"],
+  "resistencias": ["fogo", "agua", "gelo", "aco"],
+  "imunidades": []
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/groudon.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/groudon.gif",
+  "nome": "Groudon",
+  "tipo": ["terrestre"],
+  "nivel": 80,
+  "hp": 362,
+  "ataque": 252,
+  "defesa": 252,
+  "velocidade": 150,
+  "ataques": [
+    { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+    { "nome": "Precipice Blades", "tipo": "terrestre", "dano": 120, "precisao": 85 },
+    { "nome": "Fire Punch", "tipo": "fogo", "dano": 75, "precisao": 100 },
+    { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 }
+  ],
+  "fraquezas": ["agua", "gelo", "planta"],
+  "resistencias": ["venenoso", "pedra"],
+  "imunidades": ["eletrico"]
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/rayquaza.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rayquaza.gif",
+  "nome": "Rayquaza",
+  "tipo": ["dragao", "voador"],
+  "nivel": 80,
+  "hp": 315,
+  "ataque": 293,
+  "defesa": 180,
+  "velocidade": 270,
+  "ataques": [
+    { "nome": "Dragon Ascent", "tipo": "voador", "dano": 120, "precisao": 100 },
+    { "nome": "Dragon Claw", "tipo": "dragao", "dano": 80, "precisao": 100 },
+    { "nome": "Extreme Speed", "tipo": "normal", "dano": 80, "precisao": 100 },
+    { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 }
+  ],
+  "fraquezas": ["gelo", "pedra", "dragao"],
+  "resistencias": ["lutador", "inseto", "planta"],
+  "imunidades": ["terrestre"]
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/palkia.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/palkia.gif",
+  "nome": "Palkia",
+  "tipo": ["agua", "dragao"],
+  "nivel": 80,
+  "hp": 342,
+  "ataque": 280,
+  "defesa": 220,
+  "velocidade": 180,
+  "ataques": [
+    { "nome": "Spacial Rend", "tipo": "dragao", "dano": 100, "precisao": 95 },
+    { "nome": "Hydro Pump", "tipo": "agua", "dano": 110, "precisao": 80 },
+    { "nome": "Dragon Pulse", "tipo": "dragao", "dano": 85, "precisao": 100 },
+    { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 }
+  ],
+  "fraquezas": ["dragao", "fada", "gelo"],
+  "resistencias": ["fogo", "agua", "eletrico"],
+  "imunidades": []
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/dialga.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/dialga.gif",
+  "nome": "Dialga",
+  "tipo": ["aco", "dragao"],
+  "nivel": 80,
+  "hp": 342,
+  "ataque": 280,
+  "defesa": 280,
+  "velocidade": 180,
+  "ataques": [
+    { "nome": "Roar of Time", "tipo": "dragao", "dano": 150, "precisao": 90 },
+    { "nome": "Flash Cannon", "tipo": "aco", "dano": 80, "precisao": 100 },
+    { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+    { "nome": "Aura Sphere", "tipo": "lutador", "dano": 80, "precisao": 100 }
+  ],
+  "fraquezas": ["lutador", "terrestre", "dragao"],
+  "resistencias": ["normal", "voador", "pedra", "inseto", "psiquico", "gelo", "fada", "aco"],
+  "imunidades": []
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/giratina.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/giratina.gif",
+  "nome": "Giratina",
+  "tipo": ["fantasma", "dragao"],
+  "nivel": 80,
+  "hp": 370,
+  "ataque": 280,
+  "defesa": 240,
+  "velocidade": 180,
+  "ataques": [
+    { "nome": "Shadow Claw", "tipo": "fantasma", "dano": 70, "precisao": 100 },
+    { "nome": "Dragon Claw", "tipo": "dragao", "dano": 80, "precisao": 100 },
+    { "nome": "Shadow Ball", "tipo": "fantasma", "dano": 90, "precisao": 100 },
+    { "nome": "Aura Sphere", "tipo": "lutador", "dano": 80, "precisao": 100 }
+  ],
+  "fraquezas": ["fantasma", "dragao", "gelo", "sombrio"],
+  "resistencias": ["venenoso", "normal", "lutador", "inseto"],
+  "imunidades": ["psiquico"]
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/zekrom.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/zekrom.gif",
+  "nome": "Zekrom",
+  "tipo": ["eletrico", "dragao"],
+  "nivel": 80,
+  "hp": 342,
+  "ataque": 300,
+  "defesa": 220,
+  "velocidade": 180,
+  "ataques": [
+    { "nome": "Bolt Strike", "tipo": "eletrico", "dano": 130, "precisao": 85 },
+    { "nome": "Dragon Claw", "tipo": "dragao", "dano": 80, "precisao": 100 },
+    { "nome": "Crunch", "tipo": "sombrio", "dano": 80, "precisao": 100 },
+    { "nome": "Earth Power", "tipo": "terra", "dano": 90, "precisao": 100 }
+  ],
+  "fraquezas": ["gelo", "dragao", "fada"],
+  "resistencias": ["eletrico", "voador", "pedra"],
+  "imunidades": []
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white/anim/normal/reshiram.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white/anim/shiny/reshiram.gif",
+  "nome": "Reshiram",
+  "tipo": ["fogo", "dragao"],
+  "nivel": 80,
+  "hp": 342,
+  "ataque": 300,
+  "defesa": 220,
+  "velocidade": 180,
+  "ataques": [
+    { "nome": "Blue Flare", "tipo": "fogo", "dano": 130, "precisao": 85 },
+    { "nome": "Dragon Claw", "tipo": "dragao", "dano": 80, "precisao": 100 },
+    { "nome": "Fusion Flare", "tipo": "fogo", "dano": 100, "precisao": 100 },
+    { "nome": "Slash", "tipo": "normal", "dano": 70, "precisao": 100 }
+  ],
+  "fraquezas": ["terrestre", "gelo", "dragao"],
+  "resistencias": ["fogo", "planta", "inseto"],
+  "imunidades": []
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/tornadus-therian.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/tornadus-therian.gif",
+  "nome": "Tornadus (Therian)",
+  "tipo": ["voador"],
+  "nivel": 80,
+  "hp": 310,
+  "ataque": 270,
+  "defesa": 190,
+  "velocidade": 290,
+  "ataques": [
+    { "nome": "Hurricane", "tipo": "voador", "dano": 110, "precisao": 70 },
+    { "nome": "Focus Blast", "tipo": "lutador", "dano": 120, "precisao": 70 },
+    { "nome": "Sludge Bomb", "tipo": "veneno", "dano": 90, "precisao": 100 },
+    { "nome": "U-turn", "tipo": "inseto", "dano": 70, "precisao": 100 }
+  ],
+  "fraquezas": ["gelo", "eletrico", "pedra"],
+  "resistencias": ["lutador", "inseto", "planta"],
+  "imunidades": ["terrestre"]
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/thundurus-therian.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/thundurus-therian.gif",
+  "nome": "Thundurus (Therian)",
+  "tipo": ["eletrico", "voador"],
+  "nivel": 80,
+  "hp": 310,
+  "ataque": 270,
+  "defesa": 180,
+  "velocidade": 300,
+  "ataques": [
+    { "nome": "Thunderbolt", "tipo": "eletrico", "dano": 90, "precisao": 100 },
+    { "nome": "Focus Blast", "tipo": "lutador", "dano": 120, "precisao": 70 },
+    { "nome": "Sludge Bomb", "tipo": "veneno", "dano": 90, "precisao": 100 },
+    { "nome": "Grass Knot", "tipo": "planta", "dano": 80, "precisao": 100 }
+  ],
+  "fraquezas": ["gelo", "pedra"],
+  "resistencias": ["voador", "lutador", "inseto", "planta", "fada"],
+  "imunidades": ["terrestre"]
+},
+{
+  "imagem": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/landorus-therian.gif",
+  "imagemShiny": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/landorus-therian.gif",
+  "nome": "Landorus (Therian)",
+  "tipo": ["terrestre", "voador"],
+  "nivel": 80,
+  "hp": 330,
+  "ataque": 285,
+  "defesa": 250,
+  "velocidade": 230,
+  "ataques": [
+    { "nome": "Earthquake", "tipo": "terrestre", "dano": 100, "precisao": 100 },
+    { "nome": "Stone Edge", "tipo": "pedra", "dano": 100, "precisao": 80 },
+    { "nome": "U-turn", "tipo": "inseto", "dano": 70, "precisao": 100 },
+    { "nome": "Sludge Bomb", "tipo": "venenoso", "dano": 90, "precisao": 100 }
+  ],
+  "fraquezas": ["gelo", "agua", "fada"],
+  "resistencias": ["lutador", "venenoso", "terrestre", "voador"],
+  "imunidades": []
+}
+
+
 ]
