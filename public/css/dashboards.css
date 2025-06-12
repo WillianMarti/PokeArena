@@ -158,23 +158,46 @@ body {
   justify-content: center;
 }
 
+.graphBola canva {
+  min-height: 20%;
+}
+
 .dash {
-  width: 115.5%;
+  width: 135%; 
   position: relative;
   top: 0;
-  left: -29%;
-  height: 100%;
-  overflow: auto;
+  left: -35%;
+  height: 100% ;
+  overflow-y: hidden;
   border: 2px solid var(--vermelho_pokebola);
   background-color: rgba(179, 231, 255, 0.5);
   border-radius: 5px;
+}
+
+
+.dashBola{
+  width: 115%; 
+  padding: 0px 60px 0px 57px;
+  position: relative;
+  top: 0;
+  left: -35%;
+  height: 100% ;
+  overflow-y: hidden;
+  border: 2px solid var(--vermelho_pokebola);
+  background-color: rgba(179, 231, 255, 0.5);
+  border-radius: 5px;
+}
+
+.dashBola canvas {
+  width: 100px;
+  height: 100px;
 }
 
 .pokemonMaisUs{
   border: 2px solid var(--vermelho_pokebola);
   border-radius: 5px;
   position: relative;
-  left: 20px;
+  left: 0px;
   height: 100%;
   align-items: center;
   justify-content: center;

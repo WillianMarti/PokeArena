@@ -4,7 +4,7 @@ function cadastrarInimigo(req, res) {
     var nome = req.body.nomePokemonInimigo;
 
     batalhaModel.cadastrarInimigo(nome)
-        .then(resultado => {
+    .then(resultado => {
             res.status(200).json({
                 mensagem: "Inimigo cadastrado com sucesso",
                 resultado: resultado

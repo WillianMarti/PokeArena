@@ -227,14 +227,14 @@ function calcularDano(atacante, defensor, ataque) {
 
 
 function mostrarPokemon(pokemon) {
-    document.getElementById("pokemon-gif-pre").innerHTML = ``
-    document.getElementById("pokemon-gif-pre").style.minWidth = `0%`
-    document.getElementById("pokemon-gif-shiny-pre").innerHTML = ``;
-    document.getElementById("pokemon-gif-shiny-pre").style.minWidth = `0%`;
-    document.getElementById("pokemon-nome-pre").innerHTML = ``;
-    document.getElementById("pokemon-nome-pre").style.minWidth = `0%`;
-    document.getElementById("pokemon-tipo-pre").innerHTML = ``;
-    document.getElementById("pokemon-tipo-pre").style.minWidth = `0%`;
+    // document.getElementById("pokemon-gif-pre").innerHTML = ``
+    // document.getElementById("pokemon-gif-pre").style.minWidth = `0%`
+    // document.getElementById("pokemon-gif-shiny-pre").innerHTML = ``;
+    // document.getElementById("pokemon-gif-shiny-pre").style.minWidth = `0%`;
+    // document.getElementById("pokemon-nome-pre").innerHTML = ``;
+    // document.getElementById("pokemon-nome-pre").style.minWidth = `0%`;
+    // document.getElementById("pokemon-tipo-pre").innerHTML = ``;
+    // document.getElementById("pokemon-tipo-pre").style.minWidth = `0%`;
     document.getElementById("batalha").style.marginTop = `-12%`;
 
 
@@ -266,7 +266,7 @@ function mostrarPokemon(pokemon) {
     const infoDiv = document.getElementById("pokemon-info");
     infoDiv.style.display = "block";    
 
-    var aleatorio = Math.floor(Math.random() * 7) 
+    var aleatorio = Math.round(Math.random() * 7) 
 
     if (aleatorio == 1){
         document.getElementById("batalha").style.backgroundImage = "url(assets/batalhapokemon.webp)"
@@ -373,7 +373,7 @@ function mostrarPokemon(pokemon) {
                         mostrarMensagem(`${pokemonJogador.nome} foi derrotado!`);
                         resultadoBatalha = 0
                         emBatalha = false;
-    document.getElementById("pokemon-ataque").style.filter = "none"
+                        document.getElementById("pokemon-ataque").style.filter = "none"
                         cadastrarBatalha(pokemonInimigo, pokemonJogador, resultadoBatalha, inimigoShiny, jogadorShiny)
                     }
                     
